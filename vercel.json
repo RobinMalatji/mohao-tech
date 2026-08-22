@@ -1,0 +1,4 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "node scripts/prisma-generate.mjs && next build"
+}
