@@ -1,6 +1,6 @@
 "use server";
 
-import { prisma } from "@/lib/db";
+import { isDatabaseConfigured, prisma } from "@/lib/db";
 import { sendEnquiryEmails } from "@/lib/email";
 import {
   acknowledgementEmail,
@@ -49,6 +49,13 @@ export async function submitContact(
       status: "error",
       message:
         "Too many enquiries were sent from this connection. Please try again later.",
+    };
+  }
+
+  if (!isDatabaseConfigured()) {
+    return {
+      status: "error",
+      message: "We couldn't send your message. Please try again.",
     };
   }
 
