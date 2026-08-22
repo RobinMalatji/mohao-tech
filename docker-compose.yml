@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: mohao
+      POSTGRES_PASSWORD: mohao
+      POSTGRES_DB: mohao_tech
+    ports:
+      - "5432:5432"
+    volumes:
+      - mohao_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mohao -d mohao_tech"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  mohao_pgdata:

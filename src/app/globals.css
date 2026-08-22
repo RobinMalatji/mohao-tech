@@ -1,0 +1,198 @@
+@import "tailwindcss";
+
+:root {
+  --canvas: #f4f3ef;
+  --ink: #0b0b0b;
+  --muted: #5f5e58;
+  --line: rgba(11, 11, 11, 0.12);
+  --surface: #e9e7e0;
+  --inverse: #0b0b0b;
+  --glow: rgba(11, 11, 11, 0.08);
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-surface: var(--surface);
+  --color-inverse: var(--inverse);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  background: var(--canvas);
+  color: var(--ink);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--canvas);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.btn {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-primary {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--canvas);
+}
+
+.btn-secondary {
+  border-color: var(--ink);
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+.btn-ghost {
+  border-color: transparent;
+  background: transparent;
+  color: var(--ink);
+}
+
+.btn-inverse {
+  border-color: var(--canvas);
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+.btn-inverse-secondary {
+  border-color: var(--canvas);
+  background: var(--ink);
+  color: var(--canvas);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .btn-primary:hover:not(:disabled),
+  .btn-inverse-secondary:hover:not(:disabled) {
+    background: var(--canvas);
+    color: var(--ink);
+  }
+
+  .btn-secondary:hover:not(:disabled),
+  .btn-ghost:hover:not(:disabled),
+  .btn-inverse:hover:not(:disabled) {
+    background: var(--ink);
+    color: var(--canvas);
+  }
+
+  .btn-inverse:hover:not(:disabled),
+  .btn-inverse-secondary:hover:not(:disabled) {
+    border-color: var(--canvas);
+  }
+}
+
+.btn-primary:active:not(:disabled),
+.btn-primary[data-pressed="true"]:not(:disabled),
+.btn-inverse-secondary:active:not(:disabled),
+.btn-inverse-secondary[data-pressed="true"]:not(:disabled) {
+  background: var(--canvas);
+  color: var(--ink);
+}
+
+.btn-secondary:active:not(:disabled),
+.btn-secondary[data-pressed="true"]:not(:disabled),
+.btn-ghost:active:not(:disabled),
+.btn-ghost[data-pressed="true"]:not(:disabled),
+.btn-inverse:active:not(:disabled),
+.btn-inverse[data-pressed="true"]:not(:disabled) {
+  background: var(--ink);
+  color: var(--canvas);
+}
+
+.btn-inverse:active:not(:disabled),
+.btn-inverse[data-pressed="true"]:not(:disabled),
+.btn-inverse-secondary:active:not(:disabled),
+.btn-inverse-secondary[data-pressed="true"]:not(:disabled) {
+  border-color: var(--canvas);
+}
+
+.btn-primary:disabled {
+  border-color: color-mix(in srgb, var(--ink) 40%, transparent);
+  background: color-mix(in srgb, var(--ink) 40%, transparent);
+  color: var(--canvas);
+}
+
+.grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  opacity: 0.045;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.ripple {
+  box-shadow:
+    10px 12px 28px rgba(11, 11, 11, 0.08),
+    -8px -8px 22px rgba(255, 255, 255, 0.75),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.rule {
+  height: 1px;
+  background: var(--line);
+}
+
+.reveal-item {
+  opacity: 0;
+  transform: translateY(1.5rem);
+  transition:
+    opacity 700ms ease-out,
+    transform 700ms ease-out;
+}
+
+.reveal-item.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.015);
+    opacity: 0.92;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal-item {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
