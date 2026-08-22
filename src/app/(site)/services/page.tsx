@@ -16,9 +16,7 @@ export default function ServicesPage() {
     <>
       <section className="border-b border-line px-5 py-16 sm:px-8 sm:py-24">
         <div className="mx-auto max-w-3xl">
-          <p className="text-[0.68rem] uppercase tracking-[0.22em] text-muted">
-            Services
-          </p>
+          <p className="accent-kicker text-muted">Services</p>
           <h1 className="mt-4 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">
             Software, mobile and digital services for growing businesses.
           </h1>

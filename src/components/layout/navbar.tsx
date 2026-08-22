@@ -54,7 +54,9 @@ export function Navbar() {
                 key={item.href}
                 href={item.href}
                 className={`tracking-[-0.01em] transition-colors ${
-                  active ? "text-ink" : "text-muted hover:text-ink"
+                  active
+                    ? "text-ink underline decoration-ember decoration-2 underline-offset-8"
+                    : "text-muted hover:text-ink"
                 }`}
                 aria-current={active ? "page" : undefined}
                 onClick={() => setOpen(false)}

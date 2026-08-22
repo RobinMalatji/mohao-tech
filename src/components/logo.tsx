@@ -8,8 +8,8 @@ export function Logo({ inverted = false }: { inverted?: boolean }) {
       aria-label="Mohao Tech home"
     >
       <span
-        className={`grid h-9 w-9 place-items-center rounded-full border text-[0.7rem] font-semibold tracking-[0.18em] ${
-          inverted ? "border-canvas/25" : "border-ink/15"
+        className={`grid h-9 w-9 place-items-center rounded-full text-[0.7rem] font-semibold tracking-[0.18em] ${
+          inverted ? "logo-mark-inverse" : "logo-mark"
         }`}
         aria-hidden="true"
       >

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { CTASection } from "@/components/cta-section";
 import { Reveal } from "@/components/reveal";
+import { StatementBand } from "@/components/visuals/statement-band";
 
 export const metadata: Metadata = {
   title: "About",
@@ -29,9 +30,7 @@ export default function AboutPage() {
     <>
       <section className="border-b border-line px-5 py-16 sm:px-8 sm:py-24">
         <div className="mx-auto max-w-3xl">
-          <p className="text-[0.68rem] uppercase tracking-[0.22em] text-muted">
-            About Mohao Tech
-          </p>
+          <p className="accent-kicker text-muted">About Mohao Tech</p>
           <h1 className="mt-4 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">
             A technology partner for digital and software work.
           </h1>
@@ -43,6 +42,8 @@ export default function AboutPage() {
           </p>
         </div>
       </section>
+
+      <StatementBand />
 
       <section className="px-5 py-16 sm:px-8">
         <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-2">
@@ -70,7 +71,19 @@ export default function AboutPage() {
           <Reveal delay={80}>
             <ul className="space-y-5">
               {principles.map((item, index) => (
-                <li key={item.title} className="rounded-[1.5rem] border border-line p-6">
+                <li key={item.title} className="relative overflow-hidden rounded-[1.5rem] border border-line p-6">
+                  <span
+                    className="absolute left-0 top-6 h-8 w-0.5 rounded-full"
+                    style={{
+                      background:
+                        index === 1
+                          ? "var(--ember)"
+                          : index === 2
+                            ? "var(--flare)"
+                            : "var(--signal)",
+                    }}
+                    aria-hidden="true"
+                  />
                   <p className="font-mono text-[0.7rem] tracking-[0.16em] text-muted">
                     0{index + 1}
                   </p>

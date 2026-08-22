@@ -13,9 +13,7 @@ export default function ContactPage() {
     <section className="px-5 py-16 sm:px-8 sm:py-24">
       <div className="mx-auto grid max-w-6xl gap-12 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
-          <p className="text-[0.68rem] uppercase tracking-[0.22em] text-muted">
-            Contact
-          </p>
+          <p className="accent-kicker text-muted">Contact</p>
           <h1 className="mt-4 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">
             Let’s build something great.
           </h1>

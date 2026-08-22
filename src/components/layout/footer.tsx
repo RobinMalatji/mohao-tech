@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { services } from "@/lib/content/services";
@@ -5,8 +6,15 @@ import { legalLinks, navigation } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="mt-auto bg-inverse text-canvas">
-      <div className="mx-auto grid max-w-6xl gap-12 px-5 py-16 sm:px-8 md:grid-cols-[1.4fr_1fr_1fr]">
+    <footer className="relative mt-auto overflow-hidden bg-inverse text-canvas">
+      <Image
+        src="/visuals/ribbon.png"
+        alt=""
+        fill
+        sizes="100vw"
+        className="pointer-events-none object-cover object-right opacity-20 mix-blend-screen"
+      />
+      <div className="relative mx-auto grid max-w-6xl gap-12 px-5 py-16 sm:px-8 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="max-w-sm">
           <Logo inverted />
           <p className="mt-6 text-sm leading-7 text-canvas/65">
@@ -61,7 +69,7 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-canvas/10">
+      <div className="relative border-t border-canvas/10">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-5 text-xs text-canvas/45 sm:flex-row sm:items-center sm:justify-between sm:px-8">
           <p>© {new Date().getFullYear()} Mohao Tech. All rights reserved.</p>
           <p>Technology. Digital Solutions. Business Growth.</p>

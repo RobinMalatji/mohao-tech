@@ -53,9 +53,7 @@ export default async function ServicePage({
           <span className="grid h-14 w-14 place-items-center rounded-full border border-ink/10">
             <ServiceIcon slug={service.slug} className="h-8 w-8" />
           </span>
-          <p className="mt-6 text-[0.68rem] uppercase tracking-[0.22em] text-muted">
-            Service
-          </p>
+          <p className="mt-6 accent-kicker text-muted">Service</p>
           <h1 className="mt-3 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">
             {service.title}
           </h1>
@@ -88,7 +86,7 @@ export default async function ServicePage({
             <ul className="mt-5 space-y-3">
               {service.capabilities.map((item) => (
                 <li key={item} className="flex gap-3 text-sm leading-6 text-ink">
-                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ink" />
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-ember" />
                   {item}
                 </li>
               ))}

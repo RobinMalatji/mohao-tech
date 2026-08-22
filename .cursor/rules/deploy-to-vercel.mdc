@@ -1,0 +1,13 @@
+---
+description: Push every site update to Vercel production
+alwaysApply: true
+---
+
+# Deploy every update to Vercel
+
+After finishing a user-requested change to this project, ship it to production. Do not wait to be asked again.
+
+1. Commit the relevant files (never secrets, `.env*`, or `.vercel`).
+2. Push `master` to `origin` (`https://github.com/RobinMalatji/mohao-tech.git`).
+3. Confirm the Vercel production deploy for `mohao-tech` succeeds (`vercel ls` or the GitHub check). If GitHub auto-deploy fails, run `vercel --prod`.
+4. Tell the user the live URL: https://mohao-tech.vercel.app
