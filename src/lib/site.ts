@@ -1,9 +1,32 @@
+function resolveSiteUrl() {
+  const configured = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (configured) {
+    try {
+      return new URL(configured).origin;
+    } catch {
+      // Fall through to platform defaults.
+    }
+  }
+
+  const productionHost = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+  if (productionHost) {
+    return `https://${productionHost}`;
+  }
+
+  const deploymentHost = process.env.VERCEL_URL?.trim();
+  if (deploymentHost) {
+    return `https://${deploymentHost}`;
+  }
+
+  return "http://localhost:3000";
+}
+
 export const site = {
   name: "Mohao Tech",
   tagline: "Technology. Digital Solutions. Business Growth.",
   description:
     "Mohao Tech provides software development, mobile applications, digital marketing, SEO and e-commerce solutions that help businesses grow with modern technology.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  url: resolveSiteUrl(),
 } as const;
 
 export const navigation = [
