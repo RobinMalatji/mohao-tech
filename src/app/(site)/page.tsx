@@ -39,14 +39,6 @@ export default function HomePage() {
           sizes="100vw"
           className="pointer-events-none object-cover object-right opacity-25 mix-blend-screen"
         />
-        <Image
-          src="/visuals/flowing-ribbons.gif"
-          alt=""
-          fill
-          unoptimized
-          sizes="100vw"
-          className="pointer-events-none object-cover object-right opacity-40 mix-blend-screen motion-reduce:hidden"
-        />
         <div
           className="pointer-events-none absolute inset-0 bg-gradient-to-r from-[#050505] via-[#050505]/82 to-[#050505]/35"
           aria-hidden="true"

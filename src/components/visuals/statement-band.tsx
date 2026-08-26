@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Reveal } from "@/components/reveal";
 
 const statements = [
@@ -31,14 +30,6 @@ const statements = [
 export function StatementBand() {
   return (
     <section className="relative overflow-hidden bg-[#0a0a0a] px-5 py-20 text-canvas sm:px-8 sm:py-24">
-      <Image
-        src="/visuals/flowing-ribbons.gif"
-        alt=""
-        fill
-        unoptimized
-        sizes="100vw"
-        className="pointer-events-none object-cover object-center opacity-25 mix-blend-screen motion-reduce:hidden"
-      />
       <div
         className="pointer-events-none absolute inset-0 opacity-30"
         style={{
