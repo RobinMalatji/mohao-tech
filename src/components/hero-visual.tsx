@@ -17,7 +17,7 @@ export function HeroVisual() {
           }}
         />
       ))}
-      <div className="relative z-10 aspect-square w-[78%] overflow-hidden rounded-[2rem] bg-black ring-1 ring-white/12">
+      <div className="relative z-10 aspect-square w-[70%] overflow-hidden rounded-full bg-black">
         <Image
           src="/visuals/handshake.png"
           alt=""
