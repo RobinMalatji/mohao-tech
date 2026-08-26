@@ -26,7 +26,15 @@ export function HeroVisual() {
           className="object-cover object-center"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-tr from-signal/20 via-transparent to-ember/25 mix-blend-screen" />
+        <Image
+          src="/visuals/handshake.gif"
+          alt=""
+          fill
+          unoptimized
+          sizes="(max-width: 768px) 80vw, 28rem"
+          className="object-cover object-center motion-reduce:hidden"
+        />
+        <div className="absolute inset-0 bg-gradient-to-tr from-signal/12 via-transparent to-ember/16 mix-blend-screen" />
       </div>
     </div>
   );
