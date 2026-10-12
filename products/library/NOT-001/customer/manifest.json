@@ -1,0 +1,54 @@
+{
+  "id": "NOT-001",
+  "name": "Weekly operator desk",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 845,
+      "sha256": "0f8a97617da200b93d18d3c2894c971f276a602139c19257eb203b03fc60bf5c"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1109,
+      "sha256": "040408282b581b2953a4ed9a3536ce30534eec57dda2151ea7486811638877cc"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 903,
+      "sha256": "19a33fa4cad18c90e6248433190947ac646e9bdabb2c4836e68db0ff4cab2fe6"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1260,
+      "sha256": "d761d85b0c77909477528f7f0582d1076f7ea36f66fb6bbc44c8739fa6019c7c"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30169,
+      "sha256": "f1224b334dc49b4a71e704826a6d281de402fe13f95f69308932be57f43df9b3"
+    },
+    {
+      "path": "pages/monday.md",
+      "bytes": 371,
+      "sha256": "a1afd44182b43763733a460b9fb3f521fb36b9c1572c6a1dd9f4237f52c781cf"
+    },
+    {
+      "path": "pages/roles.md",
+      "bytes": 147,
+      "sha256": "a1bbc9a2d0a6eb2eb25ceb15c6fea6c8f620c3c85498bb2251aefabd3319dc68"
+    },
+    {
+      "path": "databases/open-loops.csv",
+      "bytes": 193,
+      "sha256": "657b2c11c90e4726bc7527c7947e1737003919e7f0f9fc2da75336b1bfeb1661"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 1005,
+      "sha256": "6a49c1284edbe53b28b9fbff798043e911a4632ad851274587d3f542f266a8ff"
+    }
+  ]
+}

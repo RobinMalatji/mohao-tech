@@ -1,0 +1,44 @@
+{
+  "id": "AI-018",
+  "name": "Incident notes prompts",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 745,
+      "sha256": "914d39fb08106ffd538b9667dbf0e21f5500a2170f6f8767269fea7c245d8921"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1102,
+      "sha256": "38d39640f7ee975a3846a33ab6b87a912fb756a16c020f1e5ac91f4c7c865220"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 862,
+      "sha256": "e852c72b9bd5a9e8b8c04260f8a3a7987daf23947cd7a5fba52199477d5f576a"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1091,
+      "sha256": "538433d7e7e96e99673467e4c77f5aefde3549557767ef6b2a39fb79147585a0"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27809,
+      "sha256": "742912ce84d87158448090eb38fad7183a51bb408854a885148dd2b65d0313af"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 1179,
+      "sha256": "7e07d8c099ee010e8d51342b80e9ebbcea4963e753dcaa9cddbe889bf942b11a"
+    },
+    {
+      "path": "prompts.csv",
+      "bytes": 882,
+      "sha256": "e2b01ee5b7ef88a4b2ce299b0235c7e04cacb23d2e14d5d4a50b20c5cf2f1029"
+    }
+  ]
+}

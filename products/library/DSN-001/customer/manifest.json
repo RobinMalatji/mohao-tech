@@ -1,0 +1,69 @@
+{
+  "id": "DSN-001",
+  "name": "Consultant discovery carousel",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 955,
+      "sha256": "151a2cf748376bec3cddb88932dd231c4b6c306f32f84b1c141e1d900e67f7ec"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1142,
+      "sha256": "44dbebfa65617de97477886cc55dda5c60e02af0bfc5bf380d89f04dc7022d60"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1035,
+      "sha256": "9f75a2c0615ce27a938c13f506c7a50e8d766177a39fa6b1370bcee45c061fe3"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1450,
+      "sha256": "f2390f30cfac7585247ea3d5336c9ab947ca167e0aaba1110477856715fffaaf"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 32484,
+      "sha256": "b6124ea571574c63f357eed08f53da6da59091043e821a5d0eeba9160724deb7"
+    },
+    {
+      "path": "designs/slide-01-problem.svg",
+      "bytes": 1215,
+      "sha256": "2f9a9beb3944d040ecac8dd7625888a088be86a0e12535da15f657cc2fb25472"
+    },
+    {
+      "path": "designs/slide-02-session.svg",
+      "bytes": 1227,
+      "sha256": "d0429314b4dc46b0e467192d0ad41d582b5e9311f3b12f32c82a9c267036e104"
+    },
+    {
+      "path": "designs/slide-03-price.svg",
+      "bytes": 1087,
+      "sha256": "ca22e96aa8ef7c4cda30871e5fea7da72872e34103c74b74462145a78f1c6569"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1621,
+      "sha256": "4916ca32f1ead9429acb7937294e35c63325ff200c0d1b6e2af47e3f90126208"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "b01f8f2b03260b0663a8ce8c9c2d73b4fd6efacd845ebc9dd3b8bf03559b4403"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 1069,
+      "sha256": "e3991215dcf9d1ef6daae55322ab761bcffdda3fc0c4b798d96c1ab070c251a5"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3632,
+      "sha256": "ea68c8b9b35577a7a3c2d4c543e17f72627d6e7393195bd99f83487592ffdcfe"
+    }
+  ]
+}

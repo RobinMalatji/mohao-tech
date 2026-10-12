@@ -124,8 +124,8 @@ export default function HomePage() {
               <ButtonLink href="/contact" variant="inverse" size="lg">
                 Discuss a project
               </ButtonLink>
-              <ButtonLink href="/services" variant="inverseSecondary" size="lg">
-                Software, apps and SEO
+              <ButtonLink href="/shop" variant="inverseSecondary" size="lg">
+                Digital products shop
               </ButtonLink>
             </div>
           </div>

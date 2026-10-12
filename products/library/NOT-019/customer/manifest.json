@@ -1,0 +1,49 @@
+{
+  "id": "NOT-019",
+  "name": "Market stall stock count",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 791,
+      "sha256": "442067a43ff3cddcd4f0fd2d52766146ed1b933e659e6a1788b611217b649515"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1113,
+      "sha256": "7de410f691d8b255f1c470badd761d3e815947b62da9c0b1d8b368db10b98e2d"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 897,
+      "sha256": "facc8ee7ca0b6aec65dba4d248a485044f93c32605617670606ead5973d807b5"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1263,
+      "sha256": "7417f09ef50ad6bc0f9e31d586130e3f00fdb0b1afccf578363d888a37531336"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29600,
+      "sha256": "7bb68461367e0325360e2aab33365a2b7a40457457be2dda853612354f6a99c0"
+    },
+    {
+      "path": "pages/count.md",
+      "bytes": 174,
+      "sha256": "d9f5a65041b3c3a64b24506d2878270e09c8b9fb1032802b9f7f53824b537f84"
+    },
+    {
+      "path": "databases/stock.csv",
+      "bytes": 92,
+      "sha256": "5886c764781e0c67a3f83a0c51a4b8b9e5ab49bbf6bfc8e0ff0a2a9957768f32"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 914,
+      "sha256": "df243d95c33b4a28edce74fd4cebda4c49085043094049f4a66e65059c725375"
+    }
+  ]
+}

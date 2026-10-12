@@ -1,0 +1,34 @@
+{
+  "id": "DEV-015",
+  "slug": "webhook-hmac-check",
+  "name": "Webhook HMAC check",
+  "category": "developer",
+  "categorySlug": "developer-products",
+  "categoryLabel": "Developer products",
+  "productType": "JavaScript source with node:test",
+  "audience": "Developers who want a small, readable module they can drop into a Node.js project and modify.",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "summary": "Compare a hex HMAC signature with the raw request body.",
+  "description": "Computes HMAC-SHA256 over the exact body string and compares it in constant time when the lengths match. You pass the header secret. This is a generic check, not the signature scheme of a specific payment provider.",
+  "benefits": [
+    "Plain JavaScript, no install step beyond Node.js",
+    "A test file you can run with node --test",
+    "No network calls and no hidden services"
+  ],
+  "compatibility": [
+    "Node.js 20 or later",
+    "Run npm test or node --test from this folder"
+  ],
+  "tags": [
+    "webhook",
+    "hmac"
+  ],
+  "prices": {
+    "ZAR": 24900,
+    "USD": 1900,
+    "GBP": 1500,
+    "EUR": 1700
+  },
+  "disclaimer": "These are small source files for you to read, test, and adapt. They are not a hosted service and they are not a security audit."
+}

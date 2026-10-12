@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="#f4f3ef"/>
+  <rect x="0" y="0" width="16" height="800" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">LOOM ROOM</text>
+  <text x="72" y="224" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#0b0b0b">Members from</text><text x="72" y="276" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#0b0b0b">Thursday</text>
+  <text x="72" y="356" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">Public on Saturday</text>
+  <text x="72" y="736" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Mailing list</text>
+</svg>

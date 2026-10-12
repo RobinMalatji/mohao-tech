@@ -1,0 +1,54 @@
+{
+  "id": "ECM-016",
+  "name": "Shipping rate sheet",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 785,
+      "sha256": "7c988d61caba9181ddb7e7d3de70be02b2b851c0c9a1bb463b521f753c17d981"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1143,
+      "sha256": "95762176fb9819b92e21e9395d6490fceabac3ec2bb12bc7d664af02a6e385f9"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 731,
+      "sha256": "56cf1963dbd1c64589e5d0daa20a6711d0e0de9a718ed06e681ec73f21902822"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1436,
+      "sha256": "e3ce78b908485e5d6da99366d253ba4888ee8b03b4b026832361e05fffbde935"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28830,
+      "sha256": "fc1bdc6d207cbad0954a89a70d8d4112426bf7264da26141044a46a465949c26"
+    },
+    {
+      "path": "shipping-rates.xlsx",
+      "bytes": 6974,
+      "sha256": "a6a9bc87752247838ecb5ccce5e17dba0e9d606fe0800797ed82f3f247e52b7f"
+    },
+    {
+      "path": "shipping-rates-guide.md",
+      "bytes": 328,
+      "sha256": "9c97792057d34a95f32fb9739a7acf179c45f22d1b17e40be7da61e6b755d4aa"
+    },
+    {
+      "path": "shipping-rates-guide.pdf",
+      "bytes": 2870,
+      "sha256": "79205f1ab34b4d71340cd1e3477946773a5df367395b3cd14d50e87c7340b8b7"
+    },
+    {
+      "path": "shipping-rates-guide.docx",
+      "bytes": 9923,
+      "sha256": "2e1d0438b77832a07facb1726fd3beafca0cb0bae301b488d816cd2b075b50d4"
+    }
+  ]
+}

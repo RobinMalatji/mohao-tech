@@ -1,0 +1,54 @@
+{
+  "id": "CV-015",
+  "name": "Reference tracker",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 826,
+      "sha256": "de7bfce9cfa76470e4abe317c63f36ef51adce4481cf92b92ca38f662bce9ab6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1096,
+      "sha256": "f8c4133f4e84a1f74bf4fd91b8360e7dc09d8a675b08000553783059d21d8d4b"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 838,
+      "sha256": "e08e0c8e04fac3978b2fc96c0f6ebb2eaa6433e5ed0ac4c216f876081cdfe19e"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1133,
+      "sha256": "7f95b64f77f4d7eaae9745fd281d72819979a33c6598a92095e05c03c8f56a2c"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26138,
+      "sha256": "2d427cbe6937e5cdd859b7807cf029b2c8081b56d70de8cc17cfe1c9781856e7"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10016,
+      "sha256": "474637d7ddda654d0649d0fe73b2d291ff0e15ddd2081029c04ae14cdc99b1e3"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 502,
+      "sha256": "3503f00f9e4de19ac438e5a2d94689b0bffa1c327276c7c2899c7e7c2ee70b97"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3452,
+      "sha256": "7feb806abc462aab87b13e45abdfb0ca76e596206b278c85624d2b657b3c219b"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 846,
+      "sha256": "2a728098caf57ac5dd3c796019753eef5bc155c5538dc4bc7bfc62a7dd54fa57"
+    }
+  ]
+}

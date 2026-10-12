@@ -1,0 +1,7 @@
+Title,Use when,Prompt,Check
+After the call,The call just ended.,"Write a follow-up that lists the two points they cared about, from my notes. Ask one question. Do not add a new offer.",The points are from the notes.
+No reply,A week has passed.,Write a short note that refers to the proposal date and asks if it is still a priority. Do not invent urgency.,No fake deadline.
+They asked for a discount,You have not agreed.,Write a reply that says you will look at scope before price. Do not offer a number.,No discount was invented.
+Not now,They said next quarter.,Write a note that accepts the timing and asks what should be true next quarter. Do not push a meeting this week.,The timing is respected.
+Wrong person,They are not the buyer.,Write a note that asks who decides and offers a one-page summary they can forward.,You do not pressure them.
+Won,They said yes.,"Write the confirmation of price, start date, and the next action I provide. Do not add terms.",Terms match what I pasted.

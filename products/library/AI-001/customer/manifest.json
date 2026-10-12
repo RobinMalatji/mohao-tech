@@ -1,0 +1,44 @@
+{
+  "id": "AI-001",
+  "name": "Customer interview synthesis",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 773,
+      "sha256": "f01bdd0e6ea7cba3bf34d3a79722d4e816918086f3c7d87432dc5a03227a4e58"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1108,
+      "sha256": "1b855430179cb118c456a26989bb9500fb6bff676a7177e5690c1069f3277a12"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 897,
+      "sha256": "04a4fedf2129700d12d00f6200dd772d8f38c962d0d3417014afa33d2418cd50"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1097,
+      "sha256": "fc5664f88e6bc9c4a993452ac058afd16f0c0d2b9f3c93abb49384d6060cc899"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30995,
+      "sha256": "603f27ca1f2b17bf7b0669effeef263680be0d622b653d5e55a11fd073b1a3c2"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 1880,
+      "sha256": "cd10e6f287800267f16e664babb9bc785faa992d349f8bf7de8fe473cd33090b"
+    },
+    {
+      "path": "prompts.csv",
+      "bytes": 1585,
+      "sha256": "cb71a1079a54b2a1aeb4ff7360b3ae3457acd1fdaecc40b9d75e605577022ab2"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "NOT-009",
+  "name": "Decision meeting notes",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 769,
+      "sha256": "48e6d2484f86e1210d467a66d870c49c43384aefdd1dc410939a05d8c2fbbce2"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1111,
+      "sha256": "93e78e84c419004448b2e9b168fd431ca73b35f4ca2286a4f1c1677d6705ad62"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 864,
+      "sha256": "4a43a4d6a01269d2c12decb1b300b3cd1959f9339ea8eb9ce294e96479e64960"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1261,
+      "sha256": "32bef805d84e105141b63fe86c7a748fced6383e5998132cdfe54792b1a7bd5c"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29775,
+      "sha256": "a59d7f06c0d7bbe309f31058847de007484cd74ecda475c8be62f0020cff320c"
+    },
+    {
+      "path": "pages/format.md",
+      "bytes": 127,
+      "sha256": "013ffcca490e2a74229da9ab94a7f5f88c217bdd3098e2796c4127084d2562ca"
+    },
+    {
+      "path": "databases/meetings.csv",
+      "bytes": 215,
+      "sha256": "d7a87e14406d108edcbd133396477a4d43c67536930fd30c6255e881b7527195"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 990,
+      "sha256": "8f33ac0811e782cf3782b9239523bd556daf4b74259842e019cd67c3eb0df451"
+    }
+  ]
+}

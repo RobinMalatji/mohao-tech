@@ -1,0 +1,49 @@
+{
+  "id": "NOT-016",
+  "name": "Week of meals",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 779,
+      "sha256": "4616a461a2ce9ec5582fbcd708685aa4cb6c909a6bc837ecb9076401eb7f31c5"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1102,
+      "sha256": "23943a24b23a3df67d66dd22ac55f7cf5848bbce1fe52741af8d18f084c2341f"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 878,
+      "sha256": "c89142c03b7ff38c0b2aac9a4e77bd013dc36bef51c2173f78c8638ace2468de"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1134,
+      "sha256": "1803ac2e9b8971e46eb9e2882542a33517e2c4a6f2120abd0e55e54a5b864d75"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26215,
+      "sha256": "d6cc91fc471a8f3eaaa5b587426990ff9bd4bd8cab4d4f9f7d00a9af564b9b7a"
+    },
+    {
+      "path": "pages/rules.md",
+      "bytes": 181,
+      "sha256": "72f86b019d2549c3b42a4f8bb6fc62ab5290e9ffea5317c38337eba1c10402aa"
+    },
+    {
+      "path": "databases/dinners.csv",
+      "bytes": 228,
+      "sha256": "bd499b140ec10a5172411b22428f63a0a61cadadf24c11a828763562a9075421"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 1014,
+      "sha256": "b1e3e84de214fa022c001071a21ab5c1e7e2a55d247137ecabc157b86f441ff3"
+    }
+  ]
+}

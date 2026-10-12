@@ -1,0 +1,49 @@
+{
+  "id": "DEV-016",
+  "name": "Discount calculator",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 804,
+      "sha256": "2f293da711b6f6230d1f88386d38940011a6de016800d8c168480857ccb7d7a4"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1047,
+      "sha256": "3415d572c16e0382e41453e960432fe29db855bb9a7cf2d38dc0e4d16fe277cd"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 903,
+      "sha256": "00c3a9c16dbaf6db2eda57fd1fa40e5f14a5d38648120b6251762b0babfffd39"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1264,
+      "sha256": "10971c2a3c3e43da37799fbfe2eabc001e423902bf267590073d4071f057446c"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28163,
+      "sha256": "ac09a7daa1ec540bfb8e2eaa34313e15b3bd6cb16f73966255d5f79b44d8dd0d"
+    },
+    {
+      "path": "package.json",
+      "bytes": 121,
+      "sha256": "a3e5c90de9c17849dbebe58c48cec5d15de2a358f7fef7dc01a3f458b5cc6cb4"
+    },
+    {
+      "path": "src/discount.mjs",
+      "bytes": 921,
+      "sha256": "310d9d6830504a015e7f64e36052d5c21cf873b35541ef6e74d832195b3debdc"
+    },
+    {
+      "path": "src/discount.test.mjs",
+      "bytes": 395,
+      "sha256": "ce57320c3e9c7cb7dd195fac6372ae37b53240f46a9aa33dcd9ab49292156817"
+    }
+  ]
+}

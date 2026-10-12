@@ -1,0 +1,34 @@
+{
+  "id": "EBK-014",
+  "slug": "a-simple-referral-ask",
+  "name": "A simple referral ask",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Service businesses with happy customers and no system for asking.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Ask customers for a referral without a gimmick.",
+  "description": "Ask customers for a referral without a gimmick.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "referrals"
+  ],
+  "prices": {
+    "ZAR": 15900,
+    "USD": 1200,
+    "GBP": 1000,
+    "EUR": 1100
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

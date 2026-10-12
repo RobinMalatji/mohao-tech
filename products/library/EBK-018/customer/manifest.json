@@ -1,0 +1,49 @@
+{
+  "id": "EBK-018",
+  "name": "A brand voice page",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 649,
+      "sha256": "a79537796b121e7b2c258db384b011fcf6e58f2d21f459af952da42277e72a04"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1089,
+      "sha256": "32d8722bf4bd07edc1bb8353f76ee9641b311b3004d3aa304f9b4d9bf19a6e91"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 757,
+      "sha256": "3c3ff1eab189ccce11f44fa9395a358acd3d6308136a03104c9a259141f49671"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 960,
+      "sha256": "bd2040cbc9e4e8750854d762232f677922e24765bf7855126b99023fa8ed8682"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26251,
+      "sha256": "9818c3d0f8722176d8bd1539b4b5ffef21b8eb1b9dd8414c39e95c52fc316d69"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1153,
+      "sha256": "3e11b58b66444ba92dec9ee1958f1e0ec986d6583661b4c11758ebd8f86a378c"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3570,
+      "sha256": "1ee14903a01119e680072d4144dff7b1fac8741f94124adeae1d56f6662a6f98"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10367,
+      "sha256": "8da39fa37e1e9a0d34b1af58d16e235ca078aab1234a48f383581c95e6511cfb"
+    }
+  ]
+}

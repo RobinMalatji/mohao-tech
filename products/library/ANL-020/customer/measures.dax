@@ -1,0 +1,5 @@
+Total Refunds = SUM(Facts[Refunds])
+
+Refunds rows = COUNTROWS(Facts)
+
+Average Refunds = DIVIDE(SUM(Facts[Refunds]), COUNTROWS(Facts))

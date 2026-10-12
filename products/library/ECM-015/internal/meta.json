@@ -1,0 +1,34 @@
+{
+  "id": "ECM-015",
+  "slug": "marketplace-listing-notes",
+  "name": "Marketplace listing notes",
+  "category": "ecommerce",
+  "categorySlug": "ecommerce-kits",
+  "categoryLabel": "E-commerce kits",
+  "productType": "DOCX and PDF shop kit",
+  "audience": "Sellers considering Takealot or a similar marketplace.",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "summary": "Notes for preparing a listing on a South African marketplace, without pretending to be the marketplace's own template.",
+  "description": "Notes for preparing a listing on a South African marketplace, without pretending to be the marketplace's own template.",
+  "benefits": [
+    "A finished sample you edit",
+    "The boundary of what the file does not decide",
+    "A checklist before you publish"
+  ],
+  "compatibility": [
+    "Word or Docs for DOCX",
+    "Excel for workbooks",
+    "A text editor for Markdown and CSV"
+  ],
+  "tags": [
+    "marketplace"
+  ],
+  "prices": {
+    "ZAR": 20900,
+    "USD": 1600,
+    "GBP": 1300,
+    "EUR": 1500
+  },
+  "disclaimer": "This is a working draft for a South African online shop. It is not legal advice. Have a lawyer read it before you publish it as your policy."
+}

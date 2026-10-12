@@ -1,0 +1,69 @@
+{
+  "id": "ANL-010",
+  "name": "Cafe covers",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 869,
+      "sha256": "834145a1276019603cd584a4c54c9e08e7657f5633c28abcb5ea64e8619552d8"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1175,
+      "sha256": "1bdda4880db0d1f309942f75555fc4bb493cd8aeb2c56b1dca6fea823568158d"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 842,
+      "sha256": "602750c2b354a8e95adb2f44c939a984b4a95b5948b2fc9ee973e9e019ce481f"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1335,
+      "sha256": "618b9817dd90d2e4062e55259ee949eeb896adebfef2b80919b6cd5b852bb912"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29407,
+      "sha256": "a529c9a16673e6bfb5e9fa6423d2837d89faacaf2a4f8e1cca705c7360a75bb4"
+    },
+    {
+      "path": "summary.xlsx",
+      "bytes": 8051,
+      "sha256": "8a7fa20f79647d3f0fabc0c632e031ad7f9b95fcfb9d6cd9ff3aa73bb016160b"
+    },
+    {
+      "path": "summary-guide.md",
+      "bytes": 515,
+      "sha256": "d9940b46b7865703c31df11266201b9fc4efe23e8c54d50e4171e8612b65a98c"
+    },
+    {
+      "path": "summary-guide.pdf",
+      "bytes": 3096,
+      "sha256": "2ff28cb4d6fe88b76a1ba6c6864d7ef7d2bda4a2ea074f4125ab48db8f90383d"
+    },
+    {
+      "path": "summary-guide.docx",
+      "bytes": 9979,
+      "sha256": "25eccd430117ed2f9bbf3481ff32254429a45b488b3f56c535118c1c4d8889fe"
+    },
+    {
+      "path": "facts.csv",
+      "bytes": 369,
+      "sha256": "925f15c485ac69bf67afa24a753b42c418304b0422575b123ac4ffcf8558a0a6"
+    },
+    {
+      "path": "measures.dax",
+      "bytes": 128,
+      "sha256": "87cb1b4fc131de799e6e9ebbcb35e13a6899b0ed153889ae677a66300b8186e2"
+    },
+    {
+      "path": "data-dictionary.md",
+      "bytes": 942,
+      "sha256": "c09bc58518e8dbcf8197353a6d9773405ae27cc7d3a7c585772e48f29b0d597e"
+    }
+  ]
+}

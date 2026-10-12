@@ -1,0 +1,34 @@
+{
+  "id": "DEV-003",
+  "slug": "currency-formatter",
+  "name": "Currency formatter",
+  "category": "developer",
+  "categorySlug": "developer-products",
+  "categoryLabel": "Developer products",
+  "productType": "JavaScript source with node:test",
+  "audience": "Developers who want a small, readable module they can drop into a Node.js project and modify.",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "summary": "Format integer cents as ZAR, USD, GBP, or EUR without converting between them.",
+  "description": "Formats an amount you already store in one currency. It refuses to invent an exchange rate. Amounts must be integer cents so 1999 is R19.99, not a float.",
+  "benefits": [
+    "Plain JavaScript, no install step beyond Node.js",
+    "A test file you can run with node --test",
+    "No network calls and no hidden services"
+  ],
+  "compatibility": [
+    "Node.js 20 or later",
+    "Run npm test or node --test from this folder"
+  ],
+  "tags": [
+    "currency",
+    "money"
+  ],
+  "prices": {
+    "ZAR": 17900,
+    "USD": 1400,
+    "GBP": 1100,
+    "EUR": 1300
+  },
+  "disclaimer": "These are small source files for you to read, test, and adapt. They are not a hosted service and they are not a security audit."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ECM-013",
+  "name": "Discount calendar",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 687,
+      "sha256": "10df84550b7ba49621a3977d9bc8004843fc5642fa1cdbd09a9e4161e848e4db"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1141,
+      "sha256": "fe9cbec4cd2910a63f20cce45a879c51498c9140c4aaad648627b4246a9fd8d2"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 707,
+      "sha256": "4cffe06cd30d6b48379b42a60d8576ca4cf223f4be0eaeda71db34c35eb83da0"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 960,
+      "sha256": "a1fed5df899062e56ac048b2c9be6356e194d132f6cfe47986591100bfc71633"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 25250,
+      "sha256": "3d951538340cd8bed523f24f4016ce1d7dc511aeaf182924e7a52a476005b106"
+    },
+    {
+      "path": "template.csv",
+      "bytes": 104,
+      "sha256": "2b0cf5c5f3d768a262273843bf6de8ccd770fbe99dcd7ca59049d51f322d09ba"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 309,
+      "sha256": "481fbffae3c6598f99f1cd63a66caa2e137f9226b5757f175e450f6c97d99bc2"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 2835,
+      "sha256": "fe2b92fab642fabeb3f2ef9c70fc826f3637cda92d6c07f9ef2236c2bac7eb23"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 9911,
+      "sha256": "09d358c894ecb2f9dff2dad1f079b18917f5bf3f6636c288089c2c50611218e3"
+    }
+  ]
+}

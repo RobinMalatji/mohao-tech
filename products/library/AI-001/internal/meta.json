@@ -1,0 +1,35 @@
+{
+  "id": "AI-001",
+  "slug": "customer-interview-synthesis",
+  "name": "Customer interview synthesis",
+  "category": "prompts",
+  "categorySlug": "ai-prompt-packs",
+  "categoryLabel": "AI prompt packs",
+  "productType": "Prompt library in Markdown and CSV",
+  "audience": "Founders and researchers who have notes from real conversations.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Turn anonymised interview notes into themes without inventing quotes.",
+  "description": "Turn anonymised interview notes into themes without inventing quotes. Each prompt tells you what to paste, what to ask, and what to check before you use the answer.",
+  "benefits": [
+    "A full prompt, not a one-line topic",
+    "A check so you do not ship an invented fact",
+    "The same prompts in Markdown and CSV"
+  ],
+  "compatibility": [
+    "Any chat model that accepts a pasted prompt",
+    "A spreadsheet for the CSV",
+    "No model subscription is included"
+  ],
+  "tags": [
+    "research",
+    "interviews"
+  ],
+  "prices": {
+    "ZAR": 22900,
+    "USD": 1800,
+    "GBP": 1400,
+    "EUR": 1600
+  },
+  "disclaimer": "These prompts draft text for you to edit. They do not check facts, quotes, or the law. Remove anything the model invented before you send it."
+}

@@ -1,0 +1,69 @@
+{
+  "id": "CRS-004",
+  "name": "Customer interviews",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 808,
+      "sha256": "783fe243b26b0a9b0d130a027fb588ef034fcf901b442daf3a257d774a440c4c"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1087,
+      "sha256": "689f697253fea7253957d070136e5f9a96dcf56342c82f88c348f1356b8482a1"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 831,
+      "sha256": "d2ecd94a28d67632081c09533affcc4ce79af687b7e903719262d337ee37571a"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1595,
+      "sha256": "84171760d0a49a1a135bff7f2c1dde180d43e1726792bee4f26c3ab2d731455e"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27987,
+      "sha256": "0f0f7c8a4b4294637e88d79a38f4ab210a3f66ce72fd262819707f3eb0905482"
+    },
+    {
+      "path": "lessons/01-who.md",
+      "bytes": 96,
+      "sha256": "27f590e58a6dbee086168533db0f9df777a1263f7f8ff7b25e71c2aa35c21bfe"
+    },
+    {
+      "path": "lessons/02-last-time.md",
+      "bytes": 112,
+      "sha256": "882dfa511303cc464cd41ef17fe3f22f4a8d493ff458e97d062245e8437c728e"
+    },
+    {
+      "path": "lessons/03-notes.md",
+      "bytes": 91,
+      "sha256": "aeaf3c54f87ddb5b7175ad828efa0b9d797e7a2c1f34404ae73fe719b75532d7"
+    },
+    {
+      "path": "lessons/04-after.md",
+      "bytes": 134,
+      "sha256": "e2193f58747d291654d0cbb449e246609deb8f4f67f465d64d24dd968da91de4"
+    },
+    {
+      "path": "slides.pptx",
+      "bytes": 68262,
+      "sha256": "44b2ada46081bd7e6229b3b654273087ff495c460cbe91b432b2d7051f82e9a5"
+    },
+    {
+      "path": "worksheet.pdf",
+      "bytes": 2923,
+      "sha256": "4582dfc47f1fd15d617726d001546e6ec3c709a85a5d815b89192651190b8379"
+    },
+    {
+      "path": "worksheet.md",
+      "bytes": 421,
+      "sha256": "30aeed8665e718d906111e4fa981bdda919ae6bc832df96cc0f1f9c156b95c48"
+    }
+  ]
+}

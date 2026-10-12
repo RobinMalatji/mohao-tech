@@ -1,0 +1,36 @@
+{
+  "id": "FIN-005",
+  "slug": "paycheque-split-planner",
+  "name": "Paycheque split planner",
+  "category": "finance",
+  "categorySlug": "personal-finance",
+  "categoryLabel": "Personal finance",
+  "productType": "Excel workbook with PDF guide",
+  "audience": "Anyone who wants a payday rule before the money is spent.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Divide one net pay across bills, savings, spending, and giving, and check that the split is 100%.",
+  "description": "Enter net pay and the percentage you want in each job. The workbook converts percentages to rand and warns you when the percentages do not add up.",
+  "benefits": [
+    "Turn percentages into rand on payday",
+    "See immediately if the split is short of or over 100%",
+    "Keep giving and saving as planned amounts, not leftovers"
+  ],
+  "compatibility": [
+    "Microsoft Excel for Microsoft 365 or Excel 2021 and later",
+    "Formulas also open in Google Sheets; confirm PMT, FV, and NPER after import",
+    "PDF guide opens in any PDF reader",
+    "DOCX guide opens in Microsoft Word or Google Docs"
+  ],
+  "tags": [
+    "payday",
+    "allocation"
+  ],
+  "prices": {
+    "ZAR": 18900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This workbook organises figures you type in. It is not financial, credit, insurance, or tax advice. Rates, fees, and laws change. A qualified adviser should review decisions that affect debt, tax, medical cover, or retirement."
+}

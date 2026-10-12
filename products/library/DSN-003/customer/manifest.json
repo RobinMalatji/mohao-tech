@@ -1,0 +1,59 @@
+{
+  "id": "DSN-003",
+  "name": "Saturday kitchen menu",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 851,
+      "sha256": "a668c95b74b0fa743ea8dbebadf7e437f6da6dde94776d056401edcfc408b385"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1134,
+      "sha256": "f286e4a26e126364024f50d28d7e4700f9f99377334ca6e79d45e1f17e9c0d8b"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 967,
+      "sha256": "7b733da1a75be02ba9f9f52410d5000893da569ca5d6c4b8ac82e9832fdd798e"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1088,
+      "sha256": "739cba57fe3ea8848ce9aaae7ce0bbf9464fe51d92fb7e8215e1c5d29b153607"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26970,
+      "sha256": "0eb510f628014f18fc237e0b3e80597f6c41ed4c5348ae139a881b79afd87f35"
+    },
+    {
+      "path": "designs/saturday-menu.svg",
+      "bytes": 1359,
+      "sha256": "cebc002d056912d4bdc6247dafee3330db9248af7ea379b88f57967e7b210f6d"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1201,
+      "sha256": "f0ba745a7a2ac42523a15b42690461a1ec86d42161e39cbcfe65488a9377b92a"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "a8e7e1cd4df62ef8a766eb219d16b90d790a56445c9829902f6c08a185899ea6"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 927,
+      "sha256": "5bc3c309d417907584c7f4d03c1291bf08e2b12b412deee746fb2f4245879707"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3530,
+      "sha256": "5bd9b70762ae5ff06bace405bd832e5f74938a6dfa1d3f941ecbb8676fdbda35"
+    }
+  ]
+}

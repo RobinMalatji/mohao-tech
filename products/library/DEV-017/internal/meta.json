@@ -1,0 +1,34 @@
+{
+  "id": "DEV-017",
+  "slug": "reporting-date-buckets",
+  "name": "Reporting date buckets",
+  "category": "developer",
+  "categorySlug": "developer-products",
+  "categoryLabel": "Developer products",
+  "productType": "JavaScript source with node:test",
+  "audience": "Developers who want a small, readable module they can drop into a Node.js project and modify.",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "summary": "Group ISO dates into day, week, or month keys.",
+  "description": "Uses UTC dates so a report does not change with the server's local zone. Week buckets start on Monday. It does not query a database.",
+  "benefits": [
+    "Plain JavaScript, no install step beyond Node.js",
+    "A test file you can run with node --test",
+    "No network calls and no hidden services"
+  ],
+  "compatibility": [
+    "Node.js 20 or later",
+    "Run npm test or node --test from this folder"
+  ],
+  "tags": [
+    "dates",
+    "reports"
+  ],
+  "prices": {
+    "ZAR": 17900,
+    "USD": 1400,
+    "GBP": 1100,
+    "EUR": 1300
+  },
+  "disclaimer": "These are small source files for you to read, test, and adapt. They are not a hosted service and they are not a security audit."
+}

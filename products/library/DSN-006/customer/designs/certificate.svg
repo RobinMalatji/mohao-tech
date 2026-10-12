@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100">
+  <rect width="1600" height="1100" fill="#fbfaf7"/>
+  <rect x="36" y="36" width="1528" height="1028" fill="none" stroke="#ff6a1a" stroke-width="3"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">CERTIFICATE OF ATTENDANCE</text>
+  <text x="72" y="308" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">Participant name</text>
+  <text x="72" y="400" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">Completed Writing a one-page brief</text><text x="72" y="434" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">12 October 2026 · Johannesburg</text>
+  <text x="72" y="1036" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Sample instructor: Lerato Dlamini</text>
+</svg>

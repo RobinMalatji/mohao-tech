@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <rect width="1080" height="1080" fill="#efeae2"/>
+  <rect x="0" y="0" width="16" height="1080" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5c564e">3 NOVEMBER</text>
+  <text x="72" y="302" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#1a1a1a">Field notes for</text><text x="72" y="366" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#1a1a1a">foremen</text>
+  <text x="72" y="458" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5c564e">A pocket book for site instructions.</text><text x="72" y="492" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5c564e">First print, 500 copies.</text>
+  <text x="72" y="1016" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#1a1a1a">Orders open at 9am SAST</text>
+</svg>

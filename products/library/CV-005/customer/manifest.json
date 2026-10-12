@@ -1,0 +1,54 @@
+{
+  "id": "CV-005",
+  "name": "Studio coordinator CV kit",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 770,
+      "sha256": "5534481e4f8e9641a9fd972a047c9d284677ad34a52c752611b5718e970febe5"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1104,
+      "sha256": "ee406467a555ec9f979847018aed3ec0a268071ba64356ea3905534453e71fdb"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 817,
+      "sha256": "0c663c3b6aad1815d20152a418923d886f02174f073e5a9e018c55137d644230"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1259,
+      "sha256": "f5952b9d682d3ea2d34e2267e1cf0b2d1d84219ebb71d2f0b05337f47e047dd8"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29060,
+      "sha256": "6862b44169f2ccd5ceefd2ba24e69c4eb8485e3bfb7d663eabddea01ac6998d1"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10053,
+      "sha256": "13c7dc2ea2dc0412fd949b98e280a60e8a918bafb902adfacae566ecef199489"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 607,
+      "sha256": "c541953cca935429530bb3638296c49d093ca593a6a9e3b23c80ff865ecf9071"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3330,
+      "sha256": "a509d7526b9aa1d866164a001fdb44eb80c1c66ede6608d9b95fbf1fe46f1e6b"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 737,
+      "sha256": "ecced6e8501364d27cb726fce4f8de240fe674104eb23953d8341694a5049b7e"
+    }
+  ]
+}

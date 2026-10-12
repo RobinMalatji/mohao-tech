@@ -1,0 +1,35 @@
+{
+  "id": "NOT-013",
+  "slug": "photographer-client-book",
+  "name": "Photographer client book",
+  "category": "notion",
+  "categorySlug": "notion-systems",
+  "categoryLabel": "Notion systems",
+  "productType": "Markdown and CSV import package",
+  "audience": "Photographers with repeat clients and referrals.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "A small CRM: how you met, what they booked, and when to write again.",
+  "description": "For a fictional photographer at Northlight. It stores the relationship and the next note, not a copy of their identity document.",
+  "benefits": [
+    "Pages you can import as Markdown",
+    "A CSV database with example rows you replace",
+    "Import steps that do not pretend this is a hosted Notion link"
+  ],
+  "compatibility": [
+    "Notion import for Markdown and CSV",
+    "Any editor that opens .md and .csv",
+    "Not a Notion template URL"
+  ],
+  "tags": [
+    "crm",
+    "photo"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
+}

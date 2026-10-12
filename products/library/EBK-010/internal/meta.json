@@ -1,0 +1,34 @@
+{
+  "id": "EBK-010",
+  "slug": "choose-a-small-tech-stack",
+  "name": "Choose a small tech stack",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Founders about to build a simple web product.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Pick tools for a small product without collecting a platform for every job.",
+  "description": "Pick tools for a small product without collecting a platform for every job.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "software"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1600,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

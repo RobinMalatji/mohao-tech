@@ -1,0 +1,33 @@
+{
+  "id": "DEV-006",
+  "slug": "fixed-window-rate-limit",
+  "name": "Fixed-window rate limit",
+  "category": "developer",
+  "categorySlug": "developer-products",
+  "categoryLabel": "Developer products",
+  "productType": "JavaScript source with node:test",
+  "audience": "Developers who want a small, readable module they can drop into a Node.js project and modify.",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "summary": "Count events in a time window and say when the next one is allowed.",
+  "description": "An in-memory counter for one process. It is useful in tests and small Node servers. It does not share state across servers, and it forgets everything when the process stops.",
+  "benefits": [
+    "Plain JavaScript, no install step beyond Node.js",
+    "A test file you can run with node --test",
+    "No network calls and no hidden services"
+  ],
+  "compatibility": [
+    "Node.js 20 or later",
+    "Run npm test or node --test from this folder"
+  ],
+  "tags": [
+    "rate-limit"
+  ],
+  "prices": {
+    "ZAR": 24900,
+    "USD": 1900,
+    "GBP": 1500,
+    "EUR": 1700
+  },
+  "disclaimer": "These are small source files for you to read, test, and adapt. They are not a hosted service and they are not a security audit."
+}

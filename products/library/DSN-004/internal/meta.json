@@ -1,0 +1,35 @@
+{
+  "id": "DSN-004",
+  "slug": "interview-podcast-cover",
+  "name": "Interview podcast cover",
+  "category": "design",
+  "categorySlug": "design-templates",
+  "categoryLabel": "Design templates",
+  "productType": "SVG design kit with HTML preview",
+  "audience": "Interview podcast hosts who need a repeatable cover, not a new illustration every week.",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "summary": "A square cover for an interview show, with a guest line and episode number.",
+  "description": "Cover art for a fictional show, Desk Notes, episode 18 with guest Ayesha Khan on hiring a first contractor. The layout leaves a clear area for the guest name.",
+  "benefits": [
+    "Finished sample layouts you can edit",
+    "Pixel sizes written on the preview page",
+    "Colours and type set in the SVG, not in a screenshot"
+  ],
+  "compatibility": [
+    "SVG files upload into Canva, Figma, Illustrator, and Inkscape",
+    "Preview HTML opens in a current browser",
+    "This package does not include a .canva file or a Canva link"
+  ],
+  "tags": [
+    "podcast",
+    "cover"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "Sample names and offers in these designs are fictional. Replace them before you publish. This package is not a native Canva file."
+}

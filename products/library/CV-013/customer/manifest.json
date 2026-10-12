@@ -1,0 +1,54 @@
+{
+  "id": "CV-013",
+  "name": "Interview story bank",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 779,
+      "sha256": "0cbd784e778a5d930d7cc0bb3cc2fe491e2391292bd9db5971e55d2e42e80aca"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1099,
+      "sha256": "a09fd455979bcd9ff3487722565317fc8333b4bdc7b7fb13f6f5bc0bfd9b9249"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 820,
+      "sha256": "25a09fa0f2def880d7e26cea6716b5da116273cdb50b2fde19f17ea8e9f95701"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1254,
+      "sha256": "5cec8f1939ad2b3b9900690ef02bbcfaf2a9836e4fea74115a14c9a3a1aca6d3"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27747,
+      "sha256": "9ed39de2d728ad765240ac5a9b3f40e9eab5e02751c508f19547f6fc3c872c9b"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10098,
+      "sha256": "34aaf4b198fe66fae06bdcb6b080143b9de902aeabddd4082ed3bc2a563472ef"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 708,
+      "sha256": "293445ebaecf2796fc4d79c63b5e5a52b45be6003366dfcbe647cd005903369f"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3341,
+      "sha256": "535ab84b8b57a8bc8658c7ab7b475959442c4a9f3e2131800d0d2cddb949a816"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 745,
+      "sha256": "56fa2351c0da1eef35d3074c613006402eff6e35744474bc34e0aa0d31f0ba07"
+    }
+  ]
+}

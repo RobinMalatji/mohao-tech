@@ -1,0 +1,54 @@
+{
+  "id": "FIN-020",
+  "name": "Annual money review",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1015,
+      "sha256": "c1d73d34383c3a96837626f09bbbbc597a32da6a2a1454d21cd878267b4adb02"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1184,
+      "sha256": "72f7f605c55267d095afa552c1e2580b50a6fc119137912952f4dfeb7768d942"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1079,
+      "sha256": "5ad90bf689f35a4b4a528ef68b70196750d69e50dd59194adbcefd56ebff3df8"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1435,
+      "sha256": "4f0aeff9f9170006c1f36eafe907dfeb804dde1be8e80700d74ac8414885ee3b"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28859,
+      "sha256": "9a8a2a3f0022596020d0505c99f1d98b65e61fc83c8d59f1399aa3560bbfc21d"
+    },
+    {
+      "path": "annual-money-review.xlsx",
+      "bytes": 8381,
+      "sha256": "59936cccf4253fafc74205725de118fb0719afdf0360c6f0e6406897f2037747"
+    },
+    {
+      "path": "annual-money-review-guide.md",
+      "bytes": 1355,
+      "sha256": "4da39f4932afaa5586ed2a97f41231e8c355621ce00ffe3419f50249c4e396bd"
+    },
+    {
+      "path": "annual-money-review-guide.pdf",
+      "bytes": 3807,
+      "sha256": "085b4d088b3fae85e3c2c893481e5a4c1c101005b10a8faf79d3b5d238cd188a"
+    },
+    {
+      "path": "annual-money-review-guide.docx",
+      "bytes": 10456,
+      "sha256": "fe11cdc4cc50497c480f0157637418212983936de229be884316ca89f5f80b18"
+    }
+  ]
+}

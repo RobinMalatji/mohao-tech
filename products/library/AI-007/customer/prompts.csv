@@ -1,0 +1,7 @@
+Title,Use when,Prompt,Check
+One sentence,The request is a paragraph.,"Rewrite the request as: who, does what, so that. If the notes do not say why, write 'why not stated'.",You did not invent the why.
+Acceptance,You need a test.,Write acceptance checks a person can run without reading your mind. Use the inputs I provided.,Each check is observable.
+Out of scope,The request is growing.,List three nearby ideas that this requirement does not include.,The developer can see the boundary.
+Edge cases,Before you build.,"List empty, duplicate, and permission failures for this requirement. Mark any you cannot answer as a question.",Questions are not disguised as facts.
+Plain words,The draft is jargon.,Replace jargon with the words a new teammate would use. Do not change the decision.,The decision is the same.
+Ready check,Before it goes to a developer.,"Say what is still missing: data, design, copy, or a decision. Do not fill the gap yourself.",Missing items stay missing.

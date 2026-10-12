@@ -1,0 +1,69 @@
+{
+  "id": "CRS-015",
+  "name": "Start a freelance practice",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 825,
+      "sha256": "3885916a1f1221c70a8b65d1a4abb343699f919125fe1286f93bad9375d82940"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1094,
+      "sha256": "33d9ed8200c824e51df9db73a991d3854ef4dfdc8510181e11e6f5e12a200fdd"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 854,
+      "sha256": "c226d486e7933507de60a81fffc029ef797ce2b2d9e6a9cfe560560406b93f6f"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1603,
+      "sha256": "6ba34e3379a4da63dcba9bdcd2d26a26a12598dc4ef478ba591f4c7e00ed17f8"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30142,
+      "sha256": "2332b70f9cff72fb6ba5382aa7a08483ec282b40131c65ac9498dc41a957765d"
+    },
+    {
+      "path": "lessons/01-the-offer.md",
+      "bytes": 63,
+      "sha256": "c568a23396df6ff82b4f8f712e214ef68d816de4097d8ff3f2477fbd34c0200e"
+    },
+    {
+      "path": "lessons/02-the-folder.md",
+      "bytes": 72,
+      "sha256": "a665aadf87e12bf8a1d844390a1403ecc367047abbd491460c1ad2193b8cd95b"
+    },
+    {
+      "path": "lessons/03-the-invoice.md",
+      "bytes": 118,
+      "sha256": "69e2ad8bc61bc40a6853619ef8bc95508bf942216eb237009d4604499e2faeac"
+    },
+    {
+      "path": "lessons/04-the-boundary.md",
+      "bytes": 88,
+      "sha256": "b8f5fdca89b15b489d13287b12d971caa966049d626e26376fcf224b6d82a598"
+    },
+    {
+      "path": "slides.pptx",
+      "bytes": 68177,
+      "sha256": "508c7d75aaf35136bcb2c069fd22d3254d20ef8b2c6236efba1f2c4022caf582"
+    },
+    {
+      "path": "worksheet.pdf",
+      "bytes": 2863,
+      "sha256": "06cc95f56970726bea17145cd21796a3cf86d257468bade8b4a5a6ae8a62a64e"
+    },
+    {
+      "path": "worksheet.md",
+      "bytes": 333,
+      "sha256": "767bdd0b414edd4c566c5171b54dcf5dcb796a2f065060064058ea1c7009af94"
+    }
+  ]
+}

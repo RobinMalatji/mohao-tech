@@ -1,0 +1,54 @@
+{
+  "id": "ECM-017",
+  "name": "Bundle planner",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 710,
+      "sha256": "9ed8acc4aa0147bc00008c3dd1514b9bd6c504f08ce2b1ef39d4ca1562a5fc69"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1138,
+      "sha256": "52da19925b1834ac68ee14f3ae8a2eef304a0c57f5b072086f4be20aba51721e"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 698,
+      "sha256": "3da03e4f1ede9e58f72807b97e95cfe8dcc2b836542c83c29c0c64b4ecc5ebe5"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1133,
+      "sha256": "090b9e076fb2fb90cda28ad939f0d88e33a3f725054af57fc85158970541ff44"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 24138,
+      "sha256": "193e0f07ed2a77606f03dbc3dfb3c59a881ff597d082079cecaf8fb53bce89f4"
+    },
+    {
+      "path": "bundle.xlsx",
+      "bytes": 7157,
+      "sha256": "4264a5177b20f6e6fe330ec6afe491c9b50029ab452b235d5e4d159b6cbbeb70"
+    },
+    {
+      "path": "bundle-guide.md",
+      "bytes": 321,
+      "sha256": "2f26ee7e96df99551935d16dcc99e0ed16bd9f7264c73c7bb51a7513afd6d639"
+    },
+    {
+      "path": "bundle-guide.pdf",
+      "bytes": 2818,
+      "sha256": "0b3938f806e3edb036d4452ea87b5830b274454ef41bf52c260eb21f14dc49d4"
+    },
+    {
+      "path": "bundle-guide.docx",
+      "bytes": 9908,
+      "sha256": "b1efffe599f95887b18299bea64ee3e2f677c7b12d45e91276ad6b0d5ccf54c8"
+    }
+  ]
+}

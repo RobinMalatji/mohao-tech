@@ -1,0 +1,49 @@
+{
+  "id": "ECM-009",
+  "name": "Launch week checklist",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 717,
+      "sha256": "f69f6a46e5f94fd1b5a9425d7c59e28f14431fb49efd6b6401620bb2b33a471e"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1145,
+      "sha256": "384ac8ca897fd18fb7dca017928f2edc6704b8a219c3dba81dd630211000e69d"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 728,
+      "sha256": "c7780d058e018660623f746d49dab2fb37a2b866d19e6233e46252a5044200de"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1079,
+      "sha256": "6bc3d32b0da8c62304db7463c8dd1427a6978b50418bbe800eec2da32f417cc6"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27022,
+      "sha256": "791d7da3e865346ae07fdc8331e2fc5b84622a7a8b5cfdffde574f21c8520402"
+    },
+    {
+      "path": "kit.md",
+      "bytes": 460,
+      "sha256": "96e6248690cd22905452e8b87d4fc7f09a5e1b520ecad540c3c1d6e12d76d54b"
+    },
+    {
+      "path": "kit.pdf",
+      "bytes": 3043,
+      "sha256": "0df5a93e9e9b65a9bdf2ff83226eac9392ccb70e53de37cc970f290ac0d5e474"
+    },
+    {
+      "path": "kit.docx",
+      "bytes": 10018,
+      "sha256": "339e116c6ab2baf544678be2f86bb1218205ff7aef48dd12b156b2ea3b62c8d4"
+    }
+  ]
+}

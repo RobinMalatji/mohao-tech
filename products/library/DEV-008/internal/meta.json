@@ -1,0 +1,34 @@
+{
+  "id": "DEV-008",
+  "slug": "safe-download-filename",
+  "name": "Safe download filename",
+  "category": "developer",
+  "categorySlug": "developer-products",
+  "categoryLabel": "Developer products",
+  "productType": "JavaScript source with node:test",
+  "audience": "Developers who want a small, readable module they can drop into a Node.js project and modify.",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "summary": "Reject path pieces and control characters in a file name.",
+  "description": "Returns a single file name or throws. It blocks slashes, backslashes, parent segments, null bytes, and Windows reserved names. Use it before you join a name onto a storage directory.",
+  "benefits": [
+    "Plain JavaScript, no install step beyond Node.js",
+    "A test file you can run with node --test",
+    "No network calls and no hidden services"
+  ],
+  "compatibility": [
+    "Node.js 20 or later",
+    "Run npm test or node --test from this folder"
+  ],
+  "tags": [
+    "files",
+    "security"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1600,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "These are small source files for you to read, test, and adapt. They are not a hosted service and they are not a security audit."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "DEV-013",
+  "slug": "password-policy-check",
+  "name": "Password policy check",
+  "category": "developer",
+  "categorySlug": "developer-products",
+  "categoryLabel": "Developer products",
+  "productType": "JavaScript source with node:test",
+  "audience": "Developers who want a small, readable module they can drop into a Node.js project and modify.",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "summary": "Check length and variety without storing the password.",
+  "description": "Rejects passwords under 12 characters, passwords that are only letters, and a short list of common values. It returns the failures. It does not hash or transmit the password.",
+  "benefits": [
+    "Plain JavaScript, no install step beyond Node.js",
+    "A test file you can run with node --test",
+    "No network calls and no hidden services"
+  ],
+  "compatibility": [
+    "Node.js 20 or later",
+    "Run npm test or node --test from this folder"
+  ],
+  "tags": [
+    "password"
+  ],
+  "prices": {
+    "ZAR": 14900,
+    "USD": 1200,
+    "GBP": 900,
+    "EUR": 1100
+  },
+  "disclaimer": "These are small source files for you to read, test, and adapt. They are not a hosted service and they are not a security audit."
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <rect width="1080" height="1920" fill="#f4f3ef"/>
+  <rect x="0" y="0" width="16" height="1920" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">13 TO 17 OCTOBER</text>
+  <text x="72" y="538" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">This week at</text><text x="72" y="602" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">Yard</text>
+  <text x="72" y="694" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">Mon 6am · Beginner</text><text x="72" y="728" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">Wed 6pm · Strength</text><text x="72" y="762" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">Sat 8am · Open gym</text>
+  <text x="72" y="1856" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Book before 8pm the night before</text>
+</svg>

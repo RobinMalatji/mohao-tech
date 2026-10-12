@@ -1,0 +1,7 @@
+Title,Use when,Prompt,Check
+Button,The action is known.,Write the button label as a verb that names the result. Give two options. Do not use 'submit' unless I say the user understands it.,The label names the result.
+Empty state,There is no data yet.,"Write the empty state: what is missing, and the action that creates the first one. Do not be cute.",There is one action.
+Error,The save failed.,Write the error. Include what the person can do next. Do not blame them. Do not mention a stack trace.,The next step is possible.
+Confirm,The action deletes.,Write the confirm title and body. Name the thing being deleted. Do not say 'are you sure?' alone.,The thing is named.
+Success,It worked.,Write the success message and where the person should look next.,It does not claim an email was sent unless I said so.
+Shorter,The text overflows.,Cut the string to the character count I give you. Do not change the meaning.,The count is respected.

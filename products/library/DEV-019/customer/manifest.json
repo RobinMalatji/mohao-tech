@@ -1,0 +1,49 @@
+{
+  "id": "DEV-019",
+  "name": "Object list to CSV",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 829,
+      "sha256": "719e59f452cd615af737e351a5d6e2ea2e224f2aece2eb65a833e80c817ef3a8"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1046,
+      "sha256": "97537510fafa59ba0aeb068a62079d64430169576b1eae380d4c71f5d194c947"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 924,
+      "sha256": "434caeba6098edb80e474542dca5b923e120acc9ac9a0fd32ac7a08bf885fea4"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1145,
+      "sha256": "c8ea5514d61d51ae9d7078168ce6577dc33ee8d900b06fb109177bf26adb9ce8"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27653,
+      "sha256": "3bfdc624c63c159b1abd6cac74c91c680ec84bc891d5318daa4c58b4816ed8fe"
+    },
+    {
+      "path": "package.json",
+      "bytes": 120,
+      "sha256": "cbbb85ee4f109d7907a518c761b4b65e7b940597261117d05f0a02dd633bf7d6"
+    },
+    {
+      "path": "src/export-csv.mjs",
+      "bytes": 376,
+      "sha256": "eb962b942745fa70c482d748eec860dbb974b0c57e47efe37ed09b12770e5223"
+    },
+    {
+      "path": "src/export-csv.test.mjs",
+      "bytes": 375,
+      "sha256": "4499502ee08838d8d742c5f39b944b02c0c77844a3a112833431d47d54e51f89"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "CV-002",
+  "name": "Graduate CV kit",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 834,
+      "sha256": "1d2b63f559742748c38bdb7cff6476c4427bcfefa1a74c52cdf0d96009cbe834"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1094,
+      "sha256": "27196792b43386b706d8f2a6e31a3a17d8d0dd39a0998cb735f18d8808717a48"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 853,
+      "sha256": "8b2719b1b699910748272f987b353de0ae71ba8fdd006678da603f2456091790"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1131,
+      "sha256": "5e74377802c1bb9e324dc41ba6b40c28310aa18597847ffff469a98cd66c52db"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 25758,
+      "sha256": "305f9d3516cda45f1c121a4be7a5bd3f30f2b1ae7038119eb5cf59a4d7b192e8"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10116,
+      "sha256": "55f69894f9b4666b5b3125fe9d94c67ec0dec028b9c0cfb1238f87c08777b312"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 646,
+      "sha256": "76454e1470b1fe0eb9ed5f92c72763fdfdb07370e1b899d61aad4525aa01516e"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3376,
+      "sha256": "a21c2e53ecc0aa769a614daca1e97e53b3a9b11cd6732d578edb745641930d95"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 787,
+      "sha256": "a38ead378945d9f007ce2ab3a7c2de5a99837b67acce6b07ceea511e6839c7ac"
+    }
+  ]
+}

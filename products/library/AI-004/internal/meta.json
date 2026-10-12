@@ -1,0 +1,34 @@
+{
+  "id": "AI-004",
+  "slug": "job-description-prompts",
+  "name": "Job description prompts",
+  "category": "prompts",
+  "categorySlug": "ai-prompt-packs",
+  "categoryLabel": "AI prompt packs",
+  "productType": "Prompt library in Markdown and CSV",
+  "audience": "Hiring managers at small companies.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Write a role description from the work, not from a pile of adjectives.",
+  "description": "Write a role description from the work, not from a pile of adjectives. Each prompt tells you what to paste, what to ask, and what to check before you use the answer.",
+  "benefits": [
+    "A full prompt, not a one-line topic",
+    "A check so you do not ship an invented fact",
+    "The same prompts in Markdown and CSV"
+  ],
+  "compatibility": [
+    "Any chat model that accepts a pasted prompt",
+    "A spreadsheet for the CSV",
+    "No model subscription is included"
+  ],
+  "tags": [
+    "hiring"
+  ],
+  "prices": {
+    "ZAR": 20900,
+    "USD": 1600,
+    "GBP": 1300,
+    "EUR": 1500
+  },
+  "disclaimer": "These prompts draft text for you to edit. They do not check facts, quotes, or the law. Remove anything the model invented before you send it."
+}

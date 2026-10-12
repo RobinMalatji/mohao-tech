@@ -1,0 +1,49 @@
+{
+  "id": "ECM-012",
+  "name": "Packaging insert copy",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 679,
+      "sha256": "56255469be6b2253aee02ea37ad1ef5c26a6d54461d5ae81d664859b0c1d0ef5"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1145,
+      "sha256": "52ea17e732c902c54cf7240a0a06596dd29b366c9e1d5117249026043e06c361"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 707,
+      "sha256": "66912523c1354069de9251cfd459b434b38a9a05533ac91c2f50e6cf6872cc98"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1079,
+      "sha256": "f21f32f5a9b5ea1cc09152f0192ed9b6c8d5b5c32f2267dd9bacb70ac403495d"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27803,
+      "sha256": "c0a614933e050c564dd9e3cdcea9c63bbe32257ff55f9ba1ad55a15ff1d79471"
+    },
+    {
+      "path": "kit.md",
+      "bytes": 311,
+      "sha256": "d62232dc100cd8bc32abd0303e39d8319caf83e931ef4518f1b859aff5464c49"
+    },
+    {
+      "path": "kit.pdf",
+      "bytes": 2875,
+      "sha256": "769be9d639b48e379480e74a417cc8c369b768761c9e13043341c465a3d05c43"
+    },
+    {
+      "path": "kit.docx",
+      "bytes": 9920,
+      "sha256": "cf41d8481b3a9cc1ea9f115f161f367b4681c5d586d8cd29e363bc1e4574f188"
+    }
+  ]
+}

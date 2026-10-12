@@ -1,0 +1,44 @@
+{
+  "id": "AI-003",
+  "name": "Support reply drafts",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 801,
+      "sha256": "73f750af14be7c8832c62a0599fc6f91eadc59a3539191f141d9202d4685fa7e"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1100,
+      "sha256": "894396467e3de3a0fd617fdeb48b7689b53a4738ad22cba9d41bf63d58e858f6"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 893,
+      "sha256": "691efa1a13e06f94584b7c2dd918abdad938cd93880fa1854d8058ff2c0c008e"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1089,
+      "sha256": "9fa2a450f6a5d8c578a2ce9cf8fd8375df53a6e3c0bdf13b19aff2fad5a92aa6"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27878,
+      "sha256": "030855fa713232a6bceab4d4f9d7225b50f6b8e9391384866b68c08e8e4860f6"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 1590,
+      "sha256": "2f1fb06567ab3d25469b725e8e787d26b4cf9648f61b0a3dc588e4adeb7d7c79"
+    },
+    {
+      "path": "prompts.csv",
+      "bytes": 1297,
+      "sha256": "8c4e651e7d966d0e478b6294e6b194e2cb1fb478e21ce07d33591d450e169eaf"
+    }
+  ]
+}

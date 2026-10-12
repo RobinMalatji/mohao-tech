@@ -1,0 +1,49 @@
+{
+  "id": "NOT-012",
+  "name": "Wedding planning board",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 752,
+      "sha256": "bce22cbccb231351206a0de36b70f6f1690ccbfdcbeae4920c4754acfa4e3324"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1111,
+      "sha256": "a725b67ed166702c0e3678a2a6d2ba9fb2c6c54aacffd31cadf5909b44da746e"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 862,
+      "sha256": "7053a76123dd165871fd6ad9979caf1e641e7c2244ccc5bdfb50ecdf9d526e96"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1261,
+      "sha256": "af4d9aca4b57130bd2a92761d79e041d4f3d7800a17408ad40e451e57996768e"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30111,
+      "sha256": "a9faf10c12eecec4118eef76b0a26abaf7ca9c3723f6a85d04683c03d79e8bd8"
+    },
+    {
+      "path": "pages/rules.md",
+      "bytes": 188,
+      "sha256": "5ac0bce8e9a1409b5635cea2df899f81a63b5dfc5410d79e87b495e4a0e1e9b4"
+    },
+    {
+      "path": "databases/vendors.csv",
+      "bytes": 181,
+      "sha256": "6aee8bdc0b2e17e7fd0bb49b59863afea379328b96b29ae9a3bb07f38ee72e3a"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 961,
+      "sha256": "0a8a16744ccbe7ddfa7a8f9231c326132237a16e1b477edba4dfe18a0d589314"
+    }
+  ]
+}

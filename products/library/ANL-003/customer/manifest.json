@@ -1,0 +1,69 @@
+{
+  "id": "ANL-003",
+  "name": "Inventory units on hand",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 927,
+      "sha256": "d7e533ab1e3af37f1da295f98aa7c121b0e5920a74c7c859ddc77e314b6340b6"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1187,
+      "sha256": "b3ce3ef69619b9654d9f9e62359d7b2dc60806b8b11306d6cbda3198f193cc87"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 887,
+      "sha256": "0a9eacac42b9c89972543a6823d5d72b3cc605ce029eb9c25a384ea6392c6699"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1463,
+      "sha256": "a61ae9cea58b738082d11ce548d46c401a06f900e1d5a2a70a295b00545c4bea"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 32042,
+      "sha256": "6617302942204bedb46b2ccbdce672300792af6562b99cf34d34187b1c5eb95b"
+    },
+    {
+      "path": "summary.xlsx",
+      "bytes": 8052,
+      "sha256": "c3aacacc506681f13d1ab405293daa7b0a98c004f56344bc99bbf21b7c43b804"
+    },
+    {
+      "path": "summary-guide.md",
+      "bytes": 550,
+      "sha256": "f46e9444647bdfa6749c70e4b9b915777f72522786f35aac8d2dc950aa9141cf"
+    },
+    {
+      "path": "summary-guide.pdf",
+      "bytes": 3170,
+      "sha256": "57b8cd3131db1b254b3fb2e48186239f4a26b2468565cf2e38a157d2599487dd"
+    },
+    {
+      "path": "summary-guide.docx",
+      "bytes": 10021,
+      "sha256": "17d2db928988ed31237eaf2ed0be60c2993e9d1cd75a6e4dc5b81f2d25debdac"
+    },
+    {
+      "path": "facts.csv",
+      "bytes": 362,
+      "sha256": "8692ae79f4a33cd81a4b2db81d096050657ca591fa644af594549b818b892df2"
+    },
+    {
+      "path": "measures.dax",
+      "bytes": 123,
+      "sha256": "8f673db7c96dfbed596a7a29ddb1cdabfa437625073912549bca4c4eddf7a288"
+    },
+    {
+      "path": "data-dictionary.md",
+      "bytes": 970,
+      "sha256": "00a9c100abf42e8f464614eda2f3302dc082fd8986e0a7b29883229b5704496e"
+    }
+  ]
+}

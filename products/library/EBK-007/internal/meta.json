@@ -1,0 +1,34 @@
+{
+  "id": "EBK-007",
+  "slug": "landing-page-copy-sheet",
+  "name": "Landing page copy sheet",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "People selling one digital product or one service on a single page.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Write a one-page offer: who it is for, what they get, and what it costs.",
+  "description": "Write a one-page offer: who it is for, what they get, and what it costs.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "copy"
+  ],
+  "prices": {
+    "ZAR": 17900,
+    "USD": 1400,
+    "GBP": 1100,
+    "EUR": 1300
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

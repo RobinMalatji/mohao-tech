@@ -1,0 +1,34 @@
+{
+  "id": "CV-010",
+  "slug": "data-analyst-cv-kit",
+  "name": "Data analyst CV kit",
+  "category": "cv",
+  "categorySlug": "cv-kits",
+  "categoryLabel": "CV kits",
+  "productType": "DOCX CV, PDF guide, and Markdown",
+  "audience": "Analysts applying with spreadsheet and SQL work.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "A CV that names the decision the analysis changed.",
+  "description": "A CV that names the decision the analysis changed. The sample person is fictional. The guide tells you which lines to replace and what evidence to keep.",
+  "benefits": [
+    "A CV structure aimed at one kind of role",
+    "Sample bullets that show evidence, which you replace",
+    "A checklist for the send"
+  ],
+  "compatibility": [
+    "Microsoft Word or Google Docs",
+    "Any PDF reader for the guide"
+  ],
+  "tags": [
+    "cv",
+    "analyst"
+  ],
+  "prices": {
+    "ZAR": 18900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "The employment history in this file is fictional sample text. Replace every line before you send it. This kit does not guarantee interviews."
+}

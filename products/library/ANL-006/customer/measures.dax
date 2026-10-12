@@ -1,0 +1,5 @@
+Total Fees = SUM(Facts[Fees])
+
+Fees rows = COUNTROWS(Facts)
+
+Average Fees = DIVIDE(SUM(Facts[Fees]), COUNTROWS(Facts))

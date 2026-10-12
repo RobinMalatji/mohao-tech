@@ -1,0 +1,54 @@
+{
+  "id": "FIN-018",
+  "name": "Healthcare cost tracker",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 939,
+      "sha256": "1419256ad81607e5701fd884a1d5dc733ea686d2ffeb73d8765ab1a264ac8e0c"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1188,
+      "sha256": "9ee5207a39847d9c220bfcbe21a1626c9a6ca57d32ad381d9f9e713c6dd358da"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 983,
+      "sha256": "7881c495e7a53af9282aceb3182d4c76e188207ca3c637a9bdec9a7e69892005"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1438,
+      "sha256": "4edd4498d1b0ce58ba09888fd1996636f42a57bfe8ad90e5fa2d2d03e2bf19f9"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29423,
+      "sha256": "8153b71449d65dbe6c1151c39f3b5b57d527b21897a7d2a8573c6b4011fb7509"
+    },
+    {
+      "path": "healthcare-cost-tracker.xlsx",
+      "bytes": 8796,
+      "sha256": "5bb204ad7081495f7f1deb280e959aad8d56a3003f50e794499c15f1108a3b34"
+    },
+    {
+      "path": "healthcare-cost-tracker-guide.md",
+      "bytes": 1282,
+      "sha256": "3d0f1e67b61c659c41eeea65470f2fae1dfbcfb635f14a23cb77ef97bb910ed4"
+    },
+    {
+      "path": "healthcare-cost-tracker-guide.pdf",
+      "bytes": 3768,
+      "sha256": "0159c1a2aa0673c58699f50d285dc9d850eb3688b1ba65022e1b818fa5d9a68e"
+    },
+    {
+      "path": "healthcare-cost-tracker-guide.docx",
+      "bytes": 10432,
+      "sha256": "a806ea439b32dbd12d4aace4a08c7c5daeab19e2779307e2dae01415564999e9"
+    }
+  ]
+}

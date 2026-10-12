@@ -1,0 +1,49 @@
+{
+  "id": "EBK-008",
+  "name": "Welcome email sequence",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 653,
+      "sha256": "94e6bfdf57eb1749f64821efea80e984070bbbd04e703826e96cdc79592ca55f"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1093,
+      "sha256": "82cc63e5bd2caa7b6f776aa834e3360ebcd236f68b56558aec0a9ffaeb237224"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 779,
+      "sha256": "67649960069bc3e8d3335370f717b48f65f9db2ad6ab0175cbd26435f8bbc1a0"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1082,
+      "sha256": "cdccaeea5b9dcb36c64dc14955687019ee78f210bbc838611e682e3116b4ea49"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28975,
+      "sha256": "ed50b22f5cae84f0cd007e7daab80038a72a7ece3b7be6c4ccf9df04fd8c2dc6"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1157,
+      "sha256": "3364f17513f35adbde335b4b71e79148a411c0a6a30be411b53e0f46e1b9dbe8"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3537,
+      "sha256": "d0b94585afd216c7e8e5aa6a3e2794fa5ae7d6efaf65cdb07b65c263a0bc23d6"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10345,
+      "sha256": "77fadfc86f6dd606ae3440df20a20ba828d0ad90e384333354a3baad0bce3d2e"
+    }
+  ]
+}

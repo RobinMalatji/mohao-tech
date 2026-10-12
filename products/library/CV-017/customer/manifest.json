@@ -1,0 +1,54 @@
+{
+  "id": "CV-017",
+  "name": "Portfolio case-study page",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 790,
+      "sha256": "6843ce79c41ef42fa264812b526dd70186260bc470127981dd2f48c19c045021"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1104,
+      "sha256": "f49661b15dd3bf843bb1aa2250b91e230ed028e7ebd5abf90eb473417816448f"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 844,
+      "sha256": "ba439dec1400f841dff0976954003272242791d8fcdc82a3f8ce0f098e91c1ee"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1259,
+      "sha256": "26ddf21693e53e4277ed8d5050d1106693f500d1a12ef837993c1d754574639d"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30048,
+      "sha256": "9da420f9bebe239bc23f58c33f150fecc5e49b272a9b984f799f3e1967737b30"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10051,
+      "sha256": "387864478d4ad3402cb1be0a2f76189f2b1f4128aeebe045f8732d1cc070bf5a"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 555,
+      "sha256": "c2c58254ceab24edb5792b0373643560adee4cc69539a73422bd0f851da95f28"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3381,
+      "sha256": "e841e3b833af743ab20a36574b235eb81d9705ccfa94a616eb1f73a4ac572f63"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 764,
+      "sha256": "f464b410f44f3421fe5b54ca375df0c3458e9708282f5599071087c93db8f50a"
+    }
+  ]
+}

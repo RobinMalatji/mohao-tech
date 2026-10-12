@@ -1,0 +1,7 @@
+Title,Use when,Prompt,Check
+Decisions only,The notes are messy.,"From these notes, list decisions. If a point was discussed but not decided, put it under 'not decided'. Do not add decisions.",Not-decided is present when needed.
+Owners,People volunteered.,Assign owners only where the notes name a person. Otherwise write 'owner not named'.,No owner was guessed.
+Short send,You need the email.,Write the follow-up email in under 150 words using only the decisions and owners list. No new topics.,The email matches the list.
+Risks mentioned,Someone raised a worry.,List worries that were said in the meeting. Do not solve them.,Each worry is from the notes.
+Agenda for next time,The meeting ran out.,Turn 'not decided' items into an agenda of five items or fewer.,The agenda does not add new work.
+Absent person,Someone missed it.,Write a five-line brief for the person who was absent. No jokes about them.,The brief is usable without the transcript.

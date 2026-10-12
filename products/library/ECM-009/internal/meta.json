@@ -1,0 +1,34 @@
+{
+  "id": "ECM-009",
+  "slug": "launch-week-checklist",
+  "name": "Launch week checklist",
+  "category": "ecommerce",
+  "categorySlug": "ecommerce-kits",
+  "categoryLabel": "E-commerce kits",
+  "productType": "DOCX and PDF shop kit",
+  "audience": "First-time digital sellers.",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "summary": "The week you put a product on sale: page, price, file, email, and a friend who tries to buy.",
+  "description": "The week you put a product on sale: page, price, file, email, and a friend who tries to buy.",
+  "benefits": [
+    "A finished sample you edit",
+    "The boundary of what the file does not decide",
+    "A checklist before you publish"
+  ],
+  "compatibility": [
+    "Word or Docs for DOCX",
+    "Excel for workbooks",
+    "A text editor for Markdown and CSV"
+  ],
+  "tags": [
+    "launch"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1600,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a working draft for a South African online shop. It is not legal advice. Have a lawyer read it before you publish it as your policy."
+}

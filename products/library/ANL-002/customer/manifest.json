@@ -1,0 +1,69 @@
+{
+  "id": "ANL-002",
+  "name": "SaaS monthly recurring revenue",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 964,
+      "sha256": "6d2218f3156a29b92e45e14148bd59607fb6a64485f8b9fd59cfc39b198a363a"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1194,
+      "sha256": "b751982774e40c78e7e1621f65d5d8bd38190ad68111f549a2c7b5f6898e5e43"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 911,
+      "sha256": "8dfb0093209abaad371ece599505f95d41a90291d4f5d655c1338a110b0c88c9"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1469,
+      "sha256": "123d759097ddf38faa23494531e5ecf5eca9a58263763284c59c86b67893f6e1"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 36127,
+      "sha256": "ef086a929dd67346ba6fb14b7344787770f15e34cb341f3b7d48d6a03cfe2c4b"
+    },
+    {
+      "path": "summary.xlsx",
+      "bytes": 8063,
+      "sha256": "cf9025371e8fba1408ff1f2347b2bd4d7f3f31c242ceac9a9124c552a9e10263"
+    },
+    {
+      "path": "summary-guide.md",
+      "bytes": 572,
+      "sha256": "ebf3c585bbe4b5465acda955a56572f319bd92b30e4c902335e52c882d33309d"
+    },
+    {
+      "path": "summary-guide.pdf",
+      "bytes": 3208,
+      "sha256": "048633e849777d0097c0bd2241774592e32f054ceaaf2b948e8985c67cebe800"
+    },
+    {
+      "path": "summary-guide.docx",
+      "bytes": 10039,
+      "sha256": "aab993b1035218e413c1e56fda223451521f2998fb93d24ed1d22789675ba6c8"
+    },
+    {
+      "path": "facts.csv",
+      "bytes": 392,
+      "sha256": "00320b6afd4b2e6156c5c3c624ed298021fd038e455ac581c14c5365d5928c32"
+    },
+    {
+      "path": "measures.dax",
+      "bytes": 113,
+      "sha256": "4e388cf388e3fa1ee41ac895722e8eda8d0951a490d4decbad735258621612a3"
+    },
+    {
+      "path": "data-dictionary.md",
+      "bytes": 978,
+      "sha256": "8abc0019fcba4095c18c659f737fa14f0210a6a0289bb832dc5e36640af270e8"
+    }
+  ]
+}

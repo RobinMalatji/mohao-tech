@@ -1,0 +1,54 @@
+{
+  "id": "FIN-003",
+  "name": "Emergency fund planner",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1005,
+      "sha256": "4c6ec3957f752eba664d44b7f776873bb70c7ee82f5676260f938f06e68a719e"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1187,
+      "sha256": "c6d6ebcd7e58624a78a987d7b59fe07b03895385247daee539ecceb4b650f8ee"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1077,
+      "sha256": "ca047d7e1f42fd6ed08dd1fce53e1617e5324ebd41c45ceac0ea58f9f16d3c59"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1439,
+      "sha256": "ae97a29288bae14338b4ffe49354c72ed74dbe3e1b547194a0158c39bda97c61"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29565,
+      "sha256": "fd00b69b701836c15fc85e6323ba4b29bb3aba2b52d40f6a07ee3a2132119955"
+    },
+    {
+      "path": "emergency-fund-planner.xlsx",
+      "bytes": 8213,
+      "sha256": "230fcb22fdb7014505b2aae01ccca4c381cb1bc87b5d2b794e9f26302979671b"
+    },
+    {
+      "path": "emergency-fund-planner-guide.md",
+      "bytes": 1414,
+      "sha256": "f4b406deac3c0ecc23ac4ea9a0d4c5e2074a9c62a18bc66520f6ad4f00c5346d"
+    },
+    {
+      "path": "emergency-fund-planner-guide.pdf",
+      "bytes": 3949,
+      "sha256": "0ad978868770c7146f248b75e3b533bfa7844866fc05176e71a207b385bb0ff3"
+    },
+    {
+      "path": "emergency-fund-planner-guide.docx",
+      "bytes": 10552,
+      "sha256": "ad6e341a1a08eea6d6cbc99e8e8fdec6ae8ebeb5453aab5b9dfb1ccc13552e22"
+    }
+  ]
+}

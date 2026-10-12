@@ -1,0 +1,49 @@
+{
+  "id": "NOT-020",
+  "name": "Neighbourhood newsletter desk",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 785,
+      "sha256": "b9372b7f0f532d5cccee7b48a9ef9d9eca455168caa405bc3d49590858a4a66d"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1118,
+      "sha256": "b11a606334523fdfb6a3d205f569c2195888a26bc5b466a2ac1df56c047efe23"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 853,
+      "sha256": "35c0bb0e721ca77780a503001a9402c35c6d5cf921a5dee98ba2d6bb0a023f7c"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1268,
+      "sha256": "c9ff12b7652502219c896191a3b227c968932877753ee93712b0f54093011a64"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 32606,
+      "sha256": "b612f3c954c9e7125d5e7f95c7ffc7d18089826601cc594eccbb5a1932fa139c"
+    },
+    {
+      "path": "pages/issue.md",
+      "bytes": 131,
+      "sha256": "f44dc67f9e7566dec7b6682dd5ee602eabffe15fdaf905e2d7e4a41fac09e69b"
+    },
+    {
+      "path": "databases/pieces.csv",
+      "bytes": 182,
+      "sha256": "8a2b363d8aae12048a7de8f5826b05c1cd1e80ac6585454429933a035934b756"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 970,
+      "sha256": "02c8cb798b9429960011911e7e63d207713da98b936dd3d004cdfe7a64c8b310"
+    }
+  ]
+}

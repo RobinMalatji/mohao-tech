@@ -1,0 +1,54 @@
+{
+  "id": "CV-007",
+  "name": "Teacher CV kit",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 807,
+      "sha256": "728997a20239a732ad78bbb2259b770789b208e2f58f64013e829d3bf4c58312"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1093,
+      "sha256": "d26ea75bd153609541a743cdfef18f02e756e93032dee4baafc334584a703f83"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 816,
+      "sha256": "e2048095daf5d8f502578737b7cff2be58aee376c8e7468f558839289a06d810"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1130,
+      "sha256": "f8dd76dcbc9ef4f5697345e0a590b3d11fbafeccb98884c23da3f06d904b4c5a"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 24694,
+      "sha256": "f2efa7615f929851b701e91b09ef2b887f035ba2cc98c400d299377a6da7766f"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10082,
+      "sha256": "aff6fbb611a0417c7042db5eb8f3bd7d0b53c26668a427602e1efd576858fd74"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 610,
+      "sha256": "d9bf012091371463dc74c4658d1a0fb7e904890a748578b8aa663d2d165ad354"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3349,
+      "sha256": "6d76a99cbf5f22ed556ab112201e72926f8e55372268631fcf0e876da55ff367"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 752,
+      "sha256": "30cce8ad97097d3e3a91cc6fe8c8e1fefafb48c3acedfaebb8886da73f54a727"
+    }
+  ]
+}

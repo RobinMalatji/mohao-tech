@@ -1,0 +1,59 @@
+{
+  "id": "DSN-009",
+  "name": "Night-market poster",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 853,
+      "sha256": "d6921103598ae8916621e9d5dec2e149c65bdba312ab5911f594862dbe917159"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1132,
+      "sha256": "400e24001e4a1473eb643e6ac31ec5f810516218dbd5ede6af3fa3ffbc6f0626"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 951,
+      "sha256": "54abb3781ca9ace2efc2d6616e96c03bb47f0feab3578c9854e8100054d3ae25"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1086,
+      "sha256": "0a926cb31cb8398e4e167cdcc744e89aef395982efe0916eab308f4cc6491737"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26781,
+      "sha256": "7edb8fe2c25fee51a8d87e711bbb52d6e71b826a32b15be2429c8c7f2dfaa920"
+    },
+    {
+      "path": "designs/night-market-story.svg",
+      "bytes": 1213,
+      "sha256": "ab211281649af2c97d63aea022d74e38c63739c07fcf4e187e37f3b3ef51e02f"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1208,
+      "sha256": "092df3e9731051dee4fc59081a9cad2f7ee338f537258293d16788a638884c9a"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "1b34900b6a77d5502c835b399f9e419eb343fd72929f3d019d7924496363ff1f"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 936,
+      "sha256": "768c582ce69d1f815408c5b52766a51039f8d0f28bd44c76dd3e027018e367fc"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3512,
+      "sha256": "c9a9f597cf4087b483bdff0c25324333e9647442712cdb19d35209e50bf46598"
+    }
+  ]
+}

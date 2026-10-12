@@ -1,0 +1,49 @@
+{
+  "id": "DEV-011",
+  "name": "Idempotency memory",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 875,
+      "sha256": "b3bf1000cee02c7b5dd04931419f20c49653a001b2ce045899c415bd247a2ad3"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1046,
+      "sha256": "b82bbdf891fa28585440d45ea9bed2418c774a8b413c8144fe85ecce01e6f00d"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 965,
+      "sha256": "a85da55eca1739a0f51bbe6ae31f20d28304cdfe67510f45565694b852f129c3"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1145,
+      "sha256": "58a74081136a28afeba49749ade737189b013258099dcf63eac6d6c54d4738ea"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27607,
+      "sha256": "b4847c77026796db1db64f165b5f27e9cd89a69fc12dea8672d7600131156fe4"
+    },
+    {
+      "path": "package.json",
+      "bytes": 120,
+      "sha256": "9fd70e1ee5b706a47979882db3a666e8d071da94f63e746535fe0329c6c9b7f1"
+    },
+    {
+      "path": "src/idempotency.mjs",
+      "bytes": 375,
+      "sha256": "68bed9476d99b20e54afb5250d9361df0c057579c8ce2908933c6a6132385db4"
+    },
+    {
+      "path": "src/idempotency.test.mjs",
+      "bytes": 543,
+      "sha256": "55088b61ce06cee88cefcd79bec1466366c66dfb75282aaa18018ae603b612e7"
+    }
+  ]
+}

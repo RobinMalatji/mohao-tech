@@ -1,0 +1,7 @@
+Title,Use when,Prompt,Check
+Timeline,You have chat fragments.,Build a timeline with the times I wrote. Do not fill gaps with guesses. Mark gaps.,Gaps are marked.
+Impact,You need the effect.,Describe who was affected using only my notes. Do not estimate a number I did not give.,No invented count.
+What we know,Facts and theories are mixed.,Split the notes into facts and theories.,Theories are labelled.
+Follow-up,You need actions.,List follow-ups that my notes already imply. Do not assign a person I did not name.,Owners are blank when unknown.
+Customer note,People were affected.,"Draft a short note that says what failed, what we did, and what we still do not know. No blame of a named person.",Unknowns stay in.
+Next time,You want one change.,Propose one change that would have made this incident easier to see. Label it a proposal.,It is not written as if it already happened.

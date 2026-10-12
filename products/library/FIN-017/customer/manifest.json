@@ -1,0 +1,54 @@
+{
+  "id": "FIN-017",
+  "name": "Family pocket-money planner",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 953,
+      "sha256": "4bf9130f67004d97989dd6f5eeb87fe44ba0770d0ddff4a840458de4b20063ae"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1192,
+      "sha256": "e7a2c32cc913b09ba376b42fbe994f4cd8eb971f4225603adb74443b27b5e713"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1028,
+      "sha256": "9fb7ed49bd3da8c4b5ccbf05aea874f38006fc3ae04c5a9c8b28774692e87cdc"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1384,
+      "sha256": "79534716fd70e6dd297bf103a0525fcacfab37522f169f9f888ca8b6914ed68a"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30279,
+      "sha256": "5fe12f414944f6056837007cec9d7f5244c6e86464d35501bc08ead3796d17fa"
+    },
+    {
+      "path": "family-pocket-money.xlsx",
+      "bytes": 7922,
+      "sha256": "7e018e6328e5ff73f1bf4dec636a0dbb57913003876df10138e82398f0bcb46a"
+    },
+    {
+      "path": "family-pocket-money-guide.md",
+      "bytes": 1121,
+      "sha256": "5d748f601c5db0183d1e20032b15c4ac91e52052baa5358d252b91cb0a1b3269"
+    },
+    {
+      "path": "family-pocket-money-guide.pdf",
+      "bytes": 3689,
+      "sha256": "4fa035dd8cfa16921276fca9d0026487756448d504312fa58c7fc558a062125c"
+    },
+    {
+      "path": "family-pocket-money-guide.docx",
+      "bytes": 10388,
+      "sha256": "e9eda33a59d1d5c3ac71eef66d7135b54b540fe6101c16f6a643ca9589bc1d14"
+    }
+  ]
+}

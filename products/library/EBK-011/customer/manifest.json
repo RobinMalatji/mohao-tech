@@ -1,0 +1,49 @@
+{
+  "id": "EBK-011",
+  "name": "Accessibility basics for a small site",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 706,
+      "sha256": "9dad63597534e8899ff1ef532205f8253cf6d8aa66203ced1867877612c11ea8"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1108,
+      "sha256": "7d810af3c190691f7731270be35977489943c7df202bd312c1e251320df22a36"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 807,
+      "sha256": "414d7e600065e223c2c399f72b092fdeaf6639c0962ffe84eadc269658f75a10"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1215,
+      "sha256": "4329b7d8a2a247a151e89cf70f369f10c165a04a6517cb2e545ec4c6d449224d"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 32638,
+      "sha256": "fe1e82bd4fd5e585edab8b67ee6e2cd5ff60c3f3d6352e40a633169a70c8b9d0"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1204,
+      "sha256": "a5e7ceb8103e4a93c1b5cfd2cbd5af99b500a68e4d6143d5929d968502a06fde"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3658,
+      "sha256": "a06ffe6b9ccf72d56b9b05fc501b9d91fbd5c7ce90e3cefd66c7d978396bfb1b"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10401,
+      "sha256": "49218c40c9810cfbabd0dc347cf857905774def9bb30fde9027432422d69e014"
+    }
+  ]
+}

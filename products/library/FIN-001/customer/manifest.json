@@ -1,0 +1,54 @@
+{
+  "id": "FIN-001",
+  "name": "Household monthly budget",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 973,
+      "sha256": "8f0426c4a286430ed0a4fc546b75d4f7818a67294407067b8eaf8fe0e3dc2d6c"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1189,
+      "sha256": "99514e0e6c03c65440f04bc6812618ab6cbf8c31cde8cd65f39538b8e4b817f7"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1085,
+      "sha256": "fd8daa219ae025928e33a538fb643bc19b4817bfc0a9254ddc187e736b6abb64"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1441,
+      "sha256": "82a9cfe0808df4e1a10f906844f7ce65f67fd8b68fb43eb23ea683e742db6dc8"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30398,
+      "sha256": "34ee279a4fabdc699240b36e78f2622efd77d5e43056fb8d45635584241440fa"
+    },
+    {
+      "path": "household-monthly-budget.xlsx",
+      "bytes": 9389,
+      "sha256": "7687cbc8aa98218927ac0758edcdd090453de6bf3066881009c753dda98a980c"
+    },
+    {
+      "path": "household-monthly-budget-guide.md",
+      "bytes": 1553,
+      "sha256": "1dc4142ba57fb1cfbd4d54b65656cf083503d9c8ba7d96bd7de5ba234ee978d8"
+    },
+    {
+      "path": "household-monthly-budget-guide.pdf",
+      "bytes": 4025,
+      "sha256": "6996e031b76da16dab1bfa232d2a3c6a927bc0160140cc2fc3ac0018eecf67d8"
+    },
+    {
+      "path": "household-monthly-budget-guide.docx",
+      "bytes": 10608,
+      "sha256": "eccf0f3632de8383628370dc79563a4cbd0cac7edded8d50035f632321796f67"
+    }
+  ]
+}

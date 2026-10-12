@@ -1,0 +1,64 @@
+{
+  "id": "DSN-012",
+  "name": "Client quote cards",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 868,
+      "sha256": "4d12c49da49263bada36692b5a11811e6328762ec73aeba3a0fefb4653018137"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1131,
+      "sha256": "5e8c6be952eda238a3ed4652df803bf5c23960624ab9830137cbbf4d7af7187e"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 968,
+      "sha256": "9f73f027c1972c2d149ac0d18cca7047e613b093ff1440a744d6bccc2f216609"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1144,
+      "sha256": "30665e549f2ee6049bd72a33ad11ddf9389fdadfbd0d4dece630e7131d095adc"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26433,
+      "sha256": "39928182815a25c700bc82b4c2e609326896a4af2f12ddebaf5548cb063a3920"
+    },
+    {
+      "path": "designs/quote-invoice.svg",
+      "bytes": 952,
+      "sha256": "ecfd69903c689b03f342ecc1ff716468b9fea70c558dcbfb4cc18e683c847203"
+    },
+    {
+      "path": "designs/quote-month.svg",
+      "bytes": 950,
+      "sha256": "cd2a329408e71d510eca0dfe1d93ca5e69a0343a9bceea2eb5f58fdcf745ab4b"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1381,
+      "sha256": "38b8ef6761a44024f2653ea3da7b851a50c7553db0121df4cad5b513cde69607"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "b01f8f2b03260b0663a8ce8c9c2d73b4fd6efacd845ebc9dd3b8bf03559b4403"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 944,
+      "sha256": "709288b83df72eb9c035e9df8ca8a083e528405a175590ebc57766b64168748f"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3524,
+      "sha256": "0b1d5cd1eb7fe0c7a92c3d23594854965cee225a7d91a68c10b3b8f04246a39f"
+    }
+  ]
+}

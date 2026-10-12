@@ -1,0 +1,7 @@
+Title,Use when,Prompt,Check
+First email,They just joined.,Write the first email. Include the steps I list and the support address I give. Do not welcome them for a page. Do not promise a call I did not offer.,Steps match my list.
+Stuck,They have not finished step two.,Write a short email that names step two and the likely blocker I described. One link.,One link only.
+Done,They finished.,"Write the email that says what they can do next, from my list. Do not upsell a product I did not name.",No extra product.
+Subject lines,You need subjects.,Write six subject lines that state the action. No fake 're:'.,Each subject is an action.
+Plain text,The mail should work without images.,Rewrite the email as plain text. Keep the links visible.,Links are visible.
+Consent,This is not a newsletter.,"Say whether this email is about the thing they just bought. If I am mixing in news, separate it and say it needs consent.",Marketing is not hidden in the receipt.

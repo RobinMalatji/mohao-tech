@@ -1,0 +1,5 @@
+Total Sales = SUM(Facts[Sales])
+
+Sales rows = COUNTROWS(Facts)
+
+Average Sales = DIVIDE(SUM(Facts[Sales]), COUNTROWS(Facts))

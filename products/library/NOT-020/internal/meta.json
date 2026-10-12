@@ -1,0 +1,35 @@
+{
+  "id": "NOT-020",
+  "slug": "neighbourhood-newsletter-desk",
+  "name": "Neighbourhood newsletter desk",
+  "category": "notion",
+  "categorySlug": "notion-systems",
+  "categoryLabel": "Notion systems",
+  "productType": "Markdown and CSV import package",
+  "audience": "Volunteer editors of a small newsletter.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "An issue plan with a writer, a word count, and a deadline before print day.",
+  "description": "For a fictional letter, Block Notes, printed monthly. Each item has a writer and a maximum word count so the issue fits four pages.",
+  "benefits": [
+    "Pages you can import as Markdown",
+    "A CSV database with example rows you replace",
+    "Import steps that do not pretend this is a hosted Notion link"
+  ],
+  "compatibility": [
+    "Notion import for Markdown and CSV",
+    "Any editor that opens .md and .csv",
+    "Not a Notion template URL"
+  ],
+  "tags": [
+    "editorial",
+    "newsletter"
+  ],
+  "prices": {
+    "ZAR": 17900,
+    "USD": 1400,
+    "GBP": 1100,
+    "EUR": 1300
+  },
+  "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
+}

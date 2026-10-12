@@ -1,0 +1,54 @@
+{
+  "id": "FIN-011",
+  "name": "Student month planner",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 945,
+      "sha256": "7b05cdef5041d748ce9332aed4a91d789bf04af062855a2686ef9e14b633fc90"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1186,
+      "sha256": "4845d6d8b641e34eddbd62d66805957165dd150eeb991a82adb7d11d5e35f54f"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1005,
+      "sha256": "0f06e2ccd1a4692b90e75a3dc51496a5674ce0f93b7adb60e127096dda122cd1"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1434,
+      "sha256": "94a0ade094632b7da6a0dcdd3ade7ead42881f51b8e99d18dbadb8fe77a7dfc1"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27803,
+      "sha256": "2ba451b475ef13093949a829bdf74835172403415b4909422fdc6b5d765be253"
+    },
+    {
+      "path": "student-month-planner.xlsx",
+      "bytes": 8990,
+      "sha256": "e2f22cf901b5f6a66a573a9fafcf79f7637dfcb354f9b3e1a1263d53ea2111bd"
+    },
+    {
+      "path": "student-month-planner-guide.md",
+      "bytes": 1230,
+      "sha256": "0a7522bb20949a9d64f35bb0c89c9fc56d030309f6393628f1a912ee4fa72d00"
+    },
+    {
+      "path": "student-month-planner-guide.pdf",
+      "bytes": 3771,
+      "sha256": "9afff90d5e77a5ce2176b860fb8bf7b34565be03fe04062b4be42b9b1d789bb3"
+    },
+    {
+      "path": "student-month-planner-guide.docx",
+      "bytes": 10441,
+      "sha256": "0449f97876c3a2a17f254845906efef46d5b36355a0bae3e210d1987657a956c"
+    }
+  ]
+}

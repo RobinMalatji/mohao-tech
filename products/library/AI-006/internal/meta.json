@@ -1,0 +1,34 @@
+{
+  "id": "AI-006",
+  "slug": "meeting-summary-prompts",
+  "name": "Meeting summary prompts",
+  "category": "prompts",
+  "categorySlug": "ai-prompt-packs",
+  "categoryLabel": "AI prompt packs",
+  "productType": "Prompt library in Markdown and CSV",
+  "audience": "People who take notes and need to send them the same day.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Summarise notes into decisions, owners, and open questions.",
+  "description": "Summarise notes into decisions, owners, and open questions. Each prompt tells you what to paste, what to ask, and what to check before you use the answer.",
+  "benefits": [
+    "A full prompt, not a one-line topic",
+    "A check so you do not ship an invented fact",
+    "The same prompts in Markdown and CSV"
+  ],
+  "compatibility": [
+    "Any chat model that accepts a pasted prompt",
+    "A spreadsheet for the CSV",
+    "No model subscription is included"
+  ],
+  "tags": [
+    "meetings"
+  ],
+  "prices": {
+    "ZAR": 17900,
+    "USD": 1400,
+    "GBP": 1100,
+    "EUR": 1300
+  },
+  "disclaimer": "These prompts draft text for you to edit. They do not check facts, quotes, or the law. Remove anything the model invented before you send it."
+}

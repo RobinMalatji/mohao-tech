@@ -1,0 +1,7 @@
+Title,Use when,Prompt,Check
+Questions,You have a chapter.,Write ten questions the chapter can answer. Do not write the answers yet.,Each question is in the chapter.
+Answers,You are ready.,"Answer those questions from the chapter. If the chapter does not answer one, say so.",Missing answers are marked.
+Teach it,You need to remember.,"Explain the idea as if to a classmate, using an example from the chapter. Do not import an example from another subject.",The example is from the text.
+Confusions,You are stuck.,List the terms the chapter uses that it does not define.,"You look those up in the course, not in a guess."
+One-page sheet,Before a test.,Make a one-page sheet of definitions and steps from the chapter. No extra topics.,A classmate can see it is this chapter.
+Practice,You need to try.,"Write five practice tasks at the same level as the chapter's examples. Mark them as practice, not as official questions.",They are labelled practice.

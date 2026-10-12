@@ -1,0 +1,34 @@
+{
+  "id": "ECM-016",
+  "slug": "shipping-rate-sheet",
+  "name": "Shipping rate sheet",
+  "category": "ecommerce",
+  "categorySlug": "ecommerce-kits",
+  "categoryLabel": "E-commerce kits",
+  "productType": "Excel workbook and PDF guide",
+  "audience": "Shops setting delivery prices.",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "summary": "A rate sheet from weight bands you type, for courier quotes you have actually received.",
+  "description": "A rate sheet from weight bands you type, for courier quotes you have actually received.",
+  "benefits": [
+    "A finished sample you edit",
+    "The boundary of what the file does not decide",
+    "A checklist before you publish"
+  ],
+  "compatibility": [
+    "Word or Docs for DOCX",
+    "Excel for workbooks",
+    "A text editor for Markdown and CSV"
+  ],
+  "tags": [
+    "shipping"
+  ],
+  "prices": {
+    "ZAR": 21900,
+    "USD": 1700,
+    "GBP": 1300,
+    "EUR": 1500
+  },
+  "disclaimer": "This is a working draft for a South African online shop. It is not legal advice. Have a lawyer read it before you publish it as your policy."
+}

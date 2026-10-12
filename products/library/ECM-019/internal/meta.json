@@ -1,0 +1,34 @@
+{
+  "id": "ECM-019",
+  "slug": "one-page-brand-rules-for-a-shop",
+  "name": "One-page brand rules for a shop",
+  "category": "ecommerce",
+  "categorySlug": "ecommerce-kits",
+  "categoryLabel": "E-commerce kits",
+  "productType": "DOCX and PDF shop kit",
+  "audience": "Small shops with more than one person posting.",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "summary": "Colours, type, and the claims you will not make.",
+  "description": "Colours, type, and the claims you will not make.",
+  "benefits": [
+    "A finished sample you edit",
+    "The boundary of what the file does not decide",
+    "A checklist before you publish"
+  ],
+  "compatibility": [
+    "Word or Docs for DOCX",
+    "Excel for workbooks",
+    "A text editor for Markdown and CSV"
+  ],
+  "tags": [
+    "brand"
+  ],
+  "prices": {
+    "ZAR": 17900,
+    "USD": 1400,
+    "GBP": 1100,
+    "EUR": 1300
+  },
+  "disclaimer": "This is a working draft for a South African online shop. It is not legal advice. Have a lawyer read it before you publish it as your policy."
+}

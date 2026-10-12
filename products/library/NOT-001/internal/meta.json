@@ -1,0 +1,35 @@
+{
+  "id": "NOT-001",
+  "slug": "weekly-operator-desk",
+  "name": "Weekly operator desk",
+  "category": "notion",
+  "categorySlug": "notion-systems",
+  "categoryLabel": "Notion systems",
+  "productType": "Markdown and CSV import package",
+  "audience": "Operators of small teams who currently keep the week in a chat thread.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "A Monday desk for a six-person company: decisions, blockers, and the one number that matters.",
+  "description": "Built for a fictional studio lead running a six-person team. The week page asks for one metric, three decisions, and the blockers that need a name next to them.",
+  "benefits": [
+    "Pages you can import as Markdown",
+    "A CSV database with example rows you replace",
+    "Import steps that do not pretend this is a hosted Notion link"
+  ],
+  "compatibility": [
+    "Notion import for Markdown and CSV",
+    "Any editor that opens .md and .csv",
+    "Not a Notion template URL"
+  ],
+  "tags": [
+    "operations",
+    "weekly"
+  ],
+  "prices": {
+    "ZAR": 24900,
+    "USD": 1900,
+    "GBP": 1500,
+    "EUR": 1700
+  },
+  "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
+}

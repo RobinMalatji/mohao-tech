@@ -1,0 +1,49 @@
+{
+  "id": "DEV-007",
+  "name": "Offset pagination",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 744,
+      "sha256": "6351c376fea9004a6c83371d1f695851dd0627f279280125bcc488a7773732f2"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1045,
+      "sha256": "ed13156ea3027999e0596b834a6b4b3a4e6ae6b2d7c0b75697505a3153eb35f1"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 853,
+      "sha256": "8e1dba779c84b21ff7061ea8f40662d13d8d3e29f73d68b7cf41670a4d623f1f"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1144,
+      "sha256": "d251713058ba63603556c31d4a233ea11f63106cb5129aa2a2106759a135d161"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27103,
+      "sha256": "3728f57b440b4484ece0e47159bcb8c2eebaf9c2fb6e1db075297b76ffc9abe9"
+    },
+    {
+      "path": "package.json",
+      "bytes": 119,
+      "sha256": "2998d572c339526221f1724dd754ac4f344ec0473b8458d7d504370d6dbda089"
+    },
+    {
+      "path": "src/page.mjs",
+      "bytes": 450,
+      "sha256": "276b7b44f398ba04f0dd379058885c98f3aca21d44c6fe36ff1577c558aca723"
+    },
+    {
+      "path": "src/page.test.mjs",
+      "bytes": 391,
+      "sha256": "db76aa55b296248e764377d7c0d30a2202bb082d5a656e0af40ea0a5aa598a56"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "FIN-018",
+  "slug": "healthcare-cost-tracker",
+  "name": "Healthcare cost tracker",
+  "category": "finance",
+  "categorySlug": "personal-finance",
+  "categoryLabel": "Personal finance",
+  "productType": "Excel workbook with PDF guide",
+  "audience": "Households who want one total for healthcare cash costs.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Add medical aid, gap cover, and out-of-pocket costs for one year.",
+  "description": "The workbook annualises monthly premiums and adds invoices you pay yourself. It does not compare schemes and it does not tell you what to claim.",
+  "benefits": [
+    "See premiums and invoices in one year",
+    "Keep pharmacy, dental, and optical separate",
+    "Avoid treating a premium as the whole cost"
+  ],
+  "compatibility": [
+    "Microsoft Excel for Microsoft 365 or Excel 2021 and later",
+    "Formulas also open in Google Sheets; confirm PMT, FV, and NPER after import",
+    "PDF guide opens in any PDF reader",
+    "DOCX guide opens in Microsoft Word or Google Docs"
+  ],
+  "tags": [
+    "healthcare",
+    "medical aid"
+  ],
+  "prices": {
+    "ZAR": 18900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This workbook organises figures you type in. It is not financial, credit, insurance, or tax advice. Rates, fees, and laws change. A qualified adviser should review decisions that affect debt, tax, medical cover, or retirement."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "EBK-016",
+  "name": "Hire a first contractor",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 666,
+      "sha256": "d4bb38ebe85ff29b4ec93600a1ab8bf7014f99cdd0d318646ee232a8fa928343"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1094,
+      "sha256": "f264210eec6379a12b34e79447c34a0f09441e1f218999c27758ecb3b33aad1f"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 751,
+      "sha256": "cd14ac352c67bc932f41613e496fe12105b81b669b5dcc2499ea0fb3d751c88c"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1083,
+      "sha256": "8bf867e4d81ce18f9332d18e992442948bf35d6a65b1314527cbd39c66f4a9ba"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26521,
+      "sha256": "ddc84c958f7f46b4f3331ca0eb51f6a822d3869c04f95391e0993cbdd559b9d2"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 992,
+      "sha256": "d9f986b0ace8fa260b873a83112a6d7ac80196deb0be0c3cf88e0f339f64bdce"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3423,
+      "sha256": "efe635cfb67f138aff07777d656997fa003cb669aef71c2caacc161b43f186b4"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10263,
+      "sha256": "2edd268316ec42f4ca18929754eaec89e817a5fd9610d0304f7a54ddf3b43f41"
+    }
+  ]
+}

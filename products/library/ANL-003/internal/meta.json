@@ -1,0 +1,34 @@
+{
+  "id": "ANL-003",
+  "slug": "inventory-units-on-hand",
+  "name": "Inventory units on hand",
+  "category": "analytics",
+  "categorySlug": "analytics-dashboards",
+  "categoryLabel": "Analytics dashboards",
+  "productType": "Excel summary, CSV dataset, and DAX measures",
+  "audience": "A buyer watching stock.",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "summary": "Units on hand by category for a home-goods shop.",
+  "description": "Units on hand by category for a home-goods shop. Load the CSV into Excel or Power BI Desktop. The DAX file is text you paste into a measure. This package does not include a PBIX file.",
+  "benefits": [
+    "A CSV with a real grain and sample rows",
+    "DAX that names the columns in that CSV",
+    "An Excel total you can check against the rows"
+  ],
+  "compatibility": [
+    "Excel for the workbook and CSV",
+    "Power BI Desktop if you paste the DAX yourself",
+    "No PBIX file is included"
+  ],
+  "tags": [
+    "inventory"
+  ],
+  "prices": {
+    "ZAR": 32900,
+    "USD": 2700,
+    "GBP": 2100,
+    "EUR": 2400
+  },
+  "disclaimer": "The workbook and CSV are sample data for learning the model. A PBIX file is not included. Paste the DAX into Power BI Desktop after you load the CSV. This is not a financial audit."
+}

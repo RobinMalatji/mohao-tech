@@ -1,0 +1,54 @@
+{
+  "id": "CV-004",
+  "name": "Operations manager CV kit",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 812,
+      "sha256": "6a66062bf92b5325fa45cd850dcbfc62c960239970e28005227e3d2655510260"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1104,
+      "sha256": "0c226ccbef185a156b364d4fe4f795cb7a337aa6934983ee36603b7863038629"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 811,
+      "sha256": "d9f5537b5f1113ae0493af3a9dec2ae0df3e0a883b5f759de1ae9a2c3488494f"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1259,
+      "sha256": "0699d1fcf733f87092b90f035f9fcf10d595d2837a2ff6498ca40fa620b0da11"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30277,
+      "sha256": "f3350cce7607bb6cd5a9f2226382335b0943f26d0c90a4f9de465cb18a5c6403"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10081,
+      "sha256": "3f1cc094f5f1b91c403c3e0eda4f27d16a8ae4ed5b5284a95b17ead3ceb02537"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 594,
+      "sha256": "1cd151618d1b3b334236242d77fdd6a7201b6b8bb2ccff90880ef0cef2347525"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3383,
+      "sha256": "59aa683b8683796cd31780b9e995bdb16708bbd11d9cef3c60c8fa710cdca7bb"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 766,
+      "sha256": "69bb6eb1cc56de6d207cf15f031f6f1c72ddec210cfde911947077e6c1923ca9"
+    }
+  ]
+}

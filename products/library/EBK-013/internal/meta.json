@@ -1,0 +1,34 @@
+{
+  "id": "EBK-013",
+  "slug": "time-blocking-for-operators",
+  "name": "Time blocking for operators",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Owners who end the week surprised by what they did not do.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Put the week's real work on a calendar before the week fills with chat.",
+  "description": "Put the week's real work on a calendar before the week fills with chat.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "time"
+  ],
+  "prices": {
+    "ZAR": 15900,
+    "USD": 1200,
+    "GBP": 1000,
+    "EUR": 1100
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

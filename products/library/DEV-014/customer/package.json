@@ -1,0 +1,8 @@
+{
+  "name": "minor-unit-arithmetic",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "NOT-002",
+  "name": "Semester study desk",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 838,
+      "sha256": "2b79fe8adf692161dda8d94c0e3d6928c235da422e381a978a021c5fb4f336f7"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1108,
+      "sha256": "8df2c4fe351779d54fe54dc872867824df5c7f6c8a014bde640160c115b8e48e"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 892,
+      "sha256": "9544b4c4c3a524b09717df5bd7e0e8d666397c415b07eaaba6c40a7e01021922"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1259,
+      "sha256": "e87e190510c6cf2b19d41a835e4c713b2340bf22884974bfb8c4f0bfbd73076d"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29872,
+      "sha256": "466a681b892cce94d8481cbfa2d0f50808639d45a9faa5f5d0927d1fcebec6d6"
+    },
+    {
+      "path": "pages/term.md",
+      "bytes": 177,
+      "sha256": "71906838686716f881cf50b66375a02bd372a62c20614cb2c3882a9c6e9820fc"
+    },
+    {
+      "path": "pages/weekly.md",
+      "bytes": 126,
+      "sha256": "efb7cfc9187e0aae57b473eb60c23acdddff66231007e39330b24fe6a50e6034"
+    },
+    {
+      "path": "databases/assignments.csv",
+      "bytes": 224,
+      "sha256": "87bb7bce78c9c8b865f8350bd969b1e1fdc5b9b30c6a681ea07c922ea3783653"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 1025,
+      "sha256": "dfec96e4f4525e90e60946d5a8f93494bdbd482ac622f60937d9063b4c847eb9"
+    }
+  ]
+}

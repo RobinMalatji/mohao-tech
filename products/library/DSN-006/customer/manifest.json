@@ -1,0 +1,59 @@
+{
+  "id": "DSN-006",
+  "name": "Workshop certificate",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 886,
+      "sha256": "45482657d9fa5cf89e653430c8121e27bae82d882d9c970d2e51e69c0eb6741a"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1133,
+      "sha256": "4e6336f4df5610e76a3bc060583c2f8296893679cc51b3d8bfb0a3d5e18008a6"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1013,
+      "sha256": "1cee100367fe922d7ebce8277945a110d66c706d4423b2bf07c3d02349b082bf"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1087,
+      "sha256": "285000c1649a30f1a13247f8be7b5c1f0a6cd0a5d598ffe5103ed174369c2397"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28030,
+      "sha256": "c590aec853cb3b26e76ffb46ea98241e2bae5114ee222087af013b67496b24ac"
+    },
+    {
+      "path": "designs/certificate.svg",
+      "bytes": 1032,
+      "sha256": "db13d2d3ac1670f25edb2cb3656b105a0f586eab1ec754bd3a542c65cd284b04"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1192,
+      "sha256": "9e00c10cb9073b290e0c0e16af822e230a2422221a5c61f7d513fbb2f5f1027e"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "d2522f904aa46777c1e68b83bdde5f02b417144a7e5736e151a27af94bd5919a"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 977,
+      "sha256": "3d2459bdbd31c1c803fe63458b4566825c125deab3bf28a861802891de0df286"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3549,
+      "sha256": "0a26b635fbaab40ba864e3a92d754be814ce5522736550a9640dcb0709ed8a30"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ECM-007",
+  "slug": "supplier-comparison",
+  "name": "Supplier comparison",
+  "category": "ecommerce",
+  "categorySlug": "ecommerce-kits",
+  "categoryLabel": "E-commerce kits",
+  "productType": "Excel workbook and PDF guide",
+  "audience": "Shops choosing a maker.",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "summary": "Compare three suppliers on price, lead time, and the minimum order.",
+  "description": "Compare three suppliers on price, lead time, and the minimum order.",
+  "benefits": [
+    "A finished sample you edit",
+    "The boundary of what the file does not decide",
+    "A checklist before you publish"
+  ],
+  "compatibility": [
+    "Word or Docs for DOCX",
+    "Excel for workbooks",
+    "A text editor for Markdown and CSV"
+  ],
+  "tags": [
+    "suppliers"
+  ],
+  "prices": {
+    "ZAR": 22900,
+    "USD": 1800,
+    "GBP": 1400,
+    "EUR": 1600
+  },
+  "disclaimer": "This is a working draft for a South African online shop. It is not legal advice. Have a lawyer read it before you publish it as your policy."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "DSN-020",
+  "name": "Webinar registration card",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 892,
+      "sha256": "c7eb60a1075d1d78994e5ead717284249564462462d8cdf06617f68cfc33ed6f"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1138,
+      "sha256": "1deea568317d2e2652c2297d525f46462f0ce1b61ce9f981c77af53347aa61ac"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 980,
+      "sha256": "28caf84de0319e2cce5759152340ac7ceeebe10ccce35d4381699dd354e1d1fc"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1092,
+      "sha256": "1bff915d77628c536da4d99c0f22825ac8dd971d3d37790729eeda4a02f8d4d2"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29366,
+      "sha256": "876f62ec1ccaa245235df7faa4766d50193ebc725c355d45e5faf35c1a4d62ef"
+    },
+    {
+      "path": "designs/webinar-card.svg",
+      "bytes": 1222,
+      "sha256": "9491f92894aa0a984c708c2e408f5ba34293dd57cf8a918d651f9f4644d67d5e"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1222,
+      "sha256": "f39d4fa5fa16e81b5c57928d40c9ea96ee845c90a58929c1d6d7181bf63b6461"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "b01f8f2b03260b0663a8ce8c9c2d73b4fd6efacd845ebc9dd3b8bf03559b4403"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 909,
+      "sha256": "1ff677183f335937fff141fd2a8c21df49a02d4747a1db587d0c370414554acc"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3543,
+      "sha256": "cfbc036e738fbeddebb5c8915498f4ec4516eae734a8e11a5f4c0b2f58daf16b"
+    }
+  ]
+}

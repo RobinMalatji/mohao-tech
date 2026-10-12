@@ -1,0 +1,49 @@
+{
+  "id": "EBK-013",
+  "name": "Time blocking for operators",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 672,
+      "sha256": "cf445f756e9b9cd7e27691faeb0c90562f9671a3e4565ffff13801b193cda52b"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1098,
+      "sha256": "0b86ca4d451b114e6cfc37fc10a037df639d0a9859f4a69632fcecb7ead3231b"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 776,
+      "sha256": "054b50f1d516cd53649094243d458da4bbe49b0a78b1897cac9e0618b514ee51"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1087,
+      "sha256": "453324eebb285c82413bb778e4de652c044c1d0076fa9dac7c2727ed9b6709b7"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29129,
+      "sha256": "46dba306cedd3b5c0b42adbbbb570967b305eae13837747a5061d126e2785970"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1030,
+      "sha256": "0c788fbfe7d1349f00280cccb8a56f4cf0f962714d42ddc2e9e93e7d451d16f9"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3456,
+      "sha256": "372753ddb052e55baecee568d15850b03e9eb248f78462bd4f211be3f9d58588"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10286,
+      "sha256": "24c39c26e36a4c087732cdc50a3734c709c1d9319a2d7c0eefbff28bf51ad3e0"
+    }
+  ]
+}

@@ -47,6 +47,7 @@ export const site = {
 
 export const navigation = [
   { href: "/", label: "Home" },
+  { href: "/shop", label: "Shop" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/contact", label: "Contact" },

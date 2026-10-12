@@ -1,0 +1,5 @@
+Total MRR = SUM(Facts[MRR])
+
+MRR rows = COUNTROWS(Facts)
+
+Average MRR = DIVIDE(SUM(Facts[MRR]), COUNTROWS(Facts))

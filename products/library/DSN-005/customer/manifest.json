@@ -1,0 +1,59 @@
+{
+  "id": "DSN-005",
+  "name": "Listing card for a flat",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 896,
+      "sha256": "93074d475d97c403ff486c99bb47defb7d031626c68802a7d4335d68e9b81d6b"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1136,
+      "sha256": "acf9239b3914975d4d68d0c152093d832c3471dad5ce8985ffc3f94ad714912f"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1032,
+      "sha256": "060e31a3a022ece535a02d1dc1503666e284f06064cf3da65b453107986b0d61"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1090,
+      "sha256": "0fcff2af68168dd7532656070130392447fe0468e737791c0b364024436ca2fb"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26427,
+      "sha256": "4dd3018ddc5af1261a238f05aad35f142faf7dcc48d02cd67e2e6df5d5945b52"
+    },
+    {
+      "path": "designs/listing-card.svg",
+      "bytes": 965,
+      "sha256": "c1300d5252a31f47f9d6333def488965b5c5b744e726f286214ed7c0c7309d72"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1199,
+      "sha256": "6727de883f130b190639074b2e88b1a2e9f0f4a484dd96c4aa06162ffc37c1c5"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "cfad99e38dc21092e5c38b027bcfa792d80081a93137cda3466c6d9a897aa923"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 1011,
+      "sha256": "108c05e25c628b00d081b40313218876e11f0709409c5998f28349957a6522b1"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3577,
+      "sha256": "6f29c24f676a55ea152d4459e45d8274d43b62c6cbd3e74172e348469c638707"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "FIN-019",
+  "name": "Savings goal planner",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 997,
+      "sha256": "234b85d2259a43e366777760adb8e081331bdbbdf5b999983daa9573ece9a87d"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1185,
+      "sha256": "9d612c60bf28489ed2d900e683b67962c642e707776bec7978f97491f35f76e2"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1028,
+      "sha256": "64d37cd1a5a1da2f0364793a067cfa6a6644e57974380bd42a8d30d11cefad39"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1438,
+      "sha256": "8fea0295644e2e40a5c80e7ad232cca5a2b42e058075c3d580d6d4273876e594"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29832,
+      "sha256": "a35aa7b4c599429d644228b24aef6c30b65e839c18e13114fd4f26912d3c20b9"
+    },
+    {
+      "path": "savings-goal-planner.xlsx",
+      "bytes": 8012,
+      "sha256": "ed8ce1efbb3f538255d78c8255379c6bb39d2b282baa6aa9b76863d9662fec92"
+    },
+    {
+      "path": "savings-goal-planner-guide.md",
+      "bytes": 1333,
+      "sha256": "6ca168a1597a70e7bde666d5f0678785b961196ff24e0184c2f12e7a243d9f19"
+    },
+    {
+      "path": "savings-goal-planner-guide.pdf",
+      "bytes": 3862,
+      "sha256": "b64f35c9b162e6321455ea8d9bd0e523cc299610d0988cb7ac7dd498e8fc5bc9"
+    },
+    {
+      "path": "savings-goal-planner-guide.docx",
+      "bytes": 10488,
+      "sha256": "0a9af740ae21a2921377c78b7d912e46410e3dee7a2f4e03cb64ffc90e08e4c1"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "CV-018",
+  "slug": "freelance-proposal-and-cv",
+  "name": "Freelance proposal and CV",
+  "category": "cv",
+  "categorySlug": "cv-kits",
+  "categoryLabel": "CV kits",
+  "productType": "DOCX CV, PDF guide, and Markdown",
+  "audience": "Freelancers who are asked for a CV and a price in the same email.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "A short CV plus a one-page proposal structure for a freelance pitch.",
+  "description": "A short CV plus a one-page proposal structure for a freelance pitch. The sample person is fictional. The guide tells you which lines to replace and what evidence to keep.",
+  "benefits": [
+    "A CV structure aimed at one kind of role",
+    "Sample bullets that show evidence, which you replace",
+    "A checklist for the send"
+  ],
+  "compatibility": [
+    "Microsoft Word or Google Docs",
+    "Any PDF reader for the guide"
+  ],
+  "tags": [
+    "cv",
+    "freelance"
+  ],
+  "prices": {
+    "ZAR": 18900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "The employment history in this file is fictional sample text. Replace every line before you send it. This kit does not guarantee interviews."
+}

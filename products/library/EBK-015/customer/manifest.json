@@ -1,0 +1,49 @@
+{
+  "id": "EBK-015",
+  "name": "Design a productised service",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 655,
+      "sha256": "9253e998e2b3e9f1cebc82ec34c83165f167572ff2cf91459721dc213387467c"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1099,
+      "sha256": "f1edb8b93cf0c5820049f35fe112b7ea4148df3b53f7cc7a27f60aeb3e53cf2f"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 755,
+      "sha256": "39ffaa9c72b07e61af065c196a30cbbd7a6f3e22e44aa0b7e3965a217c2bdffb"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1206,
+      "sha256": "7d89e85d378097671c633f360ca8efaf6fa3fb6fbe0378acea7a0b224f4c3c6e"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 31376,
+      "sha256": "7aa4b65df7de16984f737aecbe438b5cdacc3c7df27027ac1d044163cb532572"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1019,
+      "sha256": "8f983a2343bacb8f0ca1c7e772d2da69fe19e6e424bf81c9206ef0dbc312d4b8"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3444,
+      "sha256": "8917f8cb235ef5a6323d2e90b96834f04f1553e4b1b556c681b189896078ccc1"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10263,
+      "sha256": "884419a52a79126da60906d00636a419367c4514f638770f4d3b3ca04affe3ea"
+    }
+  ]
+}

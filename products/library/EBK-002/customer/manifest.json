@@ -1,0 +1,49 @@
+{
+  "id": "EBK-002",
+  "name": "Price a fixed service",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 682,
+      "sha256": "9c0ce06136f1904dc9fd606a46c2f3aebd191e81a89cf29e1718b3681caa5426"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1092,
+      "sha256": "647b9b12245d6c91a5b0f08fb5563d290c3c2ae009d2a5fdb853b840db80dc79"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 775,
+      "sha256": "e4f23a0e0f9d3ef35a3dee1b227cb2afb8f1eeb5f244ecfdeee1a1d259ed10bb"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1081,
+      "sha256": "65904a073d118a1fca9f159ec5ab4d01e790f157ed695a0acf09af7b17c9137c"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26812,
+      "sha256": "6c794b4fa58286992339bdbd143464db2c698037ffd10044230085f677439156"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1353,
+      "sha256": "e91d90d0c83a1c79fc85bd2e2b276662ebd1476fccda19f4920b95b1ae60fee6"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3667,
+      "sha256": "6b70dea93aca37531bd10946c10f2711fcb0edd54a45546218f9fe6e61c266d2"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10425,
+      "sha256": "c3702eb596422301769797a71f95fe22efec2468d4ed76fb19e686aa034f2e4d"
+    }
+  ]
+}

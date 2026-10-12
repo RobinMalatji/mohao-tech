@@ -1,0 +1,35 @@
+{
+  "id": "AI-008",
+  "slug": "local-business-captions",
+  "name": "Local business captions",
+  "category": "prompts",
+  "categorySlug": "ai-prompt-packs",
+  "categoryLabel": "AI prompt packs",
+  "productType": "Prompt library in Markdown and CSV",
+  "audience": "Shop owners posting about this week's products.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Write captions for a shop that is open on a real day, with a real offer.",
+  "description": "Write captions for a shop that is open on a real day, with a real offer. Each prompt tells you what to paste, what to ask, and what to check before you use the answer.",
+  "benefits": [
+    "A full prompt, not a one-line topic",
+    "A check so you do not ship an invented fact",
+    "The same prompts in Markdown and CSV"
+  ],
+  "compatibility": [
+    "Any chat model that accepts a pasted prompt",
+    "A spreadsheet for the CSV",
+    "No model subscription is included"
+  ],
+  "tags": [
+    "social",
+    "retail"
+  ],
+  "prices": {
+    "ZAR": 16900,
+    "USD": 1300,
+    "GBP": 1000,
+    "EUR": 1200
+  },
+  "disclaimer": "These prompts draft text for you to edit. They do not check facts, quotes, or the law. Remove anything the model invented before you send it."
+}

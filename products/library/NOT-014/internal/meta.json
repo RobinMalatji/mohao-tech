@@ -1,0 +1,35 @@
+{
+  "id": "NOT-014",
+  "slug": "lesson-building-desk",
+  "name": "Lesson building desk",
+  "category": "notion",
+  "categorySlug": "notion-systems",
+  "categoryLabel": "Notion systems",
+  "productType": "Markdown and CSV import package",
+  "audience": "Trainers turning a workshop into a short course.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "A desk for building one short course: outcome, lesson, exercise, and the file the learner gets.",
+  "description": "Used to plan a fictional four-lesson course on writing a project brief. Each lesson has an exercise and a file. If there is no exercise, the lesson is not ready.",
+  "benefits": [
+    "Pages you can import as Markdown",
+    "A CSV database with example rows you replace",
+    "Import steps that do not pretend this is a hosted Notion link"
+  ],
+  "compatibility": [
+    "Notion import for Markdown and CSV",
+    "Any editor that opens .md and .csv",
+    "Not a Notion template URL"
+  ],
+  "tags": [
+    "course",
+    "lessons"
+  ],
+  "prices": {
+    "ZAR": 20900,
+    "USD": 1600,
+    "GBP": 1300,
+    "EUR": 1500
+  },
+  "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
+}

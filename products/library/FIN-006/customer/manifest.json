@@ -1,0 +1,54 @@
+{
+  "id": "FIN-006",
+  "name": "Four-week grocery tracker",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 984,
+      "sha256": "bc61fd74bdbf47fa1ceff9ed1e53acd3d7c1be294b2d6533ea9f61f85a948677"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1190,
+      "sha256": "a37c4c2eeb0100cfb3af71b996aa76df14ea7a176594ae94d417395523bcbe51"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1037,
+      "sha256": "87ff058be7a7830ee08943177858c0371c96b2650ebef5b084c37eea06a40257"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1448,
+      "sha256": "dc9ccd9806d72c2212d75605a7f4cf6a5c9071c79c7d2b4f74a710882650c1df"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 31822,
+      "sha256": "9e14bb492a34adc1c0758f6c6b69c28bd7fc22c5c607bdf6b48d62840750fae2"
+    },
+    {
+      "path": "four-week-grocery-tracker.xlsx",
+      "bytes": 8378,
+      "sha256": "a0e1ab98fd153fcb1f6ab5398405a8d70d0ff459efc6095273a5a2ce18e8bd46"
+    },
+    {
+      "path": "four-week-grocery-tracker-guide.md",
+      "bytes": 1206,
+      "sha256": "65edf084a47019976077217d0fd4f53644203d7daad6d429be711295ef1ad03c"
+    },
+    {
+      "path": "four-week-grocery-tracker-guide.pdf",
+      "bytes": 3774,
+      "sha256": "96bbd16948959b3dff73b983a4b1501c5a6b31d7dc47a61015108e830105e63e"
+    },
+    {
+      "path": "four-week-grocery-tracker-guide.docx",
+      "bytes": 10429,
+      "sha256": "74815d88bddb0eb1e88f02c420ef899ac317020025b827ebb04ad74cb4626269"
+    }
+  ]
+}

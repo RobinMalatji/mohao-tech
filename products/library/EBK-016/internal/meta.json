@@ -1,0 +1,34 @@
+{
+  "id": "EBK-016",
+  "slug": "hire-a-first-contractor",
+  "name": "Hire a first contractor",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Owners hiring help for the first time.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Brief, pay, and review a contractor without pretending they are staff.",
+  "description": "Brief, pay, and review a contractor without pretending they are staff.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "hiring"
+  ],
+  "prices": {
+    "ZAR": 18900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

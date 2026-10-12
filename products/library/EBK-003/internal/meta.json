@@ -1,0 +1,35 @@
+{
+  "id": "EBK-003",
+  "slug": "client-onboarding-checklist",
+  "name": "Client onboarding checklist",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Studios and freelancers who lose a week at the start of every job.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Start a project with the files, the decision maker, and the definition of done.",
+  "description": "Start a project with the files, the decision maker, and the definition of done.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "clients",
+    "onboarding"
+  ],
+  "prices": {
+    "ZAR": 17900,
+    "USD": 1400,
+    "GBP": 1100,
+    "EUR": 1300
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

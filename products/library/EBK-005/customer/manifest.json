@@ -1,0 +1,49 @@
+{
+  "id": "EBK-005",
+  "name": "Remote team rituals",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 644,
+      "sha256": "9c56c965e02ac4b2c558b3afaa79b02d81782fc3fd34af128e1759b54bcf4891"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1090,
+      "sha256": "ecd81e8dff50745964f8f9cf466d70e1f756acc9292f38aea4f978932beb3119"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 760,
+      "sha256": "cc3dd71330c924c328875c8fc556b2f64682542d673b2b6462be4ea781ec739e"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1079,
+      "sha256": "049ab810341decc5c8051de256cb4b1fa08e85d7426277d77ef73a49909b756f"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26445,
+      "sha256": "b5e7689f00c45c15eeef6076a91921a574a677743444012e3f32b9a8f502455f"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1167,
+      "sha256": "987730ab60cb2cb6eb3035aa20a9d1b0300af78671c56f22b11ece2839169294"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3506,
+      "sha256": "fc24e163eb99255db6ea7408434e8ba31c55f431fa8fb647970db4334712e8f4"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10350,
+      "sha256": "76ae129dc218c6d579b07033292b662aa8a7808c06bce4b93290b6c9f12c0a1c"
+    }
+  ]
+}

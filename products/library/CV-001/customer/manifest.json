@@ -1,0 +1,54 @@
+{
+  "id": "CV-001",
+  "name": "Software engineer CV kit",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 849,
+      "sha256": "d9729e9b9388ddb4df9040700bf0d9f9587fd209644b6110af50f8e8f276fa4f"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1103,
+      "sha256": "3044ac612f483b6f9095945478dca83412b896a4dd511ca56806e57680e95953"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 854,
+      "sha256": "c4ae04b96b0f6cd21e204db1cb47c99746cb0c970efed855671cfa6ac8f48023"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1258,
+      "sha256": "db0be8aebb38160a71b1ef4e7dde24e2aa1016f9b3b5c559c0077b612be2efd0"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29704,
+      "sha256": "b2619ede9af71b94de67db5d7524af95450676538f83c7e10e4e474d9c97e7d4"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10144,
+      "sha256": "79807dc90a6aa65376ba59d0990cba2c320121ce9f9106e5a0e336c6054a4eab"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 717,
+      "sha256": "e0d33db06c352d7be64ca01ff4dd9f3fe58003f219c0f0deb9323e23ea070a4b"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3443,
+      "sha256": "0a6ae4c11b205749cdbebd3cf18f2410e8e7159e121cbe6e819c5e53636d49ea"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 829,
+      "sha256": "e34f567e7f6f81bca38d250b68261fc433c6452b424486979ad9ad465ccb31a4"
+    }
+  ]
+}

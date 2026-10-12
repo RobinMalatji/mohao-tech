@@ -1,0 +1,69 @@
+{
+  "id": "CRS-005",
+  "name": "Web accessibility pass",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 795,
+      "sha256": "8201a69a333e79bcacaa7b4d9b7e091c3c0dfeb06b799e5f51500f60bdcf9149"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1090,
+      "sha256": "3b54176400e97feae1b12a5efb155805bd9a15f806f0a89912f0c300421380f6"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 819,
+      "sha256": "24c0c4dd80bf530dae5bcecec41fac6cccf52ca6d2d860eabcedbf4ffd7beab3"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1599,
+      "sha256": "e0fefb084294786f40110e39171d245a0278c47415a0de9eff9d17f8b5ee0bbf"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30106,
+      "sha256": "2a6979a11c66245f31f59a7c0a61abcaf90fcda3e1c880fdda3cf6ee90ce201d"
+    },
+    {
+      "path": "lessons/01-headings.md",
+      "bytes": 85,
+      "sha256": "6877c339d947d40df2e014c4675df661dfe896cd94bda9ef19cdb2534fe10ee7"
+    },
+    {
+      "path": "lessons/02-contrast-and-colour.md",
+      "bytes": 121,
+      "sha256": "ec489c18e158cd7f0cc12b1ac4d51f43b9463940a074536fbeea343fcb618e50"
+    },
+    {
+      "path": "lessons/03-keyboard.md",
+      "bytes": 83,
+      "sha256": "154817f48cf5b303eb3a000a86f03f1e1dc391b96f3c6abe347990d294f226c4"
+    },
+    {
+      "path": "lessons/04-forms.md",
+      "bytes": 95,
+      "sha256": "aecfa09bb08a195e7ee22311f69521261b639a79fddf230da330c29ad42cbbc7"
+    },
+    {
+      "path": "slides.pptx",
+      "bytes": 68216,
+      "sha256": "c9604633a3c48cd61555d0f7e7aeacd8350cd67dbcd2a5b55f0c35340d7640b8"
+    },
+    {
+      "path": "worksheet.pdf",
+      "bytes": 2867,
+      "sha256": "820d024a176d7da6c6e236846862b075ae3d1aa2a27411faf3ac847cc3141d21"
+    },
+    {
+      "path": "worksheet.md",
+      "bytes": 382,
+      "sha256": "80e71830b8f0cc5574d0ca256a10db6ccb985d9821b4e6d4b2fbc606af52b9dc"
+    }
+  ]
+}

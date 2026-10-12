@@ -1,0 +1,69 @@
+{
+  "id": "CRS-012",
+  "name": "Study weeks",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 823,
+      "sha256": "d6fb3d60fbf41d76cfcafd36affe1453a9af88f84b5bd51c5ec4bac0527b80f0"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1079,
+      "sha256": "0809dcdda71aefda4ec39c43f75c7b57d8c4d061ca33ca65726a8499f9776720"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 805,
+      "sha256": "7814f08a38bec861a2f9c904131c920d5e844e2879c12223e516b50a6816b9d7"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1469,
+      "sha256": "9fc1704f8c24784fe85beb19a13570d3ced352c27630c0f4481b8bf17682307a"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 25093,
+      "sha256": "a459c1079ce5ec6f89ca42d19ca57972a526e0ec92441a584e9dd44edcd9dbf8"
+    },
+    {
+      "path": "lessons/01-the-deadlines.md",
+      "bytes": 68,
+      "sha256": "f6c8cfd2335827d314685b255af8ffecf4bc848d13c74c59df991f16f48e4669"
+    },
+    {
+      "path": "lessons/02-the-blocks.md",
+      "bytes": 73,
+      "sha256": "fd2170660e4aebc3e04a916249dcd5becd19ec495f781b0603cd13fec993b5a6"
+    },
+    {
+      "path": "lessons/03-the-practice.md",
+      "bytes": 90,
+      "sha256": "41e5c51fc1541ba3444787337570da073d2168d1a265faaf68fa345699edd4f4"
+    },
+    {
+      "path": "lessons/04-the-review.md",
+      "bytes": 102,
+      "sha256": "fe5aa46bc89b73906a89fd4d7764a0ab26d28e9f306d3c46bb3aeebc081e4311"
+    },
+    {
+      "path": "slides.pptx",
+      "bytes": 68159,
+      "sha256": "5bc422b7ce48dbb8012068861e83d253c525325f8f5bedfdfbb3d3065ade8745"
+    },
+    {
+      "path": "worksheet.pdf",
+      "bytes": 2805,
+      "sha256": "1cbc188988a6ab716b69bb4a12808b3f6fd207548a36b09c025b634b79d0377a"
+    },
+    {
+      "path": "worksheet.md",
+      "bytes": 312,
+      "sha256": "022a11afb65425f77be25453411d56836390c8d5c992a79acc821ec71b968089"
+    }
+  ]
+}

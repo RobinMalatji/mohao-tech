@@ -1,0 +1,34 @@
+{
+  "id": "CRS-016",
+  "slug": "reading-a-simple-income-statement",
+  "name": "Reading a simple income statement",
+  "category": "courses",
+  "categorySlug": "courses",
+  "categoryLabel": "Courses",
+  "productType": "Lessons, slides, and a worksheet",
+  "audience": "Owners looking at a statement their bookkeeper sent.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Revenue, costs, and profit as words before ratios.",
+  "description": "Revenue, costs, and profit as words before ratios. Four short lessons, a slide file, and a worksheet. Study it on your own.",
+  "benefits": [
+    "Four lessons with an exercise each",
+    "Slides you can present to yourself or a colleague",
+    "A worksheet of the exercises"
+  ],
+  "compatibility": [
+    "A text editor or Notion for the lessons",
+    "PowerPoint, Keynote, or Google Slides for the PPTX",
+    "A PDF reader for the worksheet"
+  ],
+  "tags": [
+    "finance"
+  ],
+  "prices": {
+    "ZAR": 24900,
+    "USD": 1900,
+    "GBP": 1500,
+    "EUR": 1700
+  },
+  "disclaimer": "This is a self-study pack: lessons, slides, and exercises. It is not an accredited qualification and it does not include a tutor."
+}

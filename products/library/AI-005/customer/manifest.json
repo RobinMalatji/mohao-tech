@@ -1,0 +1,44 @@
+{
+  "id": "AI-005",
+  "name": "Code review prompts",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 788,
+      "sha256": "c745f0c3105f902d20419cc48c0b34b8cee8b9950364908faa7f376494b3e1e0"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1099,
+      "sha256": "49e1cb271e4124394974fd1bf6ea094434ab60a011bf060e137172c2bb3f43e1"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 877,
+      "sha256": "25254b260f0f681ad2b3f1ddc43f031d7734b33f04036b4b3f22ec7da9ed05cc"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1088,
+      "sha256": "1c852ad83c9b50cba6d35dfd0e68559981889a4b9214f1fcad8ef34eec17ed2c"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28163,
+      "sha256": "931f1e63b9f3ada995ee9e0f56017b206b056f5a77156cf0b3be61fb715849e3"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 1325,
+      "sha256": "ee2724d6e674f07e710eb62d9af0db6b8a621d7db32d9b60fafe0c153c15bfb6"
+    },
+    {
+      "path": "prompts.csv",
+      "bytes": 1039,
+      "sha256": "e3d5fc5da56b6244d9593d034c2a857cde62ce5a331c8c6aee3d96cf120a44e2"
+    }
+  ]
+}

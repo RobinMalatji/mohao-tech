@@ -1,0 +1,49 @@
+{
+  "id": "ECM-003",
+  "name": "Returns draft for digital goods",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 683,
+      "sha256": "5b296f130458231e94747ee247dcf8da5f18b22403e7109f8691aea7f3f7e62d"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1155,
+      "sha256": "972e82ba1d63dcaa6b083d1179b17322896bcf1406591b087d6b85ef7b7fdce7"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 717,
+      "sha256": "e54eb469de22ad2a236bdb8f58b039da7c2635ffc8cc5d0444059e68837be003"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1089,
+      "sha256": "c08a010bf9bdac2f0c3f77e3627793b9b1ba57aad75e507e433db85e92cd6054"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30269,
+      "sha256": "f7f3f7b4ac5be305e459edd511c0fe772d86966005f8b44b687e5499c282a2dd"
+    },
+    {
+      "path": "kit.md",
+      "bytes": 779,
+      "sha256": "84ba48c31289a17b640f9a5ac7f2ea2b06293ad14de3e4b825c11a8f9bd0d1d1"
+    },
+    {
+      "path": "kit.pdf",
+      "bytes": 3293,
+      "sha256": "a401afb48cb84baf572051292c1312b4bb25b4cbb27b3b8e7a7d3103a66f6f4b"
+    },
+    {
+      "path": "kit.docx",
+      "bytes": 10155,
+      "sha256": "1a448033c1a73e7953fa7c477ca9163eef751f45cc9b673eb641516d171692a7"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ECM-019",
+  "name": "One-page brand rules for a shop",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 639,
+      "sha256": "ed11bd1e42508204d6b8509e8ba698d9eec082a129052a8d90b46ac24823abd0"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1155,
+      "sha256": "0ed030f0555944bb1884c5bad809513ffa539d9cc434b2e1e7a7abee4283e0c9"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 713,
+      "sha256": "bf40988942a1e6c06172a6e5562ab87e5905d0ab23f16c34a2bff882f2200ce1"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1089,
+      "sha256": "2c5c9dcd86ff56bb71a0f133553b2b1e160299f5d2a2cc28eb739bf0f27aeea7"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 31052,
+      "sha256": "9b78b33c92a57a9968775d6ebb74da783e23d07c0e6fe198ad7117fcee0f612e"
+    },
+    {
+      "path": "kit.md",
+      "bytes": 356,
+      "sha256": "9f606dc0a576cfa9ee994ee49f280ae795ab38449c1a724a2dc00b58be000e04"
+    },
+    {
+      "path": "kit.pdf",
+      "bytes": 2865,
+      "sha256": "690d01f40cc449efe073d37ae37037107c13bc7c8b10290fe7664a9e6770d99f"
+    },
+    {
+      "path": "kit.docx",
+      "bytes": 9937,
+      "sha256": "db6a39680a114d5d405fa99b9cc8c2d36ef98760d82e56a21be5d9edda5c603f"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ANL-015",
+  "name": "Subscription cohort size",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 986,
+      "sha256": "5a5cd7a28b4804aa26690058d4fc04020946e5502c02d2168f22d3d4c833e8bd"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1188,
+      "sha256": "9b40d951c3a0b1d1386d1889e42c84c6b9eb10ec1e528a65e183e40ca01f637c"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 951,
+      "sha256": "7463162bebb3e355ec7f2cfc9f2834b83ad557ddaa579378a276ba62bc0c28fa"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1467,
+      "sha256": "01fe968a3a6a422c136d66602f899d39364735010ea23e7cbe2747b916422b56"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 33150,
+      "sha256": "2ddd84c8301c18a7a510fe11c034876c6d297bcf142fbdee51777686675cca49"
+    },
+    {
+      "path": "summary.xlsx",
+      "bytes": 8041,
+      "sha256": "f0bf51808f858134fb8e5d89e47e987c2e7c2cb6fad1440cc1ca2212e196dac7"
+    },
+    {
+      "path": "summary-guide.md",
+      "bytes": 580,
+      "sha256": "a345c08d13ce8df7716d42671be507fdfa70e88a149a79b33c91792048fd3006"
+    },
+    {
+      "path": "summary-guide.pdf",
+      "bytes": 3228,
+      "sha256": "d62e51a23112307944a1e91a84116e0f711819848e50afee250c12e2f66937de"
+    },
+    {
+      "path": "summary-guide.docx",
+      "bytes": 10062,
+      "sha256": "bdf8cec738e4b1f8a33442f8924fdca88c77105f4f314dec176fde7492869b1e"
+    },
+    {
+      "path": "facts.csv",
+      "bytes": 370,
+      "sha256": "8d90c2da1f03e770c3cc389ed2519236ee7eee7a5dc753650979ab0b8464f722"
+    },
+    {
+      "path": "measures.dax",
+      "bytes": 153,
+      "sha256": "92a002a2d5fe3f810c12e97b1005053e31367a656614cbce54fa86fc2d63bf41"
+    },
+    {
+      "path": "data-dictionary.md",
+      "bytes": 1042,
+      "sha256": "6a08dbc52c589aaa9e92a2af12868110cbff43e58c7012d28d48b4787f44b009"
+    }
+  ]
+}

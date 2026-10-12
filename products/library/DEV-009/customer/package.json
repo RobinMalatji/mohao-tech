@@ -1,0 +1,8 @@
+{
+  "name": "env-example-checker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  }
+}

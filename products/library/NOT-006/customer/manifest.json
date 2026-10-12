@@ -1,0 +1,49 @@
+{
+  "id": "NOT-006",
+  "name": "Role search tracker",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 797,
+      "sha256": "7429ff1928dabb32c309edc0bbbd260fc9c4615e78dab5d5304868b2f6a195fb"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1108,
+      "sha256": "613bd226dc487ac37d945cd39403062a4a68389535e7241f5c0c3402166209f3"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 883,
+      "sha256": "bfdfb8a898817c6c0c48626ff63dd29afdd197853e86ec260c9137192a095c26"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1258,
+      "sha256": "4421a0b13f87d1d2d21174bc9fb5229323f6fabbdea9cafdcbfb8c054cb23529"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28695,
+      "sha256": "1d8d9d27cdeb7c7dac1ea57cf4c738bcedf9256cd798583c8b54a16f120fc290"
+    },
+    {
+      "path": "pages/stages.md",
+      "bytes": 205,
+      "sha256": "bee53b35c929d642d3582a920a957c63c691bd941b877460d6a5af01ba7914f5"
+    },
+    {
+      "path": "databases/roles.csv",
+      "bytes": 236,
+      "sha256": "e4395b8c5ee9102986b5dbf0fb8252a41355a8f47dd33dbc4cdb4dd9d2822698"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 1056,
+      "sha256": "81a022ade31b168d6c5967ac0ff93b1ab443e8a3b6f3dad88877d0533be5ab9e"
+    }
+  ]
+}

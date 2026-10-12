@@ -1,0 +1,49 @@
+{
+  "id": "EBK-019",
+  "name": "Run a paid workshop",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 646,
+      "sha256": "51e8160938f01146d61ee88d0af11ecc6243b5f02110f033dac0f9dfd5f56ac8"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1090,
+      "sha256": "43bbb801286c815d4de0591b8d293879a0be2df35752e39cd08b58a16bfe43eb"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 751,
+      "sha256": "60b27ec5a0f1d7c70c055b06f3394b428bb51dd0585ce4acd31a342221103315"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1079,
+      "sha256": "42c5eaae3fdd8f7a56be9e89cb1aa2a7dc3df9d62219ed14208e21b3bbcee8df"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27007,
+      "sha256": "c7e8160ab257473d0b9d1695b63e8f079321a37f2e2f1eca225781fe416ea9d5"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1046,
+      "sha256": "6fe356185949ef5b7d39a7a18acaa1b8ea2e2d0db07a603654342e3f0c694780"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3446,
+      "sha256": "a1aa9eb9c82d4a7e236e77768f996cc60ce0c93dbfab739190f77f76446ee422"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10294,
+      "sha256": "72ff302df78f30c8799ccd13078f999476510cbd20a870f12d7efbcc4439edcf"
+    }
+  ]
+}

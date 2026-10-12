@@ -1,0 +1,34 @@
+{
+  "id": "EBK-018",
+  "slug": "a-brand-voice-page",
+  "name": "A brand voice page",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Small businesses who have more than one person writing.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "One page that tells a writer what you sound like, with examples.",
+  "description": "One page that tells a writer what you sound like, with examples.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "brand"
+  ],
+  "prices": {
+    "ZAR": 15900,
+    "USD": 1200,
+    "GBP": 1000,
+    "EUR": 1100
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

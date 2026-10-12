@@ -1,0 +1,35 @@
+{
+  "id": "NOT-018",
+  "slug": "agency-quarterly-objectives",
+  "name": "Agency quarterly objectives",
+  "category": "notion",
+  "categorySlug": "notion-systems",
+  "categoryLabel": "Notion systems",
+  "productType": "Markdown and CSV import package",
+  "audience": "Small agencies setting a quarter without a heavy framework.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Three objectives for a four-person agency, each with a measure.",
+  "description": "A quarterly page for a fictional agency. An objective without a measure is sent back. The sample quarter is October to December 2026.",
+  "benefits": [
+    "Pages you can import as Markdown",
+    "A CSV database with example rows you replace",
+    "Import steps that do not pretend this is a hosted Notion link"
+  ],
+  "compatibility": [
+    "Notion import for Markdown and CSV",
+    "Any editor that opens .md and .csv",
+    "Not a Notion template URL"
+  ],
+  "tags": [
+    "goals",
+    "agency"
+  ],
+  "prices": {
+    "ZAR": 21900,
+    "USD": 1700,
+    "GBP": 1300,
+    "EUR": 1500
+  },
+  "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
+}

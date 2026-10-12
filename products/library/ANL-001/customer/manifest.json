@@ -1,0 +1,69 @@
+{
+  "id": "ANL-001",
+  "name": "Retail sales summary",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 928,
+      "sha256": "6f5df0e5afc9f53e8518ff3dfc450011abf39294d9f5b12dd61a5e0fcce792d4"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1184,
+      "sha256": "4084d00449ada704a4e2fafbdffa8d95c37fe70a135aefd9830728505c7d34eb"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 891,
+      "sha256": "085288fa573e608518c3c611d1b06c1e2c61d803ba0b543eb248d4ff8642e034"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1474,
+      "sha256": "9c04dc7fcb22769e4a5f55feaaa6b1e8896b457e374fe6c66884cb1639f982ef"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 34689,
+      "sha256": "d29f613d2e8f206affbed861a67c8b085d08cd4e1c197927c1321d4ed768d915"
+    },
+    {
+      "path": "summary.xlsx",
+      "bytes": 8076,
+      "sha256": "9d4026fd5a1fb38dfa608735b911c620dbd606a8c378ee05b3288820edde1dbc"
+    },
+    {
+      "path": "summary-guide.md",
+      "bytes": 549,
+      "sha256": "ead58be2b330cd985d12404eda230e1c35531103a042ff6c09c2f54febd50912"
+    },
+    {
+      "path": "summary-guide.pdf",
+      "bytes": 3146,
+      "sha256": "edb6861c45fe707cf03687a0b329134cfff8e633563f359bbcf41ea2dd4c07dd"
+    },
+    {
+      "path": "summary-guide.docx",
+      "bytes": 10014,
+      "sha256": "18be99caba6455d02e3be1e063551ec53109edd561a2f1b33aed96b480cacef8"
+    },
+    {
+      "path": "facts.csv",
+      "bytes": 478,
+      "sha256": "b56c034c8a3f6a94f69977104f027afb9eecb64a895a1c257644dccc5de9e693"
+    },
+    {
+      "path": "measures.dax",
+      "bytes": 123,
+      "sha256": "1fe0d8e8a6f4a14ded036f4821df5287fffd72a5c0bdda5ba33ad6bc498d577d"
+    },
+    {
+      "path": "data-dictionary.md",
+      "bytes": 969,
+      "sha256": "bcec79212c04b755dfa78e531ac33aeec8d2cf78110351473bd07acc9d900c15"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "EBK-012",
+  "name": "Freelance negotiation scripts",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 626,
+      "sha256": "423354ac58e7a607c527fc099a8d3f5bd16a8f139057484ec6c485fefdcb5bb2"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1100,
+      "sha256": "eec7ae89aec3bd71c23f4a85f52b5941868d1e486743d9fe550cda98c7ff8442"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 742,
+      "sha256": "dfef3a8adde2c581bb296543c86945c9b33bdccf4896fcefd4420a2d282b68ec"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1207,
+      "sha256": "12165deefbb0a62c6b86c74038601f598d3e525b29151e7f575428b3a24a63ba"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30758,
+      "sha256": "c33acf04ba7d3bed8cde35614fb824b2067cf9506cf21b7c27e1d77a778f1ab3"
+    },
+    {
+      "path": "guide.md",
+      "bytes": 1123,
+      "sha256": "6a87dd66210683c3d91ce3c23c8ca299a946d6ba3dcf3ea85b6bbad3dc80fbb6"
+    },
+    {
+      "path": "guide.pdf",
+      "bytes": 3542,
+      "sha256": "172feb58dd1065abfb5207464b4139e6e259e97614a36ab4e621072828f4e856"
+    },
+    {
+      "path": "guide.docx",
+      "bytes": 10340,
+      "sha256": "b44645ee6d2d530d9b6e79150b76cabf91378e212b6f3fe47db667cce6c4c26a"
+    }
+  ]
+}

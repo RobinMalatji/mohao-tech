@@ -1,0 +1,35 @@
+{
+  "id": "NOT-007",
+  "slug": "reading-notes-desk",
+  "name": "Reading notes desk",
+  "category": "notion",
+  "categorySlug": "notion-systems",
+  "categoryLabel": "Notion systems",
+  "productType": "Markdown and CSV import package",
+  "audience": "People who finish books and cannot find the page later.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Notes that keep the claim, the page, and what you will do with it.",
+  "description": "A reading system for operators, not a star rating. Each note has a claim, where it is in the book, and whether it changes a decision.",
+  "benefits": [
+    "Pages you can import as Markdown",
+    "A CSV database with example rows you replace",
+    "Import steps that do not pretend this is a hosted Notion link"
+  ],
+  "compatibility": [
+    "Notion import for Markdown and CSV",
+    "Any editor that opens .md and .csv",
+    "Not a Notion template URL"
+  ],
+  "tags": [
+    "reading",
+    "notes"
+  ],
+  "prices": {
+    "ZAR": 15900,
+    "USD": 1200,
+    "GBP": 1000,
+    "EUR": 1100
+  },
+  "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
+}

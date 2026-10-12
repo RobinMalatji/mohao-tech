@@ -1,0 +1,69 @@
+{
+  "id": "CRS-001",
+  "name": "Spreadsheet habits",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 825,
+      "sha256": "f94a46112e6b6175d6e43035b88eff42feff4bcf4b631d61b36010242f5388b9"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1086,
+      "sha256": "014907d09ab09a61d415ccf0d7298c8cacb89b2eeff85e73a6eab78edb312898"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 848,
+      "sha256": "f0592338add37be09f26441378588787c22c71bd2feb1cd55dbedf31cfc7cefb"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1477,
+      "sha256": "1f9cbfc3165aca63e4bb9e189a40f80f2955b24ee3a05d9c2fe786570a78504f"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27783,
+      "sha256": "00954f09e7c61911af81a63aa5982741dbd0d21de7fdb54667a6d61563ad69bb"
+    },
+    {
+      "path": "lessons/01-label-the-unit.md",
+      "bytes": 155,
+      "sha256": "43d513fe57f8f4162c11150de7039a5dd1d826dcb34434fffb11d1e65abe6893"
+    },
+    {
+      "path": "lessons/02-one-formula.md",
+      "bytes": 139,
+      "sha256": "0054f172e4d796810e55b69960a123b7a387a2fdeab4e45042f19d3f33e1a466"
+    },
+    {
+      "path": "lessons/03-a-check.md",
+      "bytes": 152,
+      "sha256": "bdad9b43fa6ea980d230a15875c9b8aa2db44ab7a24d5261ea5b6fc96ff7a64b"
+    },
+    {
+      "path": "lessons/04-a-note.md",
+      "bytes": 131,
+      "sha256": "b1d9ffd14b6014055b192fa7b844413bd46f068d4e8164b4ac4363f5501ad572"
+    },
+    {
+      "path": "slides.pptx",
+      "bytes": 68405,
+      "sha256": "3bb5e20312bd6021054b69ede44cf1e2bf7574ba1c80f898c6d3556b0df73d38"
+    },
+    {
+      "path": "worksheet.pdf",
+      "bytes": 2895,
+      "sha256": "55124549bfb6ee5eeb706d7bd8d1f7e70b06f6760a8c41f1045c80ae1a04c4f0"
+    },
+    {
+      "path": "worksheet.md",
+      "bytes": 408,
+      "sha256": "c70e2e0b59ecb6bbdd42a8bbc0957b5e926fa1a0afc882f79475a3721e68b7d3"
+    }
+  ]
+}

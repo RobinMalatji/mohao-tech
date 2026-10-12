@@ -1,0 +1,7 @@
+Title,Use when,Prompt,Check
+Source list,You pasted notes.,List the sources I actually pasted. Do not add famous studies from memory.,Every source is in the paste.
+Claims,You need the findings.,"List claims and the source for each. If two sources disagree, show both.",Disagreements stay.
+Not established,You are about to recommend.,Write what these sources do not establish.,The section is specific.
+Brief,You need one page.,"Write a brief: question, what the sources say, what they do not say, what I might do next. Do not add statistics.",No new numbers.
+Quote check,You want a quotation.,Use a quotation only if it appears in my paste. Otherwise paraphrase and say it is a paraphrase.,Quotes are exact.
+Audience cut,A specific person will read it.,Cut the brief for that reader. Remove background they do not need. Do not remove the disagreements.,Disagreements remain.

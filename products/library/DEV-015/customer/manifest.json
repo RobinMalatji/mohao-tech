@@ -1,0 +1,49 @@
+{
+  "id": "DEV-015",
+  "name": "Webhook HMAC check",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 820,
+      "sha256": "3ce04fe33a80dc067d3279c966ebd4eb9487064598656d3d2159cf2362f398f4"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1046,
+      "sha256": "7524dd5300554044e00005f92f5d60c466e46af9af2203a6a7aa34183d602638"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 936,
+      "sha256": "d27b0cce5b952ac9774ca76507c7f8f4d0ef4227a94750e678cd3949590560fa"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1145,
+      "sha256": "cc43ab35b95787290c4c5d2dd237ecae14421bcb387ba3f15424c1abc42c99e9"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28467,
+      "sha256": "c96e3c22b19f0b09b07cbfc79132681c77a21040d1e5693df3437e6416fabed5"
+    },
+    {
+      "path": "package.json",
+      "bytes": 120,
+      "sha256": "a52f74a4c1bbcfaa29146f6ebe6a549bfdf786cbbd49930404d2f73b6aabc2f1"
+    },
+    {
+      "path": "src/hmac.mjs",
+      "bytes": 374,
+      "sha256": "49bd15a564612cb8133a371520493c4d5a715cf04ddd989f92e2a5525af41bb2"
+    },
+    {
+      "path": "src/hmac.test.mjs",
+      "bytes": 471,
+      "sha256": "d029f6cbb534e1cefb97bce29ec6d8e8b90bba11b6bb2d24921afa9c53f80927"
+    }
+  ]
+}

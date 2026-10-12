@@ -1,0 +1,59 @@
+{
+  "id": "DSN-019",
+  "name": "Job-open story",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 829,
+      "sha256": "e3ee25c32230bb2553b81138179cd00c005c85310488f0fe7d8febfb758b2283"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1127,
+      "sha256": "49b88a7c5fc55c467ba9e2850070116c81000c54dfaa6c1368b48ef349e08f7b"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 940,
+      "sha256": "9769b84cc2ff64facdb76a7bb77796bb885847956713faf1b25a909971f5df23"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 963,
+      "sha256": "9607c80389b42de4b96ee4ce0f4c7e65cd7490ef9eef875692347c0ee22f40a4"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 24640,
+      "sha256": "f180adf2d3aed55b24fcb0c6585019d8f4a3243250782fd452425ce20721d196"
+    },
+    {
+      "path": "designs/job-story.svg",
+      "bytes": 1116,
+      "sha256": "1acd2dbe2616c10a4590811ee593b195cc1835778fbdbd0268a00a313b2b6562"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1175,
+      "sha256": "89fc1ecaf1b92982336294e83969cfdf2d523156ee2130e6720f5600c49caadf"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "0137285c7fa223c32bdf2dfed3d36873be89de244c747d0e9eb18eb1e3e7c867"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 888,
+      "sha256": "533ca9ef4a0e055576e8569ca8cacc64623d3e44003205886d91bd02b3b4cd0a"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3474,
+      "sha256": "ea2c08c968205bcd1fcc170ea410f280b2df657ac45abb8fba33b92849674b46"
+    }
+  ]
+}

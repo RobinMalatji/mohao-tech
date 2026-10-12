@@ -1,0 +1,54 @@
+{
+  "id": "CV-006",
+  "name": "Retail supervisor CV kit",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 779,
+      "sha256": "37fd203d8cb520591d553e62dd10347089f879d627dcf616629b65cdb5b814bf"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1103,
+      "sha256": "fccb381c9fdaaef4e390ec484e780593557b3a4c37c88e2372531f55ef16fc10"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 812,
+      "sha256": "3555bdc4128c3a2b59f6da6f8c159554f0869499ad5b6c25c5cc86d93de71d33"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1258,
+      "sha256": "30197157b96e862e47a9a818cc8ed287b2609db9509ebf94f72316a2fe4c5301"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28642,
+      "sha256": "b10ab172fee5041666760806230ff65501df330ad5a25e9b9ab015b2a69d58f3"
+    },
+    {
+      "path": "sample-cv.docx",
+      "bytes": 10053,
+      "sha256": "1b75c8e5a93e620ddb64e9c983ba97cf90d5eb6ee8199e9381f72d4555649dcd"
+    },
+    {
+      "path": "sample-cv.md",
+      "bytes": 558,
+      "sha256": "ddfd376f27f13882492eb85a12db3baaa23534169501dee5182e2bcd8e377e90"
+    },
+    {
+      "path": "how-to-finish.pdf",
+      "bytes": 3342,
+      "sha256": "f4cfb39d39156243300dc1eb48cfa76a0e54585488b5cb8ff59c27632f961322"
+    },
+    {
+      "path": "how-to-finish.md",
+      "bytes": 730,
+      "sha256": "d6a82c05619b0fe9cfce2699a2e4e4cb5e2704510743a54af50dc8116ac1b888"
+    }
+  ]
+}

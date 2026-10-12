@@ -1,0 +1,1817 @@
+{
+  "generatedOn": "2026-10-12",
+  "counts": {
+    "finance": 20,
+    "design": 20,
+    "notion": 20,
+    "analytics": 20,
+    "ebooks": 20,
+    "prompts": 20,
+    "cv": 20,
+    "ecommerce": 20,
+    "courses": 20,
+    "developer": 20
+  },
+  "reports": [
+    {
+      "id": "FIN-001",
+      "name": "Household monthly budget",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 47364
+    },
+    {
+      "id": "FIN-002",
+      "name": "Debt payoff comparison",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 47012
+    },
+    {
+      "id": "FIN-003",
+      "name": "Emergency fund planner",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 45404
+    },
+    {
+      "id": "FIN-004",
+      "name": "Tax season document checklist",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 48532
+    },
+    {
+      "id": "FIN-005",
+      "name": "Paycheque split planner",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 44191
+    },
+    {
+      "id": "FIN-006",
+      "name": "Four-week grocery tracker",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 47421
+    },
+    {
+      "id": "FIN-007",
+      "name": "Vehicle finance comparison",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 44615
+    },
+    {
+      "id": "FIN-008",
+      "name": "Rent and ownership cost comparison",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 48150
+    },
+    {
+      "id": "FIN-009",
+      "name": "Event budget variance",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 42719
+    },
+    {
+      "id": "FIN-010",
+      "name": "Freelance invoice ledger",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 44954
+    },
+    {
+      "id": "FIN-011",
+      "name": "Student month planner",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 43770
+    },
+    {
+      "id": "FIN-012",
+      "name": "Retirement contribution sketch",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 45681
+    },
+    {
+      "id": "FIN-013",
+      "name": "Net worth snapshot",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 43291
+    },
+    {
+      "id": "FIN-014",
+      "name": "Subscription audit",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 41323
+    },
+    {
+      "id": "FIN-015",
+      "name": "Travel budget planner",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 43296
+    },
+    {
+      "id": "FIN-016",
+      "name": "Side-hustle profit calculator",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 45491
+    },
+    {
+      "id": "FIN-017",
+      "name": "Family pocket-money planner",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 45323
+    },
+    {
+      "id": "FIN-018",
+      "name": "Healthcare cost tracker",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 45530
+    },
+    {
+      "id": "FIN-019",
+      "name": "Savings goal planner",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 45102
+    },
+    {
+      "id": "FIN-020",
+      "name": "Annual money review",
+      "category": "finance",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 44373
+    },
+    {
+      "id": "DSN-001",
+      "name": "Consultant discovery carousel",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 33781
+    },
+    {
+      "id": "DSN-002",
+      "name": "Founder LinkedIn banner",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 27385
+    },
+    {
+      "id": "DSN-003",
+      "name": "Saturday kitchen menu",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 27719
+    },
+    {
+      "id": "DSN-004",
+      "name": "Interview podcast cover",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 29322
+    },
+    {
+      "id": "DSN-005",
+      "name": "Listing card for a flat",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 27283
+    },
+    {
+      "id": "DSN-006",
+      "name": "Workshop certificate",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 28865
+    },
+    {
+      "id": "DSN-007",
+      "name": "YouTube thumbnail pair",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 12,
+      "zipBytes": 28227
+    },
+    {
+      "id": "DSN-008",
+      "name": "Studio price list",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 25141
+    },
+    {
+      "id": "DSN-009",
+      "name": "Night-market poster",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 27546
+    },
+    {
+      "id": "DSN-010",
+      "name": "Donation appeal card",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 28006
+    },
+    {
+      "id": "DSN-011",
+      "name": "Product launch announcement",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 29711
+    },
+    {
+      "id": "DSN-012",
+      "name": "Client quote cards",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 12,
+      "zipBytes": 27223
+    },
+    {
+      "id": "DSN-013",
+      "name": "Sale badge set",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 27948
+    },
+    {
+      "id": "DSN-014",
+      "name": "Case-study cover",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 26616
+    },
+    {
+      "id": "DSN-015",
+      "name": "Email header bar",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 24633
+    },
+    {
+      "id": "DSN-016",
+      "name": "Class schedule story",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 28504
+    },
+    {
+      "id": "DSN-017",
+      "name": "Wedding invitation suite",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 12,
+      "zipBytes": 29313
+    },
+    {
+      "id": "DSN-018",
+      "name": "Cafe loyalty card",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 26432
+    },
+    {
+      "id": "DSN-019",
+      "name": "Job-open story",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 25190
+    },
+    {
+      "id": "DSN-020",
+      "name": "Webinar registration card",
+      "category": "design",
+      "status": "passed",
+      "errors": [],
+      "files": 11,
+      "zipBytes": 30284
+    },
+    {
+      "id": "NOT-001",
+      "name": "Weekly operator desk",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 27574
+    },
+    {
+      "id": "NOT-002",
+      "name": "Semester study desk",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 27244
+    },
+    {
+      "id": "NOT-003",
+      "name": "Bakery content calendar",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 27174
+    },
+    {
+      "id": "NOT-004",
+      "name": "Freelance client pipeline",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 25858
+    },
+    {
+      "id": "NOT-005",
+      "name": "Household running list",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24743
+    },
+    {
+      "id": "NOT-006",
+      "name": "Role search tracker",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 25732
+    },
+    {
+      "id": "NOT-007",
+      "name": "Reading notes desk",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 25106
+    },
+    {
+      "id": "NOT-008",
+      "name": "Small launch checklist",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 25747
+    },
+    {
+      "id": "NOT-009",
+      "name": "Decision meeting notes",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 26827
+    },
+    {
+      "id": "NOT-010",
+      "name": "Pottery class register",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 26883
+    },
+    {
+      "id": "NOT-011",
+      "name": "Cafe opening SOP",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24484
+    },
+    {
+      "id": "NOT-012",
+      "name": "Wedding planning board",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 27163
+    },
+    {
+      "id": "NOT-013",
+      "name": "Photographer client book",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 27367
+    },
+    {
+      "id": "NOT-014",
+      "name": "Lesson building desk",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 25246
+    },
+    {
+      "id": "NOT-015",
+      "name": "Solo app issue list",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24635
+    },
+    {
+      "id": "NOT-016",
+      "name": "Week of meals",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 23192
+    },
+    {
+      "id": "NOT-017",
+      "name": "City trip itinerary",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 23642
+    },
+    {
+      "id": "NOT-018",
+      "name": "Agency quarterly objectives",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 29691
+    },
+    {
+      "id": "NOT-019",
+      "name": "Market stall stock count",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 26563
+    },
+    {
+      "id": "NOT-020",
+      "name": "Neighbourhood newsletter desk",
+      "category": "notion",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 29636
+    },
+    {
+      "id": "ANL-001",
+      "name": "Retail sales summary",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 49146
+    },
+    {
+      "id": "ANL-002",
+      "name": "SaaS monthly recurring revenue",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 51279
+    },
+    {
+      "id": "ANL-003",
+      "name": "Inventory units on hand",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 46932
+    },
+    {
+      "id": "ANL-004",
+      "name": "Campaign spend and leads",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 49669
+    },
+    {
+      "id": "ANL-005",
+      "name": "Headcount by team",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 46096
+    },
+    {
+      "id": "ANL-006",
+      "name": "Project hours and fees",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 47714
+    },
+    {
+      "id": "ANL-007",
+      "name": "Cash collected by week group",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 51812
+    },
+    {
+      "id": "ANL-008",
+      "name": "Support tickets closed",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 48855
+    },
+    {
+      "id": "ANL-009",
+      "name": "Shop conversion inputs",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 47868
+    },
+    {
+      "id": "ANL-010",
+      "name": "Cafe covers",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 43791
+    },
+    {
+      "id": "ANL-011",
+      "name": "Site cost ledger",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 44238
+    },
+    {
+      "id": "ANL-012",
+      "name": "Donor receipts",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 44581
+    },
+    {
+      "id": "ANL-013",
+      "name": "Delivery stops",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 44023
+    },
+    {
+      "id": "ANL-014",
+      "name": "Clinic sessions used",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 45977
+    },
+    {
+      "id": "ANL-015",
+      "name": "Subscription cohort size",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 48277
+    },
+    {
+      "id": "ANL-016",
+      "name": "Pipeline weighted value",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 48399
+    },
+    {
+      "id": "ANL-017",
+      "name": "Brochure downloads",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 46717
+    },
+    {
+      "id": "ANL-018",
+      "name": "Workshop defect counts",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 49253
+    },
+    {
+      "id": "ANL-019",
+      "name": "Billable utilisation hours",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 46698
+    },
+    {
+      "id": "ANL-020",
+      "name": "Multi-store refunds",
+      "category": "analytics",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 47942
+    },
+    {
+      "id": "EBK-001",
+      "name": "Open a sole prop folder",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 36480
+    },
+    {
+      "id": "EBK-002",
+      "name": "Price a fixed service",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 34635
+    },
+    {
+      "id": "EBK-003",
+      "name": "Client onboarding checklist",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 36957
+    },
+    {
+      "id": "EBK-004",
+      "name": "One-page business plan",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 36160
+    },
+    {
+      "id": "EBK-005",
+      "name": "Remote team rituals",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 33979
+    },
+    {
+      "id": "EBK-006",
+      "name": "Customer interview guide",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 36222
+    },
+    {
+      "id": "EBK-007",
+      "name": "Landing page copy sheet",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 36461
+    },
+    {
+      "id": "EBK-008",
+      "name": "Welcome email sequence",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 36540
+    },
+    {
+      "id": "EBK-009",
+      "name": "Bookkeeping for a creator",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 37124
+    },
+    {
+      "id": "EBK-010",
+      "name": "Choose a small tech stack",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 36936
+    },
+    {
+      "id": "EBK-011",
+      "name": "Accessibility basics for a small site",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 40531
+    },
+    {
+      "id": "EBK-012",
+      "name": "Freelance negotiation scripts",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 38337
+    },
+    {
+      "id": "EBK-013",
+      "name": "Time blocking for operators",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 36490
+    },
+    {
+      "id": "EBK-014",
+      "name": "A simple referral ask",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 33790
+    },
+    {
+      "id": "EBK-015",
+      "name": "Design a productised service",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 38666
+    },
+    {
+      "id": "EBK-016",
+      "name": "Hire a first contractor",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 33683
+    },
+    {
+      "id": "EBK-017",
+      "name": "Backup habits for a small business",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 38983
+    },
+    {
+      "id": "EBK-018",
+      "name": "A brand voice page",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 33818
+    },
+    {
+      "id": "EBK-019",
+      "name": "Run a paid workshop",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 34343
+    },
+    {
+      "id": "EBK-020",
+      "name": "Quarterly review for a small firm",
+      "category": "ebooks",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 38143
+    },
+    {
+      "id": "AI-001",
+      "name": "Customer interview synthesis",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 28704
+    },
+    {
+      "id": "AI-002",
+      "name": "Blog editing prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 24748
+    },
+    {
+      "id": "AI-003",
+      "name": "Support reply drafts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 25158
+    },
+    {
+      "id": "AI-004",
+      "name": "Job description prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 25984
+    },
+    {
+      "id": "AI-005",
+      "name": "Code review prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 25368
+    },
+    {
+      "id": "AI-006",
+      "name": "Meeting summary prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 26667
+    },
+    {
+      "id": "AI-007",
+      "name": "Requirement writing prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 26859
+    },
+    {
+      "id": "AI-008",
+      "name": "Local business captions",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 26346
+    },
+    {
+      "id": "AI-009",
+      "name": "Training session prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 25931
+    },
+    {
+      "id": "AI-010",
+      "name": "Proposal drafting prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 26529
+    },
+    {
+      "id": "AI-011",
+      "name": "SQL explanation prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 26099
+    },
+    {
+      "id": "AI-012",
+      "name": "Interface copy prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 25488
+    },
+    {
+      "id": "AI-013",
+      "name": "Sales follow-up prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 25671
+    },
+    {
+      "id": "AI-014",
+      "name": "Plain-language policy prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 27320
+    },
+    {
+      "id": "AI-015",
+      "name": "Spreadsheet helper prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 27468
+    },
+    {
+      "id": "AI-016",
+      "name": "Research briefing prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 26507
+    },
+    {
+      "id": "AI-017",
+      "name": "Onboarding email prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 26273
+    },
+    {
+      "id": "AI-018",
+      "name": "Incident notes prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 24714
+    },
+    {
+      "id": "AI-019",
+      "name": "Hospitality copy prompts",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 26247
+    },
+    {
+      "id": "AI-020",
+      "name": "Study notes from a source",
+      "category": "prompts",
+      "status": "passed",
+      "errors": [],
+      "files": 8,
+      "zipBytes": 27089
+    },
+    {
+      "id": "CV-001",
+      "name": "Software engineer CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 36959
+    },
+    {
+      "id": "CV-002",
+      "name": "Graduate CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 32695
+    },
+    {
+      "id": "CV-003",
+      "name": "Career-change CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 35563
+    },
+    {
+      "id": "CV-004",
+      "name": "Operations manager CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 37690
+    },
+    {
+      "id": "CV-005",
+      "name": "Studio coordinator CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 36284
+    },
+    {
+      "id": "CV-006",
+      "name": "Retail supervisor CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 35878
+    },
+    {
+      "id": "CV-007",
+      "name": "Teacher CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 31858
+    },
+    {
+      "id": "CV-008",
+      "name": "Clinic administrator CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 36547
+    },
+    {
+      "id": "CV-009",
+      "name": "Sales CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 31746
+    },
+    {
+      "id": "CV-010",
+      "name": "Data analyst CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 34251
+    },
+    {
+      "id": "CV-011",
+      "name": "Cover letter set",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 32236
+    },
+    {
+      "id": "CV-012",
+      "name": "LinkedIn about worksheet",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 35905
+    },
+    {
+      "id": "CV-013",
+      "name": "Interview story bank",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 34578
+    },
+    {
+      "id": "CV-014",
+      "name": "Salary research worksheet",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 38270
+    },
+    {
+      "id": "CV-015",
+      "name": "Reference tracker",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 33377
+    },
+    {
+      "id": "CV-016",
+      "name": "Thirty-day search plan",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 34983
+    },
+    {
+      "id": "CV-017",
+      "name": "Portfolio case-study page",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 37402
+    },
+    {
+      "id": "CV-018",
+      "name": "Freelance proposal and CV",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 37343
+    },
+    {
+      "id": "CV-019",
+      "name": "Internship application kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 35386
+    },
+    {
+      "id": "CV-020",
+      "name": "Return-to-work CV kit",
+      "category": "cv",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 34453
+    },
+    {
+      "id": "ECM-001",
+      "name": "Product listing copy sheet",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 35558
+    },
+    {
+      "id": "ECM-002",
+      "name": "Collection planning board",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 34712
+    },
+    {
+      "id": "ECM-003",
+      "name": "Returns draft for digital goods",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 37287
+    },
+    {
+      "id": "ECM-004",
+      "name": "Abandoned cart email copy",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 35843
+    },
+    {
+      "id": "ECM-005",
+      "name": "Product photo shot list",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 32939
+    },
+    {
+      "id": "ECM-006",
+      "name": "Size chart template",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 33036
+    },
+    {
+      "id": "ECM-007",
+      "name": "Supplier comparison",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 33373
+    },
+    {
+      "id": "ECM-008",
+      "name": "Reorder point calculator",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 41446
+    },
+    {
+      "id": "ECM-009",
+      "name": "Launch week checklist",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 33420
+    },
+    {
+      "id": "ECM-010",
+      "name": "Review request sequence",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 34743
+    },
+    {
+      "id": "ECM-011",
+      "name": "Wholesale line sheet",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 32633
+    },
+    {
+      "id": "ECM-012",
+      "name": "Packaging insert copy",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 33956
+    },
+    {
+      "id": "ECM-013",
+      "name": "Discount calendar",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 31452
+    },
+    {
+      "id": "ECM-014",
+      "name": "Customer photo brief",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 32534
+    },
+    {
+      "id": "ECM-015",
+      "name": "Marketplace listing notes",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 35055
+    },
+    {
+      "id": "ECM-016",
+      "name": "Shipping rate sheet",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 40522
+    },
+    {
+      "id": "ECM-017",
+      "name": "Bundle planner",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 10,
+      "zipBytes": 36219
+    },
+    {
+      "id": "ECM-018",
+      "name": "Product FAQ builder",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 32103
+    },
+    {
+      "id": "ECM-019",
+      "name": "One-page brand rules for a shop",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 37266
+    },
+    {
+      "id": "ECM-020",
+      "name": "After-purchase emails",
+      "category": "ecommerce",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 33470
+    },
+    {
+      "id": "CRS-001",
+      "name": "Spreadsheet habits",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 34027
+    },
+    {
+      "id": "CRS-002",
+      "name": "Clearer business email",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 35018
+    },
+    {
+      "id": "CRS-003",
+      "name": "SQL for operators",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 33541
+    },
+    {
+      "id": "CRS-004",
+      "name": "Customer interviews",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 34612
+    },
+    {
+      "id": "CRS-005",
+      "name": "Web accessibility pass",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 36542
+    },
+    {
+      "id": "CRS-006",
+      "name": "A month of budgeting",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 34271
+    },
+    {
+      "id": "CRS-007",
+      "name": "Slides that decide",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 32659
+    },
+    {
+      "id": "CRS-008",
+      "name": "Git for a small team",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 33463
+    },
+    {
+      "id": "CRS-009",
+      "name": "Prompting at work",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 32894
+    },
+    {
+      "id": "CRS-010",
+      "name": "Cash flow for a small shop",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 36472
+    },
+    {
+      "id": "CRS-011",
+      "name": "A one-page site",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 31639
+    },
+    {
+      "id": "CRS-012",
+      "name": "Study weeks",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 31457
+    },
+    {
+      "id": "CRS-013",
+      "name": "Cleaning data in a sheet",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 34955
+    },
+    {
+      "id": "CRS-014",
+      "name": "Useful feedback",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 31779
+    },
+    {
+      "id": "CRS-015",
+      "name": "Start a freelance practice",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 36361
+    },
+    {
+      "id": "CRS-016",
+      "name": "Reading a simple income statement",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 39192
+    },
+    {
+      "id": "CRS-017",
+      "name": "Security habits",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 32120
+    },
+    {
+      "id": "CRS-018",
+      "name": "Run a retrospective",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 33356
+    },
+    {
+      "id": "CRS-019",
+      "name": "Repurpose a piece of work",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 36667
+    },
+    {
+      "id": "CRS-020",
+      "name": "A personal knowledge desk",
+      "category": "courses",
+      "status": "passed",
+      "errors": [],
+      "files": 13,
+      "zipBytes": 37405
+    },
+    {
+      "id": "DEV-001",
+      "name": "CSV parser and writer",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 26513
+    },
+    {
+      "id": "DEV-002",
+      "name": "Slug builder",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 21357
+    },
+    {
+      "id": "DEV-003",
+      "name": "Currency formatter",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24198
+    },
+    {
+      "id": "DEV-004",
+      "name": "Signed download token",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 27168
+    },
+    {
+      "id": "DEV-005",
+      "name": "Retry with backoff",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24192
+    },
+    {
+      "id": "DEV-006",
+      "name": "Fixed-window rate limit",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24701
+    },
+    {
+      "id": "DEV-007",
+      "name": "Offset pagination",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 23793
+    },
+    {
+      "id": "DEV-008",
+      "name": "Safe download filename",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 26559
+    },
+    {
+      "id": "DEV-009",
+      "name": "Env example checker",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 25281
+    },
+    {
+      "id": "DEV-010",
+      "name": "Markdown link list",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 22735
+    },
+    {
+      "id": "DEV-011",
+      "name": "Idempotency memory",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24353
+    },
+    {
+      "id": "DEV-012",
+      "name": "Audit event builder",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 23704
+    },
+    {
+      "id": "DEV-013",
+      "name": "Password policy check",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 26797
+    },
+    {
+      "id": "DEV-014",
+      "name": "Minor-unit arithmetic",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 23542
+    },
+    {
+      "id": "DEV-015",
+      "name": "Webhook HMAC check",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 25263
+    },
+    {
+      "id": "DEV-016",
+      "name": "Discount calculator",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24975
+    },
+    {
+      "id": "DEV-017",
+      "name": "Reporting date buckets",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 26798
+    },
+    {
+      "id": "DEV-018",
+      "name": "Feature flag reader",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24661
+    },
+    {
+      "id": "DEV-019",
+      "name": "Object list to CSV",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 24482
+    },
+    {
+      "id": "DEV-020",
+      "name": "Public order reference",
+      "category": "developer",
+      "status": "passed",
+      "errors": [],
+      "files": 9,
+      "zipBytes": 25428
+    }
+  ]
+}

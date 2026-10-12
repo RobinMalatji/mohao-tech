@@ -1,0 +1,5 @@
+Total Units = SUM(Facts[Units])
+
+Units rows = COUNTROWS(Facts)
+
+Average Units = DIVIDE(SUM(Facts[Units]), COUNTROWS(Facts))

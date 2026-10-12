@@ -2,6 +2,17 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  outputFileTracingIncludes: {
+    "/shop": ["./products/library/**/internal/meta.json"],
+    "/shop/p/*": [
+      "./products/library/**/internal/meta.json",
+      "./products/library/**/customer/manifest.json",
+    ],
+    "/shop/c/*": ["./products/library/**/internal/meta.json"],
+    "/shop/search": ["./products/library/**/internal/meta.json"],
+    "/shop/cart": ["./products/library/**/internal/meta.json"],
+    "/shop/covers/*": ["./products/library/**/customer/preview/cover.png"],
+  },
   async headers() {
     return [
       {

@@ -1,0 +1,5 @@
+Total Receipts = SUM(Facts[Receipts])
+
+Receipts rows = COUNTROWS(Facts)
+
+Average Receipts = DIVIDE(SUM(Facts[Receipts]), COUNTROWS(Facts))

@@ -1,0 +1,5 @@
+Total Tickets = SUM(Facts[Tickets])
+
+Tickets rows = COUNTROWS(Facts)
+
+Average Tickets = DIVIDE(SUM(Facts[Tickets]), COUNTROWS(Facts))

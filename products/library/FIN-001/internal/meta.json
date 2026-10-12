@@ -1,0 +1,37 @@
+{
+  "id": "FIN-001",
+  "slug": "household-monthly-budget",
+  "name": "Household monthly budget",
+  "category": "finance",
+  "categorySlug": "personal-finance",
+  "categoryLabel": "Personal finance",
+  "productType": "Excel workbook with PDF guide",
+  "audience": "Households in South Africa who want a monthly plan in rand, including households with one main salary and a smaller second income.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "A rand budget that separates take-home pay, committed costs, and what is left to save.",
+  "description": "Plan one household month from net pay. The workbook totals income, totals each cost you list, and shows the surplus and two ratios: savings and housing.",
+  "benefits": [
+    "See surplus after the costs you actually listed",
+    "Check whether housing is taking more than you intended",
+    "Keep a written note next to every figure"
+  ],
+  "compatibility": [
+    "Microsoft Excel for Microsoft 365 or Excel 2021 and later",
+    "Formulas also open in Google Sheets; confirm PMT, FV, and NPER after import",
+    "PDF guide opens in any PDF reader",
+    "DOCX guide opens in Microsoft Word or Google Docs"
+  ],
+  "tags": [
+    "budget",
+    "household",
+    "rand"
+  ],
+  "prices": {
+    "ZAR": 24900,
+    "USD": 1900,
+    "GBP": 1500,
+    "EUR": 1700
+  },
+  "disclaimer": "This workbook organises figures you type in. It is not financial, credit, insurance, or tax advice. Rates, fees, and laws change. A qualified adviser should review decisions that affect debt, tax, medical cover, or retirement."
+}

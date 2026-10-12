@@ -1,0 +1,44 @@
+{
+  "id": "AI-017",
+  "name": "Onboarding email prompts",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 779,
+      "sha256": "2fd8d7c739b627a7a2e28c6cae593dedf00d4416f24c506b22e457af5503eda0"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1104,
+      "sha256": "6bac19271c1131d2525f715311c91c72dd706a69471e7c7b0ce2b57a1ae1266f"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 885,
+      "sha256": "715cac29faf830b75d599461cfd283ad59d0ba4e42b8e623e0ede7fc852ca90b"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1093,
+      "sha256": "6ce7af1edf96ff4a07f36d9ee7bbefa593754b6cb5b588215eeb784a8593685d"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29207,
+      "sha256": "3e3f89d9efd0d2c5380d719ed591caf3d5b75823578df3a304d7e2e4ec451c53"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 1253,
+      "sha256": "ad5b4ef7bc1020563e6399c3b6933924d6043c2b364c29c1af7165b54c6ed5e3"
+    },
+    {
+      "path": "prompts.csv",
+      "bytes": 956,
+      "sha256": "87e3754bb516de3112d5514fe090d0ff5796e385a3f899e4545f64b10343d9fe"
+    }
+  ]
+}

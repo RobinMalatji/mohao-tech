@@ -1,0 +1,54 @@
+{
+  "id": "FIN-002",
+  "name": "Debt payoff comparison",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1012,
+      "sha256": "77987e3b85d1c04ac35fb41efa37aea0a90bea0e5cd14cddcb495a46f93d1768"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1187,
+      "sha256": "641d3e72a99be8fd1ef0a925cf021f86f02cb895f16f8f136bc2c9ec81a0169d"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1118,
+      "sha256": "88ee2a84aa88a86d98fb383ff2cf331464b2444bb1c21417e771eaa372c19455"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1438,
+      "sha256": "0c62a7a69fa5aa990aec856fbe2a414f7d4a724159ec1b0260a83a1a2904415d"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 30196,
+      "sha256": "f6ca41c0e207e10770df1e6979214a2ec56f28a44892a108fd9e354bf1777d59"
+    },
+    {
+      "path": "debt-payoff-comparison.xlsx",
+      "bytes": 9109,
+      "sha256": "34acd38fffea61bb2a2d4d268d33755238b35ee1c42c188ce20d12012deccd60"
+    },
+    {
+      "path": "debt-payoff-comparison-guide.md",
+      "bytes": 1583,
+      "sha256": "e6b46b3be9dc5a66d093b13e7f2aba6d56a72b8c36b6b0d4c13085ff7de90b85"
+    },
+    {
+      "path": "debt-payoff-comparison-guide.pdf",
+      "bytes": 3939,
+      "sha256": "e77a6a829210ef10d3077b4ca245bcba024fa10db346fb05a76f04d9b769c1b1"
+    },
+    {
+      "path": "debt-payoff-comparison-guide.docx",
+      "bytes": 10553,
+      "sha256": "135270574354f5f9ae90d30456c79c9e0233b2bd05c6b1ee1b4810bcd7268561"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "EBK-015",
+  "slug": "design-a-productised-service",
+  "name": "Design a productised service",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Freelancers who keep reinventing the project.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Turn custom work into one offer with a fixed scope and a name.",
+  "description": "Turn custom work into one offer with a fixed scope and a name.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "services"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1600,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

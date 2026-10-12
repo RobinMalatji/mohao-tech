@@ -1,0 +1,36 @@
+{
+  "id": "FIN-006",
+  "slug": "four-week-grocery-tracker",
+  "name": "Four-week grocery tracker",
+  "category": "finance",
+  "categorySlug": "personal-finance",
+  "categoryLabel": "Personal finance",
+  "productType": "Excel workbook with PDF guide",
+  "audience": "Households who want a food number before they set the rest of the budget.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Price a repeating grocery list and see the cost per person across four weeks.",
+  "description": "Enter the aisle, the usual quantity, and the price you last paid. The workbook extends one shop across four weeks and divides the month by the number of people eating.",
+  "benefits": [
+    "Build a list from prices you have actually paid",
+    "See a four-week cost without retyping the list",
+    "Divide the basket by the number of people"
+  ],
+  "compatibility": [
+    "Microsoft Excel for Microsoft 365 or Excel 2021 and later",
+    "Formulas also open in Google Sheets; confirm PMT, FV, and NPER after import",
+    "PDF guide opens in any PDF reader",
+    "DOCX guide opens in Microsoft Word or Google Docs"
+  ],
+  "tags": [
+    "groceries",
+    "food"
+  ],
+  "prices": {
+    "ZAR": 16900,
+    "USD": 1300,
+    "GBP": 1000,
+    "EUR": 1200
+  },
+  "disclaimer": "This workbook organises figures you type in. It is not financial, credit, insurance, or tax advice. Rates, fees, and laws change. A qualified adviser should review decisions that affect debt, tax, medical cover, or retirement."
+}

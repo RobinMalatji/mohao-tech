@@ -1,0 +1,37 @@
+{
+  "id": "FIN-009",
+  "slug": "event-budget-variance",
+  "name": "Event budget variance",
+  "category": "finance",
+  "categorySlug": "personal-finance",
+  "categoryLabel": "Personal finance",
+  "productType": "Excel workbook with PDF guide",
+  "audience": "Anyone planning a wedding, funeral, graduation, or family celebration with a fixed cash amount.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Set a planned amount for each event cost and record what you actually pay.",
+  "description": "Variance is actual minus plan. The workbook totals both columns and shows which lines ran over. It is built for a 40-person family celebration, and the categories can be renamed.",
+  "benefits": [
+    "See the overrun on each line",
+    "Keep vendors and notes beside the number",
+    "Protect a contingency instead of spending it first"
+  ],
+  "compatibility": [
+    "Microsoft Excel for Microsoft 365 or Excel 2021 and later",
+    "Formulas also open in Google Sheets; confirm PMT, FV, and NPER after import",
+    "PDF guide opens in any PDF reader",
+    "DOCX guide opens in Microsoft Word or Google Docs"
+  ],
+  "tags": [
+    "event",
+    "wedding",
+    "budget"
+  ],
+  "prices": {
+    "ZAR": 21900,
+    "USD": 1700,
+    "GBP": 1300,
+    "EUR": 1500
+  },
+  "disclaimer": "This workbook organises figures you type in. It is not financial, credit, insurance, or tax advice. Rates, fees, and laws change. A qualified adviser should review decisions that affect debt, tax, medical cover, or retirement."
+}

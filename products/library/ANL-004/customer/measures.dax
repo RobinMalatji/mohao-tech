@@ -1,0 +1,5 @@
+Total Spend = SUM(Facts[Spend])
+
+Spend rows = COUNTROWS(Facts)
+
+Average Spend = DIVIDE(SUM(Facts[Spend]), COUNTROWS(Facts))

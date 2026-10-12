@@ -1,0 +1,36 @@
+{
+  "id": "FIN-016",
+  "slug": "side-hustle-profit-calculator",
+  "name": "Side-hustle profit calculator",
+  "category": "finance",
+  "categorySlug": "personal-finance",
+  "categoryLabel": "Personal finance",
+  "productType": "Excel workbook with PDF guide",
+  "audience": "People testing a small cash business on weekends.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Subtract materials, fees, and delivery from sales, then divide profit by hours.",
+  "description": "The sample is a weekend baked-goods table. Profit is sales minus costs. The hourly figure uses the hours you type, including shopping and delivery, not only the stall time.",
+  "benefits": [
+    "See profit after platform fees and materials",
+    "Include delivery and packaging",
+    "Turn profit into an hourly figure"
+  ],
+  "compatibility": [
+    "Microsoft Excel for Microsoft 365 or Excel 2021 and later",
+    "Formulas also open in Google Sheets; confirm PMT, FV, and NPER after import",
+    "PDF guide opens in any PDF reader",
+    "DOCX guide opens in Microsoft Word or Google Docs"
+  ],
+  "tags": [
+    "side hustle",
+    "pricing"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1600,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This workbook organises figures you type in. It is not financial, credit, insurance, or tax advice. Rates, fees, and laws change. A qualified adviser should review decisions that affect debt, tax, medical cover, or retirement."
+}

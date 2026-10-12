@@ -1,0 +1,49 @@
+{
+  "id": "DEV-005",
+  "name": "Retry with backoff",
+  "version": "1.0.0",
+  "licence": "developer-project",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 843,
+      "sha256": "3bc3467d3f5e1053e9df7e0f305a58e507b7961718b2c1429bc8fa063d8953e4"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1046,
+      "sha256": "d115d31290226e859ea322270d3ad8bd40b4e8ebbdb2c67a52c8e1c7c7036dd3"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 937,
+      "sha256": "f08665dec835ba3b51d6650981eefe77320cda10061f467206426cc3750b8114"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1145,
+      "sha256": "4bd1ac5aa4b489ec6809e9950f20b838dac0a9a49c0c4509d5b81fd0a7a7824e"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27271,
+      "sha256": "c481336b4b0e7b69ff8c33ab1a5436be36438f50b5eb1c0108937f6ed7081fba"
+    },
+    {
+      "path": "package.json",
+      "bytes": 120,
+      "sha256": "39c524a5d3b8916eab0125f8c8043ad41058d114a90e6555a5258422190b8dcd"
+    },
+    {
+      "path": "src/retry.mjs",
+      "bytes": 635,
+      "sha256": "271617a42083469c524262b995625de5981d9c2f456671cdd7c9b2499274134a"
+    },
+    {
+      "path": "src/retry.test.mjs",
+      "bytes": 740,
+      "sha256": "e215e117be074b079817eb6d741043c94265cd084c95e5eea6fabd31086b5221"
+    }
+  ]
+}

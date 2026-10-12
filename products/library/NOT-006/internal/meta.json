@@ -1,0 +1,34 @@
+{
+  "id": "NOT-006",
+  "slug": "role-search-tracker",
+  "name": "Role search tracker",
+  "category": "notion",
+  "categorySlug": "notion-systems",
+  "categoryLabel": "Notion systems",
+  "productType": "Markdown and CSV import package",
+  "audience": "Job seekers applying to more than a handful of roles.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Track applications with the source, the stage, and the follow-up date.",
+  "description": "A job search database for one person looking for operations roles. It records where the role was found so you can see which source is working. It is not a CV.",
+  "benefits": [
+    "Pages you can import as Markdown",
+    "A CSV database with example rows you replace",
+    "Import steps that do not pretend this is a hosted Notion link"
+  ],
+  "compatibility": [
+    "Notion import for Markdown and CSV",
+    "Any editor that opens .md and .csv",
+    "Not a Notion template URL"
+  ],
+  "tags": [
+    "job search"
+  ],
+  "prices": {
+    "ZAR": 18900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
+}

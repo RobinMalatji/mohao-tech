@@ -1,0 +1,49 @@
+{
+  "id": "NOT-017",
+  "name": "City trip itinerary",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 758,
+      "sha256": "c4eefe2d673c0b26d5d05a724ac9652c4092fa4e00bd9838231d98f6decb351d"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1108,
+      "sha256": "3ab744e539bad6586d512103d7e6dd6ff34fd02163eb1719b97637d107eaf3b9"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 872,
+      "sha256": "5d2758925fc7106b1ebf477894317dce115629eb5bb89302fc895fb43eaffff2"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1258,
+      "sha256": "3c3cd27cbbe3474891ffecb82f2cf6fc737c5115872c929a37d7bd56a73b6f62"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 26678,
+      "sha256": "a59801386770a39cdf9a2bf922f2bacd284c06fbd06f316b36b0409a2069091b"
+    },
+    {
+      "path": "pages/rules.md",
+      "bytes": 129,
+      "sha256": "e8830408e9f019b7fa4d43d0afa20e86c0b6245bd86c27f537701ff01345354a"
+    },
+    {
+      "path": "databases/days.csv",
+      "bytes": 152,
+      "sha256": "518ab6b676789fd79a6022cd03afe50fcf7064ba0e80a8a947625da3e41968cd"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 927,
+      "sha256": "aea79c36c57aca3e43b3fa5d42d4c51535ee87ff10c703c32e23cc4f1529b484"
+    }
+  ]
+}

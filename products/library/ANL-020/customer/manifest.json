@@ -1,0 +1,69 @@
+{
+  "id": "ANL-020",
+  "name": "Multi-store refunds",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1003,
+      "sha256": "adfd7c5e717d70009ab006fb39c0faf174f2752f01ee58087363d74502725796"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1183,
+      "sha256": "3a2e31e32d60e373063158a414dc1ef86227dc5dede61adcb84e2bedabc7c75c"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 950,
+      "sha256": "e0c9c8315629795fc948e48d1d6704b1979fb9ba8c00e8ae34a96ef00cfe9376"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1473,
+      "sha256": "56e9bad841d514f83cb4c22b78da29f65f4a51faaec38a5cb103cbec7ae1c9ee"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 33127,
+      "sha256": "6c0b961606995ec83e26e71d7cc9e1d47fdd9fd4b83a75042f3b4fdf68555e76"
+    },
+    {
+      "path": "summary.xlsx",
+      "bytes": 8075,
+      "sha256": "13a7de17852ba5761c1cd5f2e68b53614534ffb648afb72a5cadd8de05af18ba"
+    },
+    {
+      "path": "summary-guide.md",
+      "bytes": 586,
+      "sha256": "60a584dfc9c71f7acf7dfb05ac01b52cbff0db9b109858cf5e1b8006181d24cf"
+    },
+    {
+      "path": "summary-guide.pdf",
+      "bytes": 3209,
+      "sha256": "eb98af5dea206e23c9114df24291efeb0ffa4f6bef52be7aa4e0a5db2ee6d49d"
+    },
+    {
+      "path": "summary-guide.docx",
+      "bytes": 10064,
+      "sha256": "bb8ea4c7b7662d36a3e7bfb3b478cfd70310fc4ecc19145f70045573582e8414"
+    },
+    {
+      "path": "facts.csv",
+      "bytes": 462,
+      "sha256": "7602ed0900d81222abbee8439f4c09eb481b9ea5981f2850acf84555ce2116b6"
+    },
+    {
+      "path": "measures.dax",
+      "bytes": 133,
+      "sha256": "1f93cd7003ccd6c9e6639a837d508f3a0774d4d16b4e76c447b4d759ac921e48"
+    },
+    {
+      "path": "data-dictionary.md",
+      "bytes": 1020,
+      "sha256": "7d3ca81ae3c39600e8b1a5a0a1a57b03d830974f00728aa5f641a19507c32afe"
+    }
+  ]
+}

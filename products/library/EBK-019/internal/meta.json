@@ -1,0 +1,34 @@
+{
+  "id": "EBK-019",
+  "slug": "run-a-paid-workshop",
+  "name": "Run a paid workshop",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Practitioners turning a skill into a paid session.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Plan, price, and deliver a half-day workshop to a small group.",
+  "description": "Plan, price, and deliver a half-day workshop to a small group.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "workshops"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1600,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

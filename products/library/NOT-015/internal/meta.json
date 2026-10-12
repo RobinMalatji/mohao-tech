@@ -1,0 +1,35 @@
+{
+  "id": "NOT-015",
+  "slug": "solo-app-issue-list",
+  "name": "Solo app issue list",
+  "category": "notion",
+  "categorySlug": "notion-systems",
+  "categoryLabel": "Notion systems",
+  "productType": "Markdown and CSV import package",
+  "audience": "Solo developers keeping issues outside the code comments.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Bugs and requests for one app, with severity and the version you saw it in.",
+  "description": "An issue list for a fictional booking app. Severity is broken, wrong, or wish. A wish is not scheduled just because it was loud.",
+  "benefits": [
+    "Pages you can import as Markdown",
+    "A CSV database with example rows you replace",
+    "Import steps that do not pretend this is a hosted Notion link"
+  ],
+  "compatibility": [
+    "Notion import for Markdown and CSV",
+    "Any editor that opens .md and .csv",
+    "Not a Notion template URL"
+  ],
+  "tags": [
+    "issues",
+    "software"
+  ],
+  "prices": {
+    "ZAR": 17900,
+    "USD": 1400,
+    "GBP": 1100,
+    "EUR": 1300
+  },
+  "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
+}

@@ -1,0 +1,69 @@
+{
+  "id": "CRS-008",
+  "name": "Git for a small team",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 799,
+      "sha256": "5c79676e5e578731f78634947fb4977c0fb4d2a3ada394688872e137662f8641"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1088,
+      "sha256": "6a4f875761ba658f339896ba93e19618d6b8862da92380de7d6a0c05cb32a38c"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 831,
+      "sha256": "bb2ab72f6e345d88e2eeb0cd01950e1898be8a10f0434dd250a218f791096146"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1597,
+      "sha256": "0d36c8fcddd0dfd6b9ee0fb9fd7a62980bf615e11cd2de03527e2d3278c971d5"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27142,
+      "sha256": "3bfcf047acf2d50e4be780527a76adb67f2f099a0f08e54743213026344bb1fc"
+    },
+    {
+      "path": "lessons/01-a-commit.md",
+      "bytes": 120,
+      "sha256": "ae1eb748ae66ff4431681beb5f41bc2807ea6ca6f379fd43fdf71d5b57de0ca9"
+    },
+    {
+      "path": "lessons/02-a-branch.md",
+      "bytes": 108,
+      "sha256": "a428548bff2433d4bf7489c6721f15d74e21ec01bc8418f2da7a30d912c1261f"
+    },
+    {
+      "path": "lessons/03-a-diff.md",
+      "bytes": 109,
+      "sha256": "cebc8bf00eef7b20dec3c6acd464465f8030000364e97ab81e5bdb7371da3e82"
+    },
+    {
+      "path": "lessons/04-main.md",
+      "bytes": 80,
+      "sha256": "5370217ed9df12edef6531b4ebc2d0a80f8ea030eb4dc4ee43904c134b39a8ab"
+    },
+    {
+      "path": "slides.pptx",
+      "bytes": 68247,
+      "sha256": "2e36a164eaa040beb3c9ca09acc7fbb199c0ba7d5016627a4f8980c15ea05350"
+    },
+    {
+      "path": "worksheet.pdf",
+      "bytes": 2882,
+      "sha256": "a44bf4d8738c9f282b940688da92c1b35a0639604f814bd854cf0acd4f8f01ec"
+    },
+    {
+      "path": "worksheet.md",
+      "bytes": 380,
+      "sha256": "2325321c595258fa3b86093bff44df0491c3612da5aced11b7dbed6b2cd66fc5"
+    }
+  ]
+}

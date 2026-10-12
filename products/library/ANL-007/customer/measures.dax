@@ -1,0 +1,5 @@
+Total Collected = SUM(Facts[Collected])
+
+Collected rows = COUNTROWS(Facts)
+
+Average Collected = DIVIDE(SUM(Facts[Collected]), COUNTROWS(Facts))

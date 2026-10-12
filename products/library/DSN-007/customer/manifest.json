@@ -1,0 +1,64 @@
+{
+  "id": "DSN-007",
+  "name": "YouTube thumbnail pair",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 943,
+      "sha256": "6fa55ac4fb2327d209df0ad4b141945cb75cdfb2d522c272fb6c584861606574"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1135,
+      "sha256": "ca38c8a0cde72530b2eec5a9ac6152ff6ba1404d643dc06a78f61ba42754729e"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1031,
+      "sha256": "ac1d27e7bcdfc3730d7dcd3d346f51768f02b23f41609e46745ecd64b2a9711c"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1266,
+      "sha256": "42493e7937eb64455d2d12643ef631c658d3f160af8ab13e2578840a696e0482"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27193,
+      "sha256": "d7311614473dd00c6ebfdc51d9608f4d5aed579c8c69ff2dfc5abcfa6ad69ae0"
+    },
+    {
+      "path": "designs/thumbnail-howto.svg",
+      "bytes": 1040,
+      "sha256": "e0e044f6dafd653907c03072fa3e638c0beb638097fe276d0a1272e8311611f6"
+    },
+    {
+      "path": "designs/thumbnail-mistake.svg",
+      "bytes": 909,
+      "sha256": "4ec6fe49ed4e8bd6554d60921ed2bdbd5a2086b1011e5cc8c378484ebf0e6359"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1400,
+      "sha256": "3010ef3c86067a1886f7576b13a186e413fe2a4238f1ab9fb7f77c8bd214dfd9"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "b01f8f2b03260b0663a8ce8c9c2d73b4fd6efacd845ebc9dd3b8bf03559b4403"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 1051,
+      "sha256": "d5210d91d446c170c1112d15dcc5d38b19a9cc361365336759701b95de3fa921"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3642,
+      "sha256": "d07c405b2046461c54675a17bc1f827aeeaf49c328a063d1d79f45338f6bfb05"
+    }
+  ]
+}

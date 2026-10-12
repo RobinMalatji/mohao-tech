@@ -1,0 +1,69 @@
+{
+  "id": "CRS-018",
+  "name": "Run a retrospective",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 799,
+      "sha256": "3a27da85292517f30a9afe0821357382e63ec705d907c88a655652a571f3b8b8"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1087,
+      "sha256": "911fdf3f77dbb87099913d6467289255921463821e2b27f82046bfe42e954b44"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 832,
+      "sha256": "1c1e5ce76b28162f5b64350dc5a98b893aa87309150e1bd9f7e73264e7512576"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1596,
+      "sha256": "e35aafdadae9dfa43919bf7e303bc4aa5dd703a74c6dd16d8863aa55db938f86"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 27856,
+      "sha256": "d73f4bf187f75fbb9acdf46553c6d0cfbba6cbd0694963b8fe93d081ffe5cf49"
+    },
+    {
+      "path": "lessons/01-facts.md",
+      "bytes": 67,
+      "sha256": "a341a0b605f1e55b84885f668d01cf279c0609ee455e48c2fb6f846a8413469a"
+    },
+    {
+      "path": "lessons/02-what-to-keep.md",
+      "bytes": 65,
+      "sha256": "2fe91f9bd3d6f0bb15ae151b364832d0f618fbf1454bf23247ee3f6c17c13c4b"
+    },
+    {
+      "path": "lessons/03-what-to-change.md",
+      "bytes": 72,
+      "sha256": "4feba6ff1c22976287a6a6424c69798b37f8ff5ce0c223f806d2720ca8a40864"
+    },
+    {
+      "path": "lessons/04-stop.md",
+      "bytes": 69,
+      "sha256": "b8dff2f446f2de55f55c731f6c0534f43291e530762ed870fb9910716724589c"
+    },
+    {
+      "path": "slides.pptx",
+      "bytes": 68102,
+      "sha256": "e913d7b885be98f721bfd78b26a1dc3b1d0dc4bf9c32f755376f60fd175aa1cc"
+    },
+    {
+      "path": "worksheet.pdf",
+      "bytes": 2779,
+      "sha256": "11e4706317b00f1aae1e4328e1b6e43e90f4177559e35a62f29f7ad30be1d6de"
+    },
+    {
+      "path": "worksheet.md",
+      "bytes": 276,
+      "sha256": "dc58a88663b3fd166c74ac7cdc444a5c8280cf5ce5f9a4097b62b84df8bd38bf"
+    }
+  ]
+}

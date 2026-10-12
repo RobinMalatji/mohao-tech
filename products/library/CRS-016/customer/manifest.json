@@ -1,0 +1,69 @@
+{
+  "id": "CRS-016",
+  "name": "Reading a simple income statement",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 812,
+      "sha256": "cac4fb18edd0c2d72973142fd1fdb7e13d8a1c4f36addaab5f17ce1677ae8d09"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1101,
+      "sha256": "679cde15a573e7da86423c167f1a178d913e308da24e1781e45ce087597781e9"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 862,
+      "sha256": "73d4dc9529cffe6216c1d282611023a215e740193283480cfb6fd48f5c67f756"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1610,
+      "sha256": "57ddb9aaa59c12ac650f7eee90c309c7cfffa65293c1869133974f31f3b00a84"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 33103,
+      "sha256": "bc454648a988f1ecfe4c6064517a2c5be1ea6c28d5b7c6f29678e33f8fbe6243"
+    },
+    {
+      "path": "lessons/01-revenue.md",
+      "bytes": 111,
+      "sha256": "7250cf032bcff29bec6ec3260eaf8237a562349e68522f83539117d9a4270f50"
+    },
+    {
+      "path": "lessons/02-costs.md",
+      "bytes": 122,
+      "sha256": "b023b63ff2d216226b4a99c70629ccc02dde7d217596bb41b01582af815a07f8"
+    },
+    {
+      "path": "lessons/03-profit.md",
+      "bytes": 115,
+      "sha256": "741a23996abd9cddd3826abc372ae8bc5a68ac4462067a6e3ae39d0d444a3f84"
+    },
+    {
+      "path": "lessons/04-a-question.md",
+      "bytes": 70,
+      "sha256": "0a2e6623604345263c3d777e81f062f40f283ee6b5b80db98651c8dd67ed2b9b"
+    },
+    {
+      "path": "slides.pptx",
+      "bytes": 68261,
+      "sha256": "14d66252591f5656bd5a12186868e7f58124c65363a6a6892d5e463d3dfda82e"
+    },
+    {
+      "path": "worksheet.pdf",
+      "bytes": 2879,
+      "sha256": "f9c963f631b2c670e5d5b9c90c6a467bfb34b6ead77563cc238fdf99eb6ae0f5"
+    },
+    {
+      "path": "worksheet.md",
+      "bytes": 356,
+      "sha256": "3fbd780822f1ab64248131b4cf77e74e1c60e0eec3de0f530492ed0e8cd08e75"
+    }
+  ]
+}

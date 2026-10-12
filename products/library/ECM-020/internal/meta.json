@@ -1,0 +1,35 @@
+{
+  "id": "ECM-020",
+  "slug": "after-purchase-emails",
+  "name": "After-purchase emails",
+  "category": "ecommerce",
+  "categorySlug": "ecommerce-kits",
+  "categoryLabel": "E-commerce kits",
+  "productType": "DOCX and PDF shop kit",
+  "audience": "Digital sellers.",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "summary": "The receipt email and the how-to-open email.",
+  "description": "The receipt email and the how-to-open email.",
+  "benefits": [
+    "A finished sample you edit",
+    "The boundary of what the file does not decide",
+    "A checklist before you publish"
+  ],
+  "compatibility": [
+    "Word or Docs for DOCX",
+    "Excel for workbooks",
+    "A text editor for Markdown and CSV"
+  ],
+  "tags": [
+    "email",
+    "delivery"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1600,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a working draft for a South African online shop. It is not legal advice. Have a lawyer read it before you publish it as your policy."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "EBK-011",
+  "slug": "accessibility-basics-for-a-small-site",
+  "name": "Accessibility basics for a small site",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "People shipping a small site who are not accessibility specialists.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "A practical pass over a small website: headings, contrast, forms, and keyboard use.",
+  "description": "A practical pass over a small website: headings, contrast, forms, and keyboard use.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "accessibility"
+  ],
+  "prices": {
+    "ZAR": 18900,
+    "USD": 1500,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

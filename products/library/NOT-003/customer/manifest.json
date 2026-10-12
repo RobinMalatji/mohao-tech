@@ -1,0 +1,49 @@
+{
+  "id": "NOT-003",
+  "name": "Bakery content calendar",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 815,
+      "sha256": "948fb3e4d31a2414de91d768f9cf994b2f224e8b8104f216e4e16a11ed4383dc"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1112,
+      "sha256": "bf641023371a66b170acb7075bbe58d698da9a170e2bc9bc44b95ea5210f2d93"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 915,
+      "sha256": "6be9751e4fe09496d303145684a279c039c027e9fd41d9599962f87deda61918"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1262,
+      "sha256": "be658871d632270d9265c69c32056ee9b4dd9837a63c05a7e10874b4a1c8c91a"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29962,
+      "sha256": "94c622e51e13bed64bd31a4bb0253f15bca16941422e353e78f0ef03120be1d3"
+    },
+    {
+      "path": "pages/rules.md",
+      "bytes": 186,
+      "sha256": "d536f46f767aed4d15f92b3efaba5412985b9f2eba45d8344b9199a6879323ad"
+    },
+    {
+      "path": "databases/october-posts.csv",
+      "bytes": 215,
+      "sha256": "55ea8613ec41998343adf314838d86daa183aa46d1eb6916bce025dd15217518"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 1037,
+      "sha256": "f3a517c0525cb5ae0902f1c3d2a6996b73afbbf4b6d5f3f0d6cda93e2cd2a582"
+    }
+  ]
+}

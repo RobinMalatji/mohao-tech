@@ -1,0 +1,44 @@
+{
+  "id": "AI-006",
+  "name": "Meeting summary prompts",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 748,
+      "sha256": "baf0b7ca575f9fc66e7ba84fcc4891e744215b441dcc8c360ad2f9449fcd8dc8"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1103,
+      "sha256": "8d2e3c14660b03837d3082c1fc668ba8bbbffb4cead3e5b4b6454d09198424e9"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 875,
+      "sha256": "c638270cd567c7e6cde2c69fe216b6f2884db42925e9d5f35d3d477e5988a6d5"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1092,
+      "sha256": "4557188aa13eefc404dc92a68918d354e0fb71a5c8aed0106b1005223e1ca941"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 29468,
+      "sha256": "9e197394c384a386283443d5b5c7fbb8f12335a7d088e794d3198b64aa2ef4aa"
+    },
+    {
+      "path": "prompts.md",
+      "bytes": 1246,
+      "sha256": "cd15cf253dd91c2e398ed469a4cd5f4488364d17703d9c6d4ec7b1b6e0eee30f"
+    },
+    {
+      "path": "prompts.csv",
+      "bytes": 948,
+      "sha256": "fb26d1aaf0ae004793071669345201a029e8311ac36951e0790b8df1f715fc77"
+    }
+  ]
+}

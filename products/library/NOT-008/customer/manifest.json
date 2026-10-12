@@ -1,0 +1,49 @@
+{
+  "id": "NOT-008",
+  "name": "Small launch checklist",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 774,
+      "sha256": "064a60e206109e7d328eb067c699c1596a64bdf776f9045fdeb147129ba82bf7"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1111,
+      "sha256": "ed3b34614ebc27a2f63166cfe146910a2c169d100a8a2e452074f9fd6368f442"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 838,
+      "sha256": "32c4b6cea9f90208a44fbe2d6dd493d4b9dfa6c82581ace5558ce270297b98c9"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1261,
+      "sha256": "586da8b0ef89dd73f4059c02710d0dcda1316f072d07d48e8dad005678e17fab"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 28731,
+      "sha256": "8216e9c54bad99ef92fc5d45137bf9b583c3124e52cef70df6ad404dfd830cf7"
+    },
+    {
+      "path": "pages/definition.md",
+      "bytes": 176,
+      "sha256": "d012080ba2fe499a87200687616b4eec28e45635cc0fe2e23c23356502ed66a6"
+    },
+    {
+      "path": "databases/checks.csv",
+      "bytes": 206,
+      "sha256": "a044025027bfa5925ae6421cd289935ac65031b0a966e62745619a3258efa5ed"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 965,
+      "sha256": "21efcd8eff38f79bc384daa8e33c6b03388365a0aa754774d06a1787d0a7484c"
+    }
+  ]
+}

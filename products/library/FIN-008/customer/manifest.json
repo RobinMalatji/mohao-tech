@@ -1,0 +1,54 @@
+{
+  "id": "FIN-008",
+  "name": "Rent and ownership cost comparison",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1002,
+      "sha256": "7264c9fbdb3c6794924716ce95840e73fac09a3b64d0d51000e603306049df3c"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1199,
+      "sha256": "777b9ed81ce7442cd459dc58727982652978bfa0bd6a8021a4cf47fb6cde15a2"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 1068,
+      "sha256": "9db7027ca0e01b330361d3fadeca53bb96a0a3854afc28cfc553d0708dca389d"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1272,
+      "sha256": "22de8454309dc6c222d5d204709e600578ba03a3e2fb4eea72bd1344c01b5fd2"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 33483,
+      "sha256": "735b1b36e9032c5f53f94c9b74d5a545972170a6276b232579b5ca3ce027f72d"
+    },
+    {
+      "path": "rent-and-ownership-costs.xlsx",
+      "bytes": 7358,
+      "sha256": "4ce73934c904ddc7551eef02f413da6a4162ab39df183477cb327e6ef9164b00"
+    },
+    {
+      "path": "rent-and-ownership-costs-guide.md",
+      "bytes": 1384,
+      "sha256": "6bd0b24e5ca71b6150e9e049fabac694a28e29bbd369e5aa86d46fbd70910e3f"
+    },
+    {
+      "path": "rent-and-ownership-costs-guide.pdf",
+      "bytes": 3885,
+      "sha256": "abc27ba4e1280246e4e51458d4a2e4b5e2b4a9494d77230224edd14202afa5ff"
+    },
+    {
+      "path": "rent-and-ownership-costs-guide.docx",
+      "bytes": 10489,
+      "sha256": "123ef6257d2e88409d53943fe1c983dc9d1df64c45f30ddda79beee00e4eb6c7"
+    }
+  ]
+}

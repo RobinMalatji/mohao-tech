@@ -1,0 +1,49 @@
+{
+  "id": "NOT-018",
+  "name": "Agency quarterly objectives",
+  "version": "1.0.0",
+  "licence": "personal",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 777,
+      "sha256": "331469f81e6e618e575ef790aab01c56674830c8bcc3691b6ac9ebe99e5d458f"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1116,
+      "sha256": "ebbb02e6c95c5e27b69f0bb11f165a3d47943e12f93ce26611ce377fd3e5ac1c"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 872,
+      "sha256": "ccf981e08ca1d8f028dba97f473f99f1cc2032632e7ad755248090ba5d022f2b"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 1266,
+      "sha256": "c011914e255ae3da4d8050215fa1e9bc67fee023cc6161ba8ca3b3100f5b98c3"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 32538,
+      "sha256": "80736b9044b65f297599b77ed63ac380a250c2b96e365923b6667cee50d2496d"
+    },
+    {
+      "path": "pages/rules.md",
+      "bytes": 171,
+      "sha256": "509cbbfabccc040d3e4e2fcb5ebab5e36eb226cc5ab6fc1c3811190b6b9af5e2"
+    },
+    {
+      "path": "databases/objectives.csv",
+      "bytes": 213,
+      "sha256": "6db8c87bcce9797faca78e8c8e188788e6ee0be97319b9732820907dca2adde0"
+    },
+    {
+      "path": "import-guide.md",
+      "bytes": 995,
+      "sha256": "ba73a7ced979513e0c184cf9823168c3998b6dc1fe17ebeb4d4a9ea97c2253a4"
+    }
+  ]
+}

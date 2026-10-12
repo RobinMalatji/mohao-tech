@@ -1,0 +1,34 @@
+{
+  "id": "EBK-002",
+  "slug": "price-a-fixed-service",
+  "name": "Price a fixed service",
+  "category": "ebooks",
+  "categorySlug": "guides",
+  "categoryLabel": "Guides",
+  "productType": "PDF guide with Markdown and DOCX",
+  "audience": "Freelancers who still quote from a nervous hourly rate.",
+  "version": "1.0.0",
+  "licence": "personal",
+  "summary": "Set a fixed price from the work and the costs, instead of copying a competitor.",
+  "description": "Set a fixed price from the work and the costs, instead of copying a competitor.",
+  "benefits": [
+    "A complete method you can follow this week",
+    "A checklist inside the guide",
+    "The same text as PDF, Word, and Markdown"
+  ],
+  "compatibility": [
+    "Any PDF reader",
+    "Microsoft Word or Google Docs for the DOCX",
+    "A text editor for the Markdown"
+  ],
+  "tags": [
+    "pricing"
+  ],
+  "prices": {
+    "ZAR": 19900,
+    "USD": 1600,
+    "GBP": 1200,
+    "EUR": 1400
+  },
+  "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "DSN-018",
+  "name": "Cafe loyalty card",
+  "version": "1.0.0",
+  "licence": "commercial-single",
+  "generatedOn": "2026-10-12",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 823,
+      "sha256": "3c6e3a56b01668c75723e10be619517add7aebc6e2c65dc2701156f3a7acfd36"
+    },
+    {
+      "path": "LICENCE.md",
+      "bytes": 1130,
+      "sha256": "ec8ae747f3b64ccc4582cc4540de7c11a262dc7e96efac23e7c2aa5c4601a411"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 946,
+      "sha256": "3289711eea275cf7ce0e0b15357dd5c7ee4db595c9cf91be1713d5959d4f8760"
+    },
+    {
+      "path": "preview/cover.svg",
+      "bytes": 966,
+      "sha256": "0d8f2acf66355b04e3519904122642b0920c8eec14a2135e68a54bff83fbea02"
+    },
+    {
+      "path": "preview/cover.png",
+      "bytes": 25827,
+      "sha256": "1f1e57118d4762f76b21ac3d5d5c3bda2944dc60b5286c48b367b3959d92e91a"
+    },
+    {
+      "path": "designs/loyalty-card.svg",
+      "bytes": 944,
+      "sha256": "284229fd713211755a79d1dd40ecfcf2263550718bb8bd3fe8b261fad9ac8743"
+    },
+    {
+      "path": "designs/preview.html",
+      "bytes": 1195,
+      "sha256": "ec83c01e0adfa9715fff893b42fc4c8c151ee095bce635f02f03a513b4b8bb0e"
+    },
+    {
+      "path": "designs/palette.json",
+      "bytes": 140,
+      "sha256": "b01f8f2b03260b0663a8ce8c9c2d73b4fd6efacd845ebc9dd3b8bf03559b4403"
+    },
+    {
+      "path": "design-spec.md",
+      "bytes": 983,
+      "sha256": "3a4342c904fcfda6e7d91d9269e461c0541dc1e6a7bd32729e1a2d6eef38b53a"
+    },
+    {
+      "path": "design-spec.pdf",
+      "bytes": 3506,
+      "sha256": "d278f26ebe486e4faf6de33c7f03f3701252a4d11e4eeb274c7ced5ca54e8fe5"
+    }
+  ]
+}
