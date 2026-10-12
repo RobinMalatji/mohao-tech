@@ -2,12 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { addToCart } from "@/actions/shop";
-import {
-  coverPath,
-  getIncludedFiles,
-  getProductBySlug,
-  getProducts,
-} from "@/lib/shop/catalogue";
+import { coverPath, getProductBySlug, getProducts } from "@/lib/shop/catalogue";
+import { ProductPreviewPanel } from "@/components/shop/product-preview";
+import { getProductPreview } from "@/lib/shop/preview";
 import { formatPrice, licenceLabel } from "@/lib/shop/money";
 import { getCurrency } from "@/lib/shop/session";
 
@@ -40,9 +37,9 @@ export default async function ProductPage({
   const product = await getProductBySlug(slug);
   if (!product) notFound();
 
-  const [currency, files] = await Promise.all([
+  const [currency, preview] = await Promise.all([
     getCurrency(),
-    getIncludedFiles(product.id),
+    getProductPreview(product.id),
   ]);
 
   return (
@@ -109,36 +106,16 @@ export default async function ProductPage({
           </p>
         </div>
       </div>
+      {preview ? <ProductPreviewPanel id={product.id} preview={preview} /> : null}
       <div className="mt-16 grid gap-12 border-t border-line pt-12 lg:grid-cols-2">
         <section>
           <h2 className="text-xl font-semibold tracking-[-0.03em]">What it is</h2>
-          <p className="mt-4 leading-8 text-muted">{product.description}</p>
+          <p className="mt-4 leading-8 text-muted">{product.summary}</p>
           <p className="mt-4 leading-8 text-muted">{product.audience}</p>
-          <ul className="mt-6 space-y-2 text-sm">
-            {product.benefits.map((benefit) => (
-              <li key={benefit}>{benefit}</li>
-            ))}
-          </ul>
         </section>
         <section>
-          <h2 className="text-xl font-semibold tracking-[-0.03em]">
-            Files in the pack
-          </h2>
-          <ul className="mt-4 space-y-2 text-sm">
-            {files.map((file) => (
-              <li key={file.path} className="font-mono text-[0.82rem]">
-                {file.path}
-              </li>
-            ))}
-          </ul>
-          <h2 className="mt-10 text-xl font-semibold tracking-[-0.03em]">
-            Opens in
-          </h2>
-          <ul className="mt-4 space-y-2 text-sm text-muted">
-            {product.compatibility.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-          </ul>
+          <h2 className="text-xl font-semibold tracking-[-0.03em]">Opens in</h2>
+          <p className="mt-4 text-sm leading-7 text-muted">{product.productType}</p>
           {product.disclaimer ? (
             <p className="mt-8 text-sm leading-7 text-muted">{product.disclaimer}</p>
           ) : null}

@@ -6,8 +6,12 @@ const nextConfig: NextConfig = {
     "/shop": ["./products/library/**/internal/meta.json"],
     "/shop/p/*": [
       "./products/library/**/internal/meta.json",
-      "./products/library/**/customer/manifest.json",
+      "./products/library/**/customer/**/*.md",
+      "./products/library/**/customer/**/*.csv",
+      "./products/library/**/customer/**/*.svg",
+      "./products/library/**/customer/**/*.mjs",
     ],
+    "/shop/previews/*": ["./products/library/**/customer/designs/*.svg"],
     "/shop/c/*": ["./products/library/**/internal/meta.json"],
     "/shop/search": ["./products/library/**/internal/meta.json"],
     "/shop/cart": ["./products/library/**/internal/meta.json"],

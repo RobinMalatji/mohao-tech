@@ -37,7 +37,7 @@ What the automated check does not do: it does not open every file in Microsoft E
 
 ## Phase 2
 
-The shop is a preview at `/shop`. It reads `products/library/*/internal/meta.json` and shows covers from a route that does not serve the zip. Category pages, product pages, search, currency (ZAR default), and a cart exist. The cart does not charge a card. Yoco, PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not connected. Products remain drafts. Order tables, customer accounts, and the admin catalogue are still to build. The services homepage stays at `/`.
+The shop is a preview at `/shop`. It reads `products/library/*/internal/meta.json` and shows covers from a route that does not serve the zip. Each product page shows a short opening sample: the first lines of a guide, prompt, or source file, the first rows of a table, or one design layout. The rest of the pack is not listed or served. Category pages, product pages, search, currency (ZAR default), and a cart exist. The cart does not charge a card. Yoco, PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not connected. Products remain drafts. Order tables, customer accounts, and the admin catalogue are still to build. The services homepage stays at `/`.
 
 ## Not claimed
 
