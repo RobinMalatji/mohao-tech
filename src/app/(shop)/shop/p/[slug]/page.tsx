@@ -106,7 +106,7 @@ export default async function ProductPage({
           </p>
         </div>
       </div>
-      {preview ? <ProductPreviewPanel id={product.id} preview={preview} /> : null}
+      {preview ? <ProductPreviewPanel preview={preview} /> : null}
       <div className="mt-16 grid gap-12 border-t border-line pt-12 lg:grid-cols-2">
         <section>
           <h2 className="text-xl font-semibold tracking-[-0.03em]">What it is</h2>

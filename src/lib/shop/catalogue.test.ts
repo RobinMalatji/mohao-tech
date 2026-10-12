@@ -32,7 +32,7 @@ describe("shop catalogue", () => {
     expect(counted).toBe(products.length);
   });
 
-  it("previews an opening sample and keeps the rest back", async () => {
+  it("shows the product and keeps the download locked", async () => {
     const [finance, prompts, design, missing] = await Promise.all([
       getProductPreview("FIN-001"),
       getProductPreview("AI-001"),
@@ -40,21 +40,26 @@ describe("shop catalogue", () => {
       getProductPreview("NOPE-999"),
     ]);
 
-    expect(finance?.kind).toBe("text");
-    expect(finance?.text).toContain("Household monthly budget");
-    expect(finance?.text).not.toContain("Worked example");
-    expect(finance?.clipped).toBe(true);
-    expect(finance?.hiddenFiles).toBeGreaterThan(0);
+    expect(finance?.sheets.map((sheet) => sheet.name)).toContain("Inputs");
+    expect(finance?.sheets.some((sheet) => sheet.rows.some((row) => row.includes("Rent")))).toBe(
+      true,
+    );
+    expect(finance?.locked).toMatch(/download/i);
 
-    expect(prompts?.text).toContain("List observations");
-    expect(prompts?.text).not.toContain("Contradictions");
-    expect(prompts?.hiddenFiles).toBeGreaterThan(0);
+    const promptTitles = prompts?.sections.map((section) => section.title) ?? [];
+    expect(promptTitles).toContain("List observations");
+    expect(promptTitles).toContain("Contradictions");
+    const openPrompt = prompts?.sections.find((section) => section.title === "List observations");
+    const closedPrompt = prompts?.sections.find((section) => section.title === "Contradictions");
+    expect(openPrompt?.blocks?.some((block) => block.type === "p" && block.text.includes("anonymised notes"))).toBe(
+      true,
+    );
+    expect(closedPrompt?.blocks).toBeUndefined();
 
-    expect(design?.kind).toBe("image");
-    expect(design?.imagePath).toBe("designs/slide-01-problem.svg");
-    expect(design?.hiddenFiles).toBeGreaterThan(1);
-    expect(await readPreviewSvg("DSN-001")).toContain("<svg");
-    expect(await readPreviewSvg("FIN-001")).toBeNull();
+    expect(design?.gallery.length).toBeGreaterThan(1);
+    expect(await readPreviewSvg("DSN-001", 0)).toContain("<svg");
+    expect(await readPreviewSvg("DSN-001", 1)).toContain("<svg");
+    expect(await readPreviewSvg("FIN-001", 0)).toBeNull();
     expect(missing).toBeNull();
   });
 });
