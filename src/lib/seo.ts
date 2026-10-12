@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { services } from "@/lib/content/services";
-import { canonicalSiteUrl, legalLinks, navigation } from "@/lib/site";
+import { canonicalSiteUrl, legalLinks, navigation, site } from "@/lib/site";
+
+export type BreadcrumbItem = {
+  name: string;
+  path: string;
+};
 
 export function absoluteUrl(path: string) {
   if (!path || path === "/") {
@@ -19,6 +24,44 @@ export function getPublicUrls() {
   ]);
 
   return [...paths].map((path) => absoluteUrl(path));
+}
+
+export function brandedTitle(title: string) {
+  return title.includes(site.name) ? title : `${title} | ${site.name}`;
+}
+
+export function buildMetadata({
+  title,
+  description,
+  path,
+  keywords,
+}: {
+  title: string;
+  description: string;
+  path: string;
+  keywords?: string[];
+}): Metadata {
+  const ogTitle = brandedTitle(title);
+
+  return {
+    title,
+    description,
+    ...(keywords && keywords.length > 0 ? { keywords } : {}),
+    alternates: { canonical: path },
+    openGraph: {
+      type: "website",
+      locale: "en_ZA",
+      url: path,
+      title: ogTitle,
+      description,
+      siteName: site.name,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: ogTitle,
+      description,
+    },
+  };
 }
 
 export function getSearchVerification(): Metadata["verification"] | undefined {

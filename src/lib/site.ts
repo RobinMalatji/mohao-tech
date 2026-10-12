@@ -40,7 +40,7 @@ export const site = {
   alternateName: "mohaotech",
   tagline: "Technology. Digital Solutions. Business Growth.",
   description:
-    "Mohao Tech provides software development, mobile applications, digital marketing, SEO and e-commerce solutions that help businesses grow with modern technology.",
+    "Mohao Tech provides custom software development, websites, Android and iOS apps, digital marketing, search engine optimisation and e-commerce stores that help businesses grow with modern technology.",
   url: resolveSiteUrl(),
   canonicalUrl: canonicalSiteUrl,
 } as const;

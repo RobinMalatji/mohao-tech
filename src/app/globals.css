@@ -250,6 +250,16 @@ body {
   background: var(--line);
 }
 
+.faq-summary {
+  cursor: pointer;
+}
+
+.faq-summary::-webkit-details-marker,
+.faq-summary::marker {
+  display: none;
+  content: "";
+}
+
 .reveal-item {
   opacity: 0;
   transform: translateY(1.5rem);

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = `${site.name} | ${site.tagline}`;
+const title = `${site.name} | Software, Mobile Apps and Digital Services`;
 const verification = getSearchVerification();
 
 export const metadata: Metadata = {
@@ -30,13 +30,16 @@ export const metadata: Metadata = {
     "Mohao Tech",
     "mohaotech",
     "software development",
+    "web applications",
+    "websites",
     "mobile app development",
     "Android development",
     "iOS development",
     "digital marketing",
+    "search engine optimisation",
     "SEO",
-    "e-commerce development",
-    "technology solutions",
+    "e-commerce websites",
+    "online stores",
   ],
   publisher: site.name,
   openGraph: {

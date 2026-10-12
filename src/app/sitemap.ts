@@ -11,10 +11,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     void notifyIndexNow(urls);
   });
 
+  const lastModified = new Date();
+
   return urls.map((url) => ({
     url,
+    lastModified,
     changeFrequency: url === canonicalSiteUrl ? "weekly" : "monthly",
     priority:
-      url === canonicalSiteUrl ? 1 : url.includes("/services") ? 0.8 : 0.7,
+      url === canonicalSiteUrl
+        ? 1
+        : url === `${canonicalSiteUrl}/services` ||
+            url.includes("/services/")
+          ? 0.9
+          : 0.7,
   }));
 }

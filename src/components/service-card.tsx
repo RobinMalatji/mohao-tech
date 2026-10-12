@@ -39,7 +39,9 @@ export function ServiceCard({
       </h3>
       <p className="mt-3 flex-1 text-sm leading-7 text-muted">{service.summary}</p>
       <p className="mt-6 inline-flex items-center gap-2 text-sm font-medium">
-        View service
+        {service.shortTitle === "E-Commerce"
+          ? "E-commerce websites"
+          : service.shortTitle}
         <ArrowIcon className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1" />
       </p>
     </Link>

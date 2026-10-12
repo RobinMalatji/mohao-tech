@@ -1,14 +1,30 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CTASection } from "@/components/cta-section";
+import { BreadcrumbJsonLd } from "@/components/json-ld";
 import { Reveal } from "@/components/reveal";
 import { StatementBand } from "@/components/visuals/statement-band";
+import { services } from "@/lib/content/services";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
+const crumbs = [
+  { name: "Mohao Tech", path: "/" },
+  { name: "About", path: "/about" },
+];
+
+export const metadata: Metadata = buildMetadata({
   title: "About",
   description:
-    "Mohao Tech provides software development, mobile applications, digital marketing, SEO and e-commerce solutions for businesses.",
-  alternates: { canonical: "/about" },
-};
+    "Mohao Tech is a technology company that provides custom software, websites, Android and iOS apps, digital marketing, SEO and e-commerce stores for businesses.",
+  path: "/about",
+  keywords: [
+    "Mohao Tech",
+    "technology company",
+    "software development",
+    "digital services",
+  ],
+});
 
 const principles = [
   {
@@ -28,11 +44,13 @@ const principles = [
 export default function AboutPage() {
   return (
     <>
+      <BreadcrumbJsonLd items={crumbs} />
       <section className="border-b border-line px-5 py-16 sm:px-8 sm:py-24">
         <div className="mx-auto max-w-3xl">
-          <p className="accent-kicker text-muted">About Mohao Tech</p>
+          <Breadcrumbs items={crumbs} />
+          <p className="mt-6 accent-kicker text-muted">About Mohao Tech</p>
           <h1 className="mt-4 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">
-            A technology partner for digital and software work.
+            A technology partner for software, apps and digital work.
           </h1>
           <p className="mt-6 text-base leading-8 text-muted">
             Mohao Tech is a technology company that provides digital and
@@ -53,12 +71,44 @@ export default function AboutPage() {
             </h2>
             <div className="mt-6 space-y-5 text-sm leading-7 text-muted sm:text-base">
               <p>
-                Our work covers custom software development, Android and iOS
-                applications, digital marketing, search engine optimisation and
-                e-commerce platforms. Each engagement is scoped around the
-                requirement in front of us — a new product, an existing system
-                that needs attention, or a digital presence that should work
-                harder.
+                Our work covers{" "}
+                <Link
+                  href="/services/software-development"
+                  className="text-ink underline decoration-signal/70 underline-offset-4 hover:decoration-signal"
+                >
+                  custom software development
+                </Link>
+                ,{" "}
+                <Link
+                  href="/services/mobile-apps"
+                  className="text-ink underline decoration-signal/70 underline-offset-4 hover:decoration-signal"
+                >
+                  Android and iOS applications
+                </Link>
+                ,{" "}
+                <Link
+                  href="/services/digital-marketing"
+                  className="text-ink underline decoration-ember/70 underline-offset-4 hover:decoration-ember"
+                >
+                  digital marketing
+                </Link>
+                ,{" "}
+                <Link
+                  href="/services/seo"
+                  className="text-ink underline decoration-ember/70 underline-offset-4 hover:decoration-ember"
+                >
+                  search engine optimisation
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href="/services/ecommerce"
+                  className="text-ink underline decoration-ember/70 underline-offset-4 hover:decoration-ember"
+                >
+                  e-commerce platforms
+                </Link>
+                . Each engagement is scoped around the requirement in front of
+                us — a new product, an existing system that needs attention, or
+                a digital presence that should work harder.
               </p>
               <p>
                 We take a practical approach. Discovery comes first. Then we
@@ -98,9 +148,31 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="border-t border-line px-5 py-16 sm:px-8">
+        <div className="mx-auto max-w-6xl">
+          <h2 className="text-3xl font-semibold tracking-[-0.04em]">
+            Services we provide
+          </h2>
+          <ul className="mt-8 grid gap-4 sm:grid-cols-2">
+            {services.map((service) => (
+              <li key={service.slug}>
+                <Link
+                  href={`/services/${service.slug}`}
+                  className="flex h-full flex-col rounded-[1.4rem] border border-line p-5 transition-colors hover:border-ink/20"
+                >
+                  <p className="font-semibold tracking-[-0.02em]">{service.title}</p>
+                  <p className="mt-2 text-sm leading-7 text-muted">{service.summary}</p>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       <CTASection
         title="Discuss your project"
-        primary={{ href: "/contact", label: "Talk to Mohao Tech" }}
+        primary={{ href: "/contact", label: "Contact Mohao Tech" }}
+        secondary={{ href: "/services", label: "Software, apps and SEO" }}
       />
     </>
   );

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { ButtonLink } from "@/components/ui/button";
 import { CTASection } from "@/components/cta-section";
 import { HeroVisual } from "@/components/hero-visual";
@@ -8,19 +9,28 @@ import { ServiceCard } from "@/components/service-card";
 import { FieldBackdrop } from "@/components/visuals/field-backdrop";
 import { StatementBand } from "@/components/visuals/statement-band";
 import { services } from "@/lib/content/services";
+import { buildMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
 
+const homeTitle = `${site.name} | Software, Mobile Apps and Digital Services`;
+const homeDescription = site.description;
+
 export const metadata: Metadata = {
-  title: {
-    absolute: `${site.name} | ${site.tagline}`,
-  },
-  description: site.description,
-  alternates: { canonical: "/" },
-  openGraph: {
-    url: "/",
-    title: `${site.name} | ${site.tagline}`,
-    description: site.description,
-  },
+  ...buildMetadata({
+    title: homeTitle,
+    description: homeDescription,
+    path: "/",
+    keywords: [
+      "Mohao Tech",
+      "software development",
+      "mobile app development",
+      "websites",
+      "e-commerce websites",
+      "SEO services",
+      "digital marketing",
+    ],
+  }),
+  title: { absolute: homeTitle },
 };
 
 const approach = [
@@ -68,21 +78,54 @@ export default function HomePage() {
         />
         <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:py-24">
           <div>
-            <p className="accent-kicker text-canvas/60">Mohao Tech</p>
+            <p className="accent-kicker text-canvas/60">{site.tagline}</p>
             <h1 className="mt-5 max-w-xl text-4xl font-semibold tracking-[-0.05em] text-canvas sm:text-5xl lg:text-6xl">
-              Technology. Digital Solutions. Business Growth.
+              Software, mobile apps and digital services for businesses.
             </h1>
             <p className="mt-6 max-w-lg text-base leading-8 text-canvas/65">
-              Mohao Tech is a technology company that builds software, mobile
-              applications and digital systems for businesses that need modern,
-              reliable tools.
+              Mohao Tech builds{" "}
+              <Link
+                href="/services/software-development"
+                className="text-canvas underline decoration-signal/70 underline-offset-4 hover:decoration-signal"
+              >
+                custom software and websites
+              </Link>
+              ,{" "}
+              <Link
+                href="/services/mobile-apps"
+                className="text-canvas underline decoration-signal/70 underline-offset-4 hover:decoration-signal"
+              >
+                Android and iOS apps
+              </Link>
+              ,{" "}
+              <Link
+                href="/services/ecommerce"
+                className="text-canvas underline decoration-signal/70 underline-offset-4 hover:decoration-signal"
+              >
+                e-commerce stores
+              </Link>
+              , and supports{" "}
+              <Link
+                href="/services/digital-marketing"
+                className="text-canvas underline decoration-ember/70 underline-offset-4 hover:decoration-ember"
+              >
+                digital marketing
+              </Link>{" "}
+              and{" "}
+              <Link
+                href="/services/seo"
+                className="text-canvas underline decoration-ember/70 underline-offset-4 hover:decoration-ember"
+              >
+                search engine optimisation
+              </Link>
+              .
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <ButtonLink href="/contact" variant="inverse" size="lg">
-                Get Started
+                Discuss a project
               </ButtonLink>
               <ButtonLink href="/services" variant="inverseSecondary" size="lg">
-                View Services
+                Software, apps and SEO
               </ButtonLink>
             </div>
           </div>
@@ -132,11 +175,11 @@ export default function HomePage() {
               <div>
                 <p className="accent-kicker text-muted">Services</p>
                 <h2 className="mt-3 text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">
-                  What Mohao Tech builds
+                  Software, apps, websites, SEO and e-commerce
                 </h2>
               </div>
               <ButtonLink href="/services" variant="secondary">
-                All services
+                All digital services
               </ButtonLink>
             </div>
           </Reveal>
@@ -150,7 +193,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <CTASection />
+      <CTASection
+        title="Discuss software, apps or an online store"
+        body="Tell us about the website, application, e-commerce store or search work you have in mind. Mohao Tech will review your enquiry and follow up with a clear next step."
+        primary={{ href: "/contact", label: "Contact Mohao Tech" }}
+        secondary={{ href: "/services", label: "Browse digital services" }}
+      />
     </>
   );
 }

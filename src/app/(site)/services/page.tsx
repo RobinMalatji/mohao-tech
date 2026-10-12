@@ -1,29 +1,39 @@
 import type { Metadata } from "next";
+import { Breadcrumbs } from "@/components/breadcrumbs";
 import { CTASection } from "@/components/cta-section";
+import { FaqList } from "@/components/faq-list";
+import { BreadcrumbJsonLd, FaqJsonLd, OfferCatalogJsonLd } from "@/components/json-ld";
 import { Reveal } from "@/components/reveal";
 import { ServiceCard } from "@/components/service-card";
-import { services } from "@/lib/content/services";
+import { services, servicesHub } from "@/lib/content/services";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Services",
-  description:
-    "Explore Mohao Tech services: software development, Android and iOS apps, digital marketing, SEO and e-commerce.",
-  alternates: { canonical: "/services" },
-};
+const crumbs = [
+  { name: "Mohao Tech", path: "/" },
+  { name: "Services", path: "/services" },
+];
+
+export const metadata: Metadata = buildMetadata({
+  title: servicesHub.seoTitle,
+  description: servicesHub.seoDescription,
+  path: "/services",
+  keywords: servicesHub.keywords,
+});
 
 export default function ServicesPage() {
   return (
     <>
+      <OfferCatalogJsonLd />
+      <FaqJsonLd faqs={servicesHub.faqs} />
+      <BreadcrumbJsonLd items={crumbs} />
       <section className="border-b border-line px-5 py-16 sm:px-8 sm:py-24">
         <div className="mx-auto max-w-3xl">
-          <p className="accent-kicker text-muted">Services</p>
+          <Breadcrumbs items={crumbs} />
+          <p className="mt-6 accent-kicker text-muted">Services</p>
           <h1 className="mt-4 text-4xl font-semibold tracking-[-0.05em] sm:text-5xl">
-            Software, mobile and digital services for growing businesses.
+            {servicesHub.heading}
           </h1>
-          <p className="mt-6 text-base leading-8 text-muted">
-            Mohao Tech focuses on five core services. Each can stand alone or
-            form part of a broader digital programme.
-          </p>
+          <p className="mt-6 text-base leading-8 text-muted">{servicesHub.intro}</p>
         </div>
       </section>
 
@@ -37,7 +47,13 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <CTASection title="Let’s build something great" />
+      <FaqList faqs={servicesHub.faqs} heading="How Mohao Tech services work" />
+
+      <CTASection
+        title="Enquire about a digital service"
+        primary={{ href: "/contact", label: "Contact Mohao Tech" }}
+        secondary={{ href: "/about", label: "About Mohao Tech" }}
+      />
     </>
   );
 }

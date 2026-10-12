@@ -18,8 +18,9 @@ export function Footer() {
         <div className="max-w-sm">
           <Logo inverted />
           <p className="mt-6 text-sm leading-7 text-canvas/65">
-            Mohao Tech provides digital and software solutions that help
-            businesses work with greater clarity, reliability and reach.
+            Mohao Tech provides custom software, websites, mobile apps, digital
+            marketing, SEO and e-commerce solutions that help businesses work
+            with greater clarity, reliability and reach.
           </p>
         </div>
 
