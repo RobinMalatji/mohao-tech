@@ -13,7 +13,7 @@ type Kit = {
   audience: string;
   tags: string[];
   prices: [number, number, number, number];
-  boards: Omit<Artboard, "file"> & { file: string }[];
+  boards: Artboard[];
   steps: string[];
 };
 

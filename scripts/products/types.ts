@@ -65,6 +65,7 @@ export type ProductDefinition = {
   meta: ProductMeta;
   files: OutputFile[];
   checks: FormulaCheck[];
+  workbooks?: { file: string; sheets: Sheet[] }[];
   nodeTest?: boolean;
   chart?: { label: string; value: number }[];
 };

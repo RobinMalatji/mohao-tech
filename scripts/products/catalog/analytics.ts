@@ -63,7 +63,13 @@ function modelRows(labels: string[], amounts: number[]) {
   return data;
 }
 
-const specs: Array<Omit<Model, "rows" | "columns" | "valueColumn" | "valueHeader" | "table"> & { labels: string[]; amounts: number[]; measureNoun: string }> = [
+const specs: Array<
+  Omit<Model, "rows" | "columns" | "valueColumn" | "valueHeader" | "table" | "measures"> & {
+    labels: string[];
+    amounts: number[];
+    measureNoun: string;
+  }
+> = [
   { number: 1, name: "Retail sales summary", summary: "Monthly sales by store for a three-store retailer.", audience: "A retailer comparing stores.", tags: ["retail"], prices: [349, 29, 22, 25], labels: ["Observatory", "Woodstock", "Durban North"], amounts: [82000, 64000, 71000], measureNoun: "Sales" },
   { number: 2, name: "SaaS monthly recurring revenue", summary: "Monthly recurring revenue by plan for a small software product.", audience: "A founder tracking plans.", tags: ["saas"], prices: [399, 32, 25, 28], labels: ["Starter", "Team", "Workshop"], amounts: [18000, 42000, 9000], measureNoun: "MRR" },
   { number: 3, name: "Inventory units on hand", summary: "Units on hand by category for a home-goods shop.", audience: "A buyer watching stock.", tags: ["inventory"], prices: [329, 27, 21, 24], labels: ["Textile", "Ceramic", "Paper"], amounts: [120, 80, 200], measureNoun: "Units" },
