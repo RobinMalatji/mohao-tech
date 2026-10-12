@@ -105,6 +105,16 @@ Admin routes are excluded from the sitemap and robots file. Authentication is ch
 - Run `pnpm prisma migrate deploy` and `pnpm db:seed` as part of first deploy.
 - Never commit `.env` files or credentials.
 
+## Search and indexing
+
+Google is not instant. Brand searches for “Mohao Tech” / “mohaotech” often take a few days after the domain is verified, not minutes.
+
+1. In [Google Search Console](https://search.google.com/search-console), add a **Domain** property for `mohaotech.com` and verify with a DNS TXT record on Cloudflare.
+2. Submit the sitemap: `https://mohaotech.com/sitemap.xml`.
+3. Optional HTML-tag verification: set `GOOGLE_SITE_VERIFICATION` in Vercel and redeploy. Do not invent a token.
+
+`robots.txt` allows crawling and points at the sitemap. Production builds notify Bing/Yandex via IndexNow. Google does not use IndexNow.
+
 ## Tests
 
 ```bash

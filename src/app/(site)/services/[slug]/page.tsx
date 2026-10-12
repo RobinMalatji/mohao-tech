@@ -28,6 +28,7 @@ export async function generateMetadata({
     openGraph: {
       title: `${service.title} | Mohao Tech`,
       description: service.description,
+      url: `/services/${service.slug}`,
     },
   };
 }

@@ -1,14 +1,38 @@
-import { site } from "@/lib/site";
+import { canonicalSiteUrl, site } from "@/lib/site";
 import { services } from "@/lib/content/services";
+
+const organizationId = `${canonicalSiteUrl}/#organization`;
+const websiteId = `${canonicalSiteUrl}/#website`;
 
 export function OrganizationJsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: site.name,
-    url: site.url,
-    description: site.description,
-    knowsAbout: services.map((service) => service.title),
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": organizationId,
+        name: site.name,
+        alternateName: [site.alternateName, "MohaoTech"],
+        url: canonicalSiteUrl,
+        description: site.description,
+        logo: {
+          "@type": "ImageObject",
+          url: `${canonicalSiteUrl}/apple-icon`,
+          width: 180,
+          height: 180,
+        },
+        knowsAbout: services.map((service) => service.title),
+      },
+      {
+        "@type": "WebSite",
+        "@id": websiteId,
+        name: site.name,
+        alternateName: site.alternateName,
+        url: canonicalSiteUrl,
+        inLanguage: "en-ZA",
+        publisher: { "@id": organizationId },
+      },
+    ],
   };
 
   return (
@@ -37,10 +61,11 @@ export function ServiceJsonLd({
     description,
     provider: {
       "@type": "Organization",
+      "@id": organizationId,
       name: site.name,
-      url: site.url,
+      url: canonicalSiteUrl,
     },
-    url: `${site.url}${path}`,
+    url: `${canonicalSiteUrl}${path}`,
   };
 
   return (

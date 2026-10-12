@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { OrganizationJsonLd } from "@/components/json-ld";
-import { site } from "@/lib/site";
+import { getSearchVerification } from "@/lib/seo";
+import { getMetadataBaseUrl, site } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,14 +15,20 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const title = `${site.name} | ${site.tagline}`;
+const verification = getSearchVerification();
+
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
+  metadataBase: new URL(getMetadataBaseUrl()),
+  applicationName: site.name,
   title: {
-    default: `${site.name} | ${site.tagline}`,
+    default: title,
     template: `%s | ${site.name}`,
   },
   description: site.description,
   keywords: [
+    "Mohao Tech",
+    "mohaotech",
     "software development",
     "mobile app development",
     "Android development",
@@ -30,28 +37,27 @@ export const metadata: Metadata = {
     "SEO",
     "e-commerce development",
     "technology solutions",
-    "Mohao Tech",
   ],
+  publisher: site.name,
   openGraph: {
     type: "website",
     locale: "en_ZA",
-    url: site.url,
     siteName: site.name,
-    title: `${site.name} | ${site.tagline}`,
-    description: site.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} | ${site.tagline}`,
-    description: site.description,
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
-  alternates: {
-    canonical: "/",
-  },
+  ...(verification ? { verification } : {}),
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { ButtonLink } from "@/components/ui/button";
 import { CTASection } from "@/components/cta-section";
@@ -7,6 +8,20 @@ import { ServiceCard } from "@/components/service-card";
 import { FieldBackdrop } from "@/components/visuals/field-backdrop";
 import { StatementBand } from "@/components/visuals/statement-band";
 import { services } from "@/lib/content/services";
+import { site } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: `${site.name} | ${site.tagline}`,
+  },
+  description: site.description,
+  alternates: { canonical: "/" },
+  openGraph: {
+    url: "/",
+    title: `${site.name} | ${site.tagline}`,
+    description: site.description,
+  },
+};
 
 const approach = [
   {

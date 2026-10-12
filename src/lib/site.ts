@@ -1,8 +1,8 @@
-const CANONICAL_PRODUCTION_URL = "https://mohaotech.com";
+export const canonicalSiteUrl = "https://mohaotech.com";
 
 function resolveSiteUrl() {
   if (process.env.VERCEL_ENV === "production") {
-    return CANONICAL_PRODUCTION_URL;
+    return canonicalSiteUrl;
   }
 
   const configured = process.env.NEXT_PUBLIC_SITE_URL?.trim();
@@ -15,24 +15,34 @@ function resolveSiteUrl() {
   }
 
   const productionHost = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
-  if (productionHost) {
-    return `https://${productionHost}`;
+  if (productionHost && !productionHost.includes("vercel.app")) {
+    return `https://${productionHost.replace(/^https?:\/\//, "")}`;
   }
 
   const deploymentHost = process.env.VERCEL_URL?.trim();
   if (deploymentHost) {
-    return `https://${deploymentHost}`;
+    return `https://${deploymentHost.replace(/^https?:\/\//, "")}`;
   }
 
   return "http://localhost:3000";
 }
 
+export function getMetadataBaseUrl() {
+  if (process.env.NODE_ENV === "development") {
+    return resolveSiteUrl();
+  }
+
+  return canonicalSiteUrl;
+}
+
 export const site = {
   name: "Mohao Tech",
+  alternateName: "mohaotech",
   tagline: "Technology. Digital Solutions. Business Growth.",
   description:
     "Mohao Tech provides software development, mobile applications, digital marketing, SEO and e-commerce solutions that help businesses grow with modern technology.",
   url: resolveSiteUrl(),
+  canonicalUrl: canonicalSiteUrl,
 } as const;
 
 export const navigation = [
