@@ -101,7 +101,7 @@ Admin routes are excluded from the sitemap and robots file. Authentication is ch
 - Use a managed PostgreSQL database and set `DATABASE_URL`.
 - Generate a unique `AUTH_SECRET`.
 - Switch `EMAIL_PROVIDER` to `smtp` or `resend`.
-- Set `NEXT_PUBLIC_SITE_URL` to the public HTTPS origin.
+- Production canonical URL is `https://mohaotech.com`. Set `NEXT_PUBLIC_SITE_URL` for local/preview if needed.
 - Run `pnpm prisma migrate deploy` and `pnpm db:seed` as part of first deploy.
 - Never commit `.env` files or credentials.
 
