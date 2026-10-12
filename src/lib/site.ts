@@ -1,4 +1,10 @@
+const CANONICAL_PRODUCTION_URL = "https://mohaotech.com";
+
 function resolveSiteUrl() {
+  if (process.env.VERCEL_ENV === "production") {
+    return CANONICAL_PRODUCTION_URL;
+  }
+
   const configured = process.env.NEXT_PUBLIC_SITE_URL?.trim();
   if (configured) {
     try {
