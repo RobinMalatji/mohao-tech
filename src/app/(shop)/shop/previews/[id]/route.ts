@@ -5,7 +5,7 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> },
 ) {
   const { id } = await params;
-  const svg = await readPreviewSvg(id);
+  const svg = await readPreviewSvg(id, 0);
   if (!svg) return new Response("Not found", { status: 404 });
 
   return new Response(svg, {
