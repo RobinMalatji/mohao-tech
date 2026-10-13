@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { coverPath, type ShopProduct } from "@/lib/shop/catalogue";
+import type { ShopProduct } from "@/lib/shop/catalogue";
 import { formatPrice, type Currency } from "@/lib/shop/money";
 
 export function ProductCard({
@@ -11,18 +11,22 @@ export function ProductCard({
 }) {
   return (
     <Link href={`/shop/p/${product.slug}`} className="group block">
-      <div className="rounded-2xl border border-line bg-white p-3 transition-colors group-hover:border-ink/25">
-        <div className="overflow-hidden rounded-xl bg-surface">
+      <div className="overflow-hidden rounded-2xl border border-line bg-white transition-colors group-hover:border-ink/25">
+        <div className="bg-[#f4f3ef]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={coverPath(product.id)}
+            src={`/shop/snapshots/${product.id}`}
             alt=""
-            className="aspect-[4/3] w-full object-cover"
+            className="aspect-[16/10] w-full object-cover object-top"
           />
         </div>
-        <h2 className="mt-3 text-sm font-medium tracking-[-0.02em]">{product.name}</h2>
-        <p className="mt-1 line-clamp-2 text-sm leading-6 text-muted">{product.summary}</p>
-        <p className="mt-3 text-sm">{formatPrice(product.prices[currency], currency)}</p>
+        <div className="flex items-start justify-between gap-3 px-3 py-3">
+          <div className="min-w-0">
+            <h2 className="text-sm font-medium tracking-[-0.02em]">{product.name}</h2>
+            <p className="mt-1 text-sm text-muted">{product.categoryLabel}</p>
+          </div>
+          <p className="shrink-0 text-sm">{formatPrice(product.prices[currency], currency)}</p>
+        </div>
       </div>
     </Link>
   );

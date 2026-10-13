@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="72" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#0b0b0b">Sketch</text>
+  <rect x="64" y="108" width="1072" height="44" fill="#f7f6f3"/>
+  <text x="80" y="136" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#5f5e58">Input</text>
+  <text x="437.3333333333333" y="136" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#5f5e58">Value</text>
+  <text x="794.6666666666666" y="136" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#5f5e58">Note</text>
+  <line x1="64" y1="152" x2="1136" y2="152" stroke="#eeeae4"/>
+  <text x="80" y="184" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Current savings</text>
+  <text x="437.3333333333333" y="184" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">20 000</text>
+  <text x="794.6666666666666" y="184" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Amount already invest…</text>
+  <rect x="64" y="204" width="1072" height="52" fill="#fbfaf8"/>
+  <line x1="64" y1="204" x2="1136" y2="204" stroke="#eeeae4"/>
+  <text x="80" y="236" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Monthly contribution</text>
+  <text x="437.3333333333333" y="236" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">1 500</text>
+  <text x="794.6666666666666" y="236" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Paid at the end of ea…</text>
+  <line x1="64" y1="256" x2="1136" y2="256" stroke="#eeeae4"/>
+  <text x="80" y="288" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Years</text>
+  <text x="437.3333333333333" y="288" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">25</text>
+  <text x="794.6666666666666" y="288" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Sample horizon</text>
+  <rect x="64" y="308" width="1072" height="52" fill="#fbfaf8"/>
+  <line x1="64" y1="308" x2="1136" y2="308" stroke="#eeeae4"/>
+  <text x="80" y="340" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Assumed annual return</text>
+  <text x="437.3333333333333" y="340" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">0,07</text>
+  <text x="794.6666666666666" y="340" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">You chose this assump…</text>
+  <line x1="64" y1="360" x2="1136" y2="360" stroke="#eeeae4"/>
+  <text x="80" y="392" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Illustrated balance</text>
+  <text x="437.3333333333333" y="392" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">1 329 615,9</text>
+  <text x="794.6666666666666" y="392" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Future value of curre…</text>
+  <rect x="64" y="412" width="1072" height="52" fill="#fbfaf8"/>
+  <line x1="64" y1="412" x2="1136" y2="412" stroke="#eeeae4"/>
+  <text x="80" y="444" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Contributions paid in</text>
+  <text x="437.3333333333333" y="444" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">450 000</text>
+  <text x="794.6666666666666" y="444" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Ignores growth</text>
+</svg>

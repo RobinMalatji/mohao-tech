@@ -135,6 +135,12 @@ export default async function ShopProductsPage({
                 <td className="px-4 py-4">
                   <div className="flex items-center justify-end gap-4">
                     <Link
+                      href={`/admin/shop/products/${product.id}`}
+                      className="font-medium underline-offset-4 hover:underline"
+                    >
+                      Files
+                    </Link>
+                    <Link
                       href={`/admin/shop/products/${product.id}/edit`}
                       className="font-medium underline-offset-4 hover:underline"
                     >

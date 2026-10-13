@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <svg x="28" y="24" width="752" height="702" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice">
+
+  <rect width="1080" height="1080" fill="#f4f3ef"/>
+  <rect x="0" y="0" width="16" height="1080" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">SLIDE 01</text>
+  <text x="72" y="302" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">Your week is</text><text x="72" y="366" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">full of repeated</text><text x="72" y="430" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">decisions</text>
+  <text x="72" y="522" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">Naledi maps the five decisions your</text><text x="72" y="556" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">team keeps reopening.</text>
+  <text x="72" y="1016" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Mokoena Operations</text>
+</svg>
+  <svg x="792" y="24" width="380" height="351" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice">
+
+  <rect width="1080" height="1080" fill="#0b0b0b"/>
+  <rect x="0" y="0" width="16" height="1080" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#d9d6ce">SLIDE 02</text>
+  <text x="72" y="302" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#f4f3ef">A two-hour</text><text x="72" y="366" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#f4f3ef">discovery, not a</text><text x="72" y="430" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#f4f3ef">retainer pitch</text>
+  <text x="72" y="522" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#d9d6ce">You leave with a written list of</text><text x="72" y="556" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#d9d6ce">what to stop, keep, and assign.</text>
+  <text x="72" y="1016" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">Cape Town and remote</text>
+</svg>
+  <svg x="792" y="375" width="380" height="351" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice">
+
+  <rect width="1080" height="1080" fill="#f4f3ef"/>
+  <rect x="0" y="0" width="16" height="1080" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">SLIDE 03</text>
+  <text x="72" y="302" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">R4,500 for the</text><text x="72" y="366" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">session</text>
+  <text x="72" y="458" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">Fixed price. One founder and one</text><text x="72" y="492" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">operator in the room.</text>
+  <text x="72" y="1016" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Book via the link in the bio</text>
+</svg>
+</svg>

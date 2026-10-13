@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="78" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0b0b0b">Software engineer CV</text>
+  <text x="64" y="118" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">Sample content. Replace every fact before you send this.* Engineer who has</text>
+  <text x="64" y="142" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">shipped a booking flow and a payment reconciliation job.</text>
+  <text x="64" y="176" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Experience</text>
+  <text x="64" y="224" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Software engineer · Sample Studio · 2023-2026</text>
+  <circle cx="72" cy="251" r="4" fill="#ff6a1a"/>
+  <text x="88" y="256" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Shipped the booking confirmation email and cut duplicate bookings from 14 a week to 2.</text>
+  <circle cx="72" cy="279" r="4" fill="#ff6a1a"/>
+  <text x="88" y="284" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Added tests around the refund total so a partial refund could not exceed the order.</text>
+  <text x="64" y="328" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Junior engineer · Sample Agency · 2021-2023</text>
+  <circle cx="72" cy="355" r="4" fill="#ff6a1a"/>
+  <text x="88" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Rebuilt the contact form so failed sends were logged instead of lost.</text>
+  <text x="64" y="404" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Skills to tailor</text>
+  <circle cx="72" cy="431" r="4" fill="#ff6a1a"/>
+  <text x="88" y="436" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">TypeScript</text>
+  <circle cx="72" cy="459" r="4" fill="#ff6a1a"/>
+  <text x="88" y="464" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">SQL</text>
+  <circle cx="72" cy="487" r="4" fill="#ff6a1a"/>
+  <text x="88" y="492" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Tests</text>
+</svg>

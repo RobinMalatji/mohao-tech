@@ -19,10 +19,20 @@ const nextConfig: NextConfig = {
     "/shop/search": ["./products/library/**/internal/meta.json"],
     "/shop/cart": ["./products/library/**/internal/meta.json"],
     "/shop/covers/*": ["./products/library/**/customer/preview/cover.png"],
+    "/shop/snapshots/*": [
+      "./products/library/**/customer/preview/summary.svg",
+      "./products/library/**/customer/preview/cover.png",
+    ],
     "/admin/shop": ["./products/library/**/internal/meta.json"],
     "/admin/shop/products": ["./products/library/**/internal/meta.json"],
     "/admin/shop/products/new": ["./products/library/**/internal/meta.json"],
     "/admin/shop/products/*/edit": ["./products/library/**/internal/meta.json"],
+    "/admin/shop/products/*": ["./products/library/**/customer/manifest.json"],
+    "/api/admin/library/*": [
+      "./products/library/**/*.zip",
+      "./products/library/**/customer/**",
+    ],
+    "/api/shop/download/*/*": ["./products/library/**/*.zip"],
   },
   async headers() {
     return [

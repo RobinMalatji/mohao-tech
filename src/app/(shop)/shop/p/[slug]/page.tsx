@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { addToCart } from "@/actions/shop";
-import { coverPath, getProductBySlug, getProducts } from "@/lib/shop/catalogue";
+import { getProductBySlug, getProducts } from "@/lib/shop/catalogue";
 import { ProductPreviewPanel } from "@/components/shop/product-preview";
 import { getProductPreview } from "@/lib/shop/preview";
 import { formatPrice, licenceLabel } from "@/lib/shop/money";
@@ -56,9 +56,9 @@ export default async function ProductPage({
         <div className="bg-surface">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={coverPath(product.id)}
-            alt={`${product.name} cover`}
-            className="aspect-square w-full object-cover"
+            src={`/shop/snapshots/${product.id}`}
+            alt={`${product.name} contents`}
+            className="aspect-[16/10] w-full object-cover object-top"
           />
         </div>
         <div>
@@ -104,7 +104,8 @@ export default async function ProductPage({
           </form>
           <p className="mt-4 max-w-md text-sm text-muted">
             Adding an item saves it in your cart. Payment happens on Yoco from
-            the cart, in rand. The files stay private until that payment is confirmed.
+            the cart, in rand. After Yoco confirms the payment, the confirmation
+            page gives you the file.
           </p>
         </div>
       </div>

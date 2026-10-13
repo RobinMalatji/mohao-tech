@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <svg x="28" y="24" width="1144" height="702" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice">
+
+  <rect width="1200" height="400" fill="#f4f3ef"/>
+  <rect x="0" y="0" width="16" height="400" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">MONDAY DISPATCH · ISSUE 12</text>
+  <text x="72" y="140" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0b0b0b">How to raise a price</text>
+  <text x="72" y="212" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#5f5e58">A letter for freelancers</text>
+  <text x="72" y="336" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Sample header</text>
+</svg>
+</svg>

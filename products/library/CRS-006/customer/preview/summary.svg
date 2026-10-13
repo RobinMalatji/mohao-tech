@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="78" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0b0b0b">Net pay</text>
+  <text x="64" y="118" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">Use the amount that arrives.</text>
+  <text x="64" y="176" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Net pay</text>
+  <circle cx="72" cy="203" r="4" fill="#ff6a1a"/>
+  <text x="88" y="208" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Use the amount that arrives.</text>
+  <text x="64" y="252" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">The list</text>
+  <circle cx="72" cy="279" r="4" fill="#ff6a1a"/>
+  <text x="88" y="284" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">List the costs you will actually pay.</text>
+  <text x="64" y="328" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">The gap</text>
+  <circle cx="72" cy="355" r="4" fill="#ff6a1a"/>
+  <text x="88" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Income minus the list.</text>
+  <text x="64" y="404" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">The review</text>
+  <circle cx="72" cy="431" r="4" fill="#ff6a1a"/>
+  <text x="88" y="436" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">What surprised you.</text>
+</svg>

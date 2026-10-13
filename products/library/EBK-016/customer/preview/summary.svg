@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="78" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0b0b0b">Hire a first contractor</text>
+  <text x="64" y="118" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">Brief, pay, and review a contractor without pretending they are staff.</text>
+  <text x="64" y="176" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">The brief</text>
+  <circle cx="72" cy="203" r="4" fill="#ff6a1a"/>
+  <text x="88" y="208" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Outcome.</text>
+  <circle cx="72" cy="231" r="4" fill="#ff6a1a"/>
+  <text x="88" y="236" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Files and access.</text>
+  <circle cx="72" cy="259" r="4" fill="#ff6a1a"/>
+  <text x="88" y="264" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Date and the definition of done.</text>
+  <text x="64" y="308" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">The trial</text>
+  <circle cx="72" cy="335" r="4" fill="#ff6a1a"/>
+  <text x="88" y="340" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Paid.</text>
+  <circle cx="72" cy="363" r="4" fill="#ff6a1a"/>
+  <text x="88" y="368" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Small.</text>
+  <circle cx="72" cy="391" r="4" fill="#ff6a1a"/>
+  <text x="88" y="396" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Real work.</text>
+  <text x="64" y="440" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Access</text>
+  <circle cx="72" cy="467" r="4" fill="#ff6a1a"/>
+  <text x="88" y="472" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Least access.</text>
+  <circle cx="72" cy="495" r="4" fill="#ff6a1a"/>
+  <text x="88" y="500" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Remove it after.</text>
+  <circle cx="72" cy="523" r="4" fill="#ff6a1a"/>
+  <text x="88" y="528" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">No shared password in chat.</text>
+  <text x="64" y="572" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">The review</text>
+  <circle cx="72" cy="599" r="4" fill="#ff6a1a"/>
+  <text x="88" y="604" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Compare to the brief.</text>
+  <circle cx="72" cy="627" r="4" fill="#ff6a1a"/>
+  <text x="88" y="632" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">One revision if you agreed one.</text>
+  <circle cx="72" cy="655" r="4" fill="#ff6a1a"/>
+  <text x="88" y="660" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">New ideas are new work.</text>
+</svg>

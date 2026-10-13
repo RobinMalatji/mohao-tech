@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <svg x="28" y="24" width="752" height="702" viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid slice">
+
+  <rect width="1280" height="720" fill="#f4f3ef"/>
+  <rect x="0" y="0" width="16" height="720" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">SHEET CLUB</text>
+  <text x="72" y="202" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#0b0b0b">A cash-flow</text><text x="72" y="254" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#0b0b0b">sheet in 20</text><text x="72" y="306" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#0b0b0b">minutes</text>
+  <text x="72" y="386" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">For a one-person shop</text>
+  <text x="72" y="656" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Tutorial</text>
+</svg>
+  <svg x="792" y="24" width="380" height="351" viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid slice">
+
+  <rect width="1280" height="720" fill="#0b0b0b"/>
+  <rect x="0" y="0" width="16" height="720" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#d9d6ce">SHEET CLUB</text>
+  <text x="72" y="202" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#f4f3ef">Stop merging the</text><text x="72" y="254" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#f4f3ef">cells</text>
+  <text x="72" y="334" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#d9d6ce">Your totals will break</text>
+  <text x="72" y="656" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">Fix</text>
+</svg>
+</svg>

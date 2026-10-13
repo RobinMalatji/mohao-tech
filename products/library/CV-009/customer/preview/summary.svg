@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="78" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0b0b0b">Sales CV</text>
+  <text x="64" y="118" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">Sample content. Replace every fact before you send this.* A salesperson</text>
+  <text x="64" y="142" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">selling retainers to small firms.</text>
+  <text x="64" y="176" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Experience</text>
+  <text x="64" y="224" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Account executive · Sample agency · 2022-2026</text>
+  <circle cx="72" cy="251" r="4" fill="#ff6a1a"/>
+  <text x="88" y="256" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Closed 14 retainers in the 2025 financial year against a target of 12. Average fee R8…</text>
+  <circle cx="72" cy="279" r="4" fill="#ff6a1a"/>
+  <text x="88" y="284" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Wrote the follow-up so a proposal older than 10 days had a date or was closed.</text>
+  <text x="64" y="328" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Skills to tailor</text>
+  <circle cx="72" cy="355" r="4" fill="#ff6a1a"/>
+  <text x="88" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Proposals</text>
+  <circle cx="72" cy="383" r="4" fill="#ff6a1a"/>
+  <text x="88" y="388" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Follow-up</text>
+  <circle cx="72" cy="411" r="4" fill="#ff6a1a"/>
+  <text x="88" y="416" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Retainers</text>
+</svg>

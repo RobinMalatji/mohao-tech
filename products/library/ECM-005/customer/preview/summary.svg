@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="78" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0b0b0b">Product photo shot list</text>
+  <text x="64" y="118" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">This is a working draft for a South African online shop. It is not legal</text>
+  <text x="64" y="142" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">advice. Have a lawyer read it before you publish it as your policy.</text>
+  <text x="64" y="176" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">The four frames</text>
+  <circle cx="72" cy="203" r="4" fill="#ff6a1a"/>
+  <text x="88" y="208" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Front.</text>
+  <circle cx="72" cy="231" r="4" fill="#ff6a1a"/>
+  <text x="88" y="236" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Detail.</text>
+  <circle cx="72" cy="259" r="4" fill="#ff6a1a"/>
+  <text x="88" y="264" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Scale.</text>
+</svg>

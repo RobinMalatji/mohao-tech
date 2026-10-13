@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ClearPaidCart } from "@/components/shop/clear-paid-cart";
 import { isDatabaseConfigured, prisma } from "@/lib/db";
+import { packExists } from "@/lib/shop/deliver";
 import { formatPrice } from "@/lib/shop/money";
 
 export const metadata: Metadata = {
@@ -25,6 +26,15 @@ export default async function CheckoutReturnPage({
   if (!order) notFound();
 
   const paid = order.status === "PAID";
+  const downloads = paid
+    ? await Promise.all(
+        [...new Map(order.items.map((item) => [item.productId, item])).values()].map(async (item) => ({
+          id: item.productId,
+          name: item.name,
+          ready: await packExists(item.productId),
+        })),
+      )
+    : [];
   const heading = paid
     ? "Payment confirmed"
     : result === "cancel"
@@ -33,7 +43,7 @@ export default async function CheckoutReturnPage({
         ? "Payment failed"
         : "Waiting for Yoco";
   const detail = paid
-    ? "Yoco confirmed this payment. The product files are not sent from this page."
+    ? "Yoco confirmed this payment. Download each file below. This page keeps the links."
     : "Returning from Yoco does not mark an order paid. The charge is confirmed only by a signed Yoco webhook, and the files stay private until then.";
 
   return (
@@ -56,6 +66,26 @@ export default async function CheckoutReturnPage({
           </li>
         ))}
       </ul>
+      {downloads.length > 0 ? (
+        <div className="mt-8 space-y-3">
+          {downloads.map((item) =>
+            item.ready ? (
+              <a
+                key={item.id}
+                href={`/api/shop/download/${order.id}/${item.id}`}
+                className="flex h-12 items-center justify-between rounded-full bg-ink px-5 text-sm font-medium text-canvas"
+              >
+                <span>Download {item.name}</span>
+                <span>{item.id}.zip</span>
+              </a>
+            ) : (
+              <p key={item.id} className="text-sm text-muted">
+                {item.name} has no file stored.
+              </p>
+            ),
+          )}
+        </div>
+      ) : null}
       <p className="mt-4 text-sm text-muted">Order {order.id}</p>
       <Link href="/shop/cart" className="mt-8 inline-block text-sm underline underline-offset-4">
         Back to the cart

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="78" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0b0b0b">Choose a small tech stack</text>
+  <text x="64" y="118" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">Pick tools for a small product without collecting a platform for every job.</text>
+  <text x="64" y="176" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">The jobs</text>
+  <circle cx="72" cy="203" r="4" fill="#ff6a1a"/>
+  <text x="88" y="208" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Write the jobs.</text>
+  <circle cx="72" cy="231" r="4" fill="#ff6a1a"/>
+  <text x="88" y="236" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Write the tool for each.</text>
+  <circle cx="72" cy="259" r="4" fill="#ff6a1a"/>
+  <text x="88" y="264" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Cross out a tool with no job.</text>
+  <text x="64" y="308" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Boring on purpose</text>
+  <circle cx="72" cy="335" r="4" fill="#ff6a1a"/>
+  <text x="88" y="340" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">One database.</text>
+  <circle cx="72" cy="363" r="4" fill="#ff6a1a"/>
+  <text x="88" y="368" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">One host.</text>
+  <circle cx="72" cy="391" r="4" fill="#ff6a1a"/>
+  <text x="88" y="396" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">A person you could hire who knows it.</text>
+  <text x="64" y="440" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">Payments and files</text>
+  <circle cx="72" cy="467" r="4" fill="#ff6a1a"/>
+  <text x="88" y="472" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">A payment provider.</text>
+  <circle cx="72" cy="495" r="4" fill="#ff6a1a"/>
+  <text x="88" y="500" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Private file storage.</text>
+  <circle cx="72" cy="523" r="4" fill="#ff6a1a"/>
+  <text x="88" y="528" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">No card numbers in your database.</text>
+  <text x="64" y="572" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0b0b0b">A review date</text>
+  <circle cx="72" cy="599" r="4" fill="#ff6a1a"/>
+  <text x="88" y="604" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Six-month review.</text>
+  <circle cx="72" cy="627" r="4" fill="#ff6a1a"/>
+  <text x="88" y="632" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">No new tool without a job.</text>
+  <circle cx="72" cy="655" r="4" fill="#ff6a1a"/>
+  <text x="88" y="660" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#2c2c2a">Write the cost next to the tool.</text>
+</svg>

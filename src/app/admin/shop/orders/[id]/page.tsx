@@ -4,6 +4,7 @@ import { notFound, redirect } from "next/navigation";
 import { getShopOrder, orderStatusLabels } from "@/lib/admin/shop";
 import { getSession } from "@/lib/auth";
 import { formatDateTime } from "@/lib/format";
+import { packExists } from "@/lib/shop/deliver";
 import { formatPrice } from "@/lib/shop/money";
 
 export const metadata: Metadata = {
@@ -22,6 +23,11 @@ export default async function ShopOrderPage({
   const { id } = await params;
   const order = await getShopOrder(id);
   if (!order) notFound();
+  const packs = Object.fromEntries(
+    await Promise.all(
+      order.items.map(async (item) => [item.productId, await packExists(item.productId)] as const),
+    ),
+  );
 
   return (
     <div className="space-y-8">
@@ -68,6 +74,19 @@ export default async function ShopOrderPage({
                 <td className="px-4 py-4">
                   <p className="font-medium">{item.name}</p>
                   <p className="text-muted">{item.productId}</p>
+                  <p className="mt-2 flex flex-wrap gap-3">
+                    <Link href={`/admin/shop/products/${item.productId}`} className="underline-offset-4 hover:underline">
+                      Open files
+                    </Link>
+                    {packs[item.productId] ? (
+                      <a
+                        href={`/api/admin/library/${item.productId}?pack=1`}
+                        className="underline-offset-4 hover:underline"
+                      >
+                        Download zip
+                      </a>
+                    ) : null}
+                  </p>
                 </td>
                 <td className="px-4 py-4">{item.quantity}</td>
                 <td className="px-4 py-4">{formatPrice(item.unitCents, "ZAR")}</td>
@@ -78,7 +97,9 @@ export default async function ShopOrderPage({
       </div>
 
       <p className="text-sm text-muted">
-        The product files stay private. This page does not send a download.
+        {order.status === "PAID"
+          ? "This payment is confirmed, so the customer can download the pack from the confirmation page."
+          : "The customer cannot download these files until Yoco confirms the payment."}
       </p>
     </div>
   );

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <svg x="28" y="24" width="1144" height="702" viewBox="0 0 1080 1080" preserveAspectRatio="xMidYMid slice">
+
+  <rect width="1080" height="1080" fill="#f4f3ef"/>
+  <rect x="0" y="0" width="16" height="1080" fill="#ff6a1a"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">OPEN SHELF</text>
+  <text x="72" y="302" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">R350 fills one</text><text x="72" y="366" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">classroom box</text>
+  <text x="72" y="458" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">Twenty readers, one class, this</text><text x="72" y="492" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">term.</text>
+  <text x="72" y="1016" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Sample appeal, not a tax receipt</text>
+</svg>
+</svg>

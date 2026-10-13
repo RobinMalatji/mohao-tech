@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="72" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#0b0b0b">retry.mjs</text>
+  <rect x="64" y="96" width="1072" height="560" rx="12" fill="#161616"/>
+  <text x="88" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">export async function retry(task, options) {</text>
+  <text x="88" y="168" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const attempts = options.attempts ?? 3;</text>
+  <text x="88" y="200" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const baseMs = options.baseMs ?? 50;</text>
+  <text x="88" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const capMs = options.capMs ?? 1000;</text>
+  <text x="88" y="264" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const shouldRetry = options.shouldRetry ?? (() =&gt; true);</text>
+  <text x="88" y="296" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const wait = options.wait ?? (async () =&gt; {});</text>
+  <text x="88" y="328" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">let lastError;</text>
+  <text x="88" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">for (let attempt = 1; attempt &lt;= attempts; attempt += 1) {</text>
+  <text x="88" y="392" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">try {</text>
+  <text x="88" y="424" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">return await task(attempt);</text>
+  <text x="88" y="456" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">} catch (error) {</text>
+  <text x="88" y="488" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">lastError = error;</text>
+  <text x="88" y="520" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">if (attempt === attempts || !shouldRetry(error)) break;</text>
+  <text x="88" y="552" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const delay = Math.min(capMs, baseMs * 2 ** (attempt - 1));</text>
+  <text x="88" y="584" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">await wait(delay, attempt);</text>
+  <text x="88" y="616" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">}</text>
+</svg>

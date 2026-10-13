@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect width="1200" height="750" fill="#f4f3ef"/>
+  <rect x="28" y="24" width="1144" height="702" rx="18" fill="#ffffff" stroke="#e6e4de"/>
+  <text x="64" y="72" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#0b0b0b">filename.mjs</text>
+  <rect x="64" y="96" width="1072" height="560" rx="12" fill="#161616"/>
+  <text x="88" y="136" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const reserved = new Set([&quot;CON&quot;, &quot;PRN&quot;, &quot;AUX&quot;, &quot;NUL&quot;, &quot;COM1&quot;, &quot;LPT1&quot;]);</text>
+  <text x="88" y="168" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef"></text>
+  <text x="88" y="200" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">export function safeFileName(input) {</text>
+  <text x="88" y="232" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const name = String(input);</text>
+  <text x="88" y="264" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">if (name.length === 0 || name.length &gt; 120) throw new Error(&quot;File name length…</text>
+  <text x="88" y="296" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">if (name.includes(&quot;/&quot;) || name.includes(&quot;\\&quot;) || name.includes(&quot;\0&quot;) || name.…</text>
+  <text x="88" y="328" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">throw new Error(&quot;File name must not include a path.&quot;);</text>
+  <text x="88" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">}</text>
+  <text x="88" y="392" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">if (!/^[A-Za-z0-9][A-Za-z0-9._ -]*$/.test(name)) throw new Error(&quot;File name c…</text>
+  <text x="88" y="424" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">const stem = name.split(&quot;.&quot;)[0].toUpperCase();</text>
+  <text x="88" y="456" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">if (reserved.has(stem)) throw new Error(&quot;File name is reserved.&quot;);</text>
+  <text x="88" y="488" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">return name;</text>
+  <text x="88" y="520" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">}</text>
+  <text x="88" y="552" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef"></text>
+</svg>
