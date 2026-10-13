@@ -25,10 +25,10 @@
     "config"
   ],
   "prices": {
-    "ZAR": 17900,
-    "USD": 1400,
-    "GBP": 1100,
-    "EUR": 1300
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "These are small source files for you to read, test, and adapt. They are not a hosted service and they are not a security audit."
 }

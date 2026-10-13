@@ -25,10 +25,10 @@
     "email"
   ],
   "prices": {
-    "ZAR": 16900,
-    "USD": 1300,
-    "GBP": 1000,
-    "EUR": 1200
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
 }

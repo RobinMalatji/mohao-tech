@@ -26,10 +26,10 @@
     "cafe"
   ],
   "prices": {
-    "ZAR": 20900,
-    "USD": 1600,
-    "GBP": 1300,
-    "EUR": 1500
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
 }

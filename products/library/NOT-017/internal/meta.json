@@ -25,10 +25,10 @@
     "travel"
   ],
   "prices": {
-    "ZAR": 16900,
-    "USD": 1300,
-    "GBP": 1000,
-    "EUR": 1200
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "This is a Markdown and CSV package you import into Notion yourself. It is not a published Notion template and it does not include a Notion share link."
 }

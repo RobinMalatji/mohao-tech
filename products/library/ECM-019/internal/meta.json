@@ -25,10 +25,10 @@
     "brand"
   ],
   "prices": {
-    "ZAR": 17900,
-    "USD": 1400,
-    "GBP": 1100,
-    "EUR": 1300
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "This is a working draft for a South African online shop. It is not legal advice. Have a lawyer read it before you publish it as your policy."
 }

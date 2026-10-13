@@ -25,10 +25,10 @@
     "workshops"
   ],
   "prices": {
-    "ZAR": 19900,
-    "USD": 1600,
-    "GBP": 1200,
-    "EUR": 1400
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "This is a practical guide, not professional advice. Laws, tax, platforms, and prices change. Check the current rules before you act."
 }

@@ -25,10 +25,10 @@
     "accessibility"
   ],
   "prices": {
-    "ZAR": 24900,
-    "USD": 1900,
-    "GBP": 1500,
-    "EUR": 1700
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "This is a self-study pack: lessons, slides, and exercises. It is not an accredited qualification and it does not include a tutor."
 }

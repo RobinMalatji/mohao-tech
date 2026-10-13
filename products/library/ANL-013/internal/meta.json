@@ -25,10 +25,10 @@
     "logistics"
   ],
   "prices": {
-    "ZAR": 32900,
-    "USD": 2700,
-    "GBP": 2100,
-    "EUR": 2400
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "The workbook and CSV are sample data for learning the model. A PBIX file is not included. Paste the DAX into Power BI Desktop after you load the CSV. This is not a financial audit."
 }

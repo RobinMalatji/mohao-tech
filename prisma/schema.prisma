@@ -77,3 +77,29 @@ model OrderItem {
 
   @@index([orderId])
 }
+
+model CatalogueProduct {
+  id            String   @id
+  slug          String   @unique
+  name          String
+  category      String
+  categorySlug  String
+  categoryLabel String
+  productType   String
+  audience      String   @default("")
+  version       String   @default("1.0.0")
+  licence       String   @default("personal")
+  summary       String   @db.Text
+  description   String   @db.Text
+  benefits      String[]
+  compatibility String[]
+  tags          String[]
+  priceZar      Int
+  priceUsd      Int
+  priceGbp      Int
+  priceEur      Int
+  disclaimer    String?  @db.Text
+  removed       Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}

@@ -4,6 +4,8 @@ import { ProductCard } from "@/components/shop/product-card";
 import { getCategories, getProducts } from "@/lib/shop/catalogue";
 import { getCurrency } from "@/lib/shop/session";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Shop",
   description:

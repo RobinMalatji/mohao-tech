@@ -1,6 +1,11 @@
 import { cache } from "react";
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
+import { isDatabaseConfigured, prisma } from "@/lib/db";
+import {
+  mergeCatalogue,
+  type CatalogueRecord,
+} from "@/lib/shop/catalogue-edit";
 import { currencies, type Currency } from "@/lib/shop/money";
 
 export type ShopProduct = {
@@ -37,7 +42,7 @@ export type IncludedFile = {
 const libraryRoot = path.join(process.cwd(), "products", "library");
 const idPattern = /^[A-Z]{2,4}-\d{3}$/;
 
-export const getProducts = cache(async (): Promise<ShopProduct[]> => {
+export async function readFileProducts(): Promise<ShopProduct[]> {
   const entries = await readdir(libraryRoot);
   const ids = entries.filter((name) => idPattern.test(name));
   const products = await Promise.all(
@@ -51,6 +56,22 @@ export const getProducts = cache(async (): Promise<ShopProduct[]> => {
   );
 
   return products.sort((a, b) => a.id.localeCompare(b.id));
+}
+
+async function readCatalogueRows(): Promise<CatalogueRecord[]> {
+  if (!isDatabaseConfigured()) return [];
+
+  try {
+    return await prisma.catalogueProduct.findMany();
+  } catch (error) {
+    console.error("Catalogue overrides could not be loaded", error);
+    return [];
+  }
+}
+
+export const getProducts = cache(async (): Promise<ShopProduct[]> => {
+  const [files, rows] = await Promise.all([readFileProducts(), readCatalogueRows()]);
+  return mergeCatalogue(files, rows);
 });
 
 export async function getProductBySlug(slug: string) {

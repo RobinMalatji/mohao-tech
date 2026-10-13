@@ -24,10 +24,10 @@
     "pagination"
   ],
   "prices": {
-    "ZAR": 14900,
-    "USD": 1200,
-    "GBP": 900,
-    "EUR": 1100
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "These are small source files for you to read, test, and adapt. They are not a hosted service and they are not a security audit."
 }

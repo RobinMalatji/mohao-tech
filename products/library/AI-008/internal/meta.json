@@ -26,10 +26,10 @@
     "retail"
   ],
   "prices": {
-    "ZAR": 16900,
-    "USD": 1300,
-    "GBP": 1000,
-    "EUR": 1200
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "These prompts draft text for you to edit. They do not check facts, quotes, or the law. Remove anything the model invented before you send it."
 }

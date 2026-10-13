@@ -25,10 +25,10 @@
     "administration"
   ],
   "prices": {
-    "ZAR": 18900,
-    "USD": 1500,
-    "GBP": 1200,
-    "EUR": 1400
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "The employment history in this file is fictional sample text. Replace every line before you send it. This kit does not guarantee interviews."
 }

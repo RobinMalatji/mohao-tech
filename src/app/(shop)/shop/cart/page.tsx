@@ -8,6 +8,8 @@ import { quoteZar } from "@/lib/shop/quote";
 import { getCurrency, readCart } from "@/lib/shop/session";
 import { yocoReadiness } from "@/lib/shop/yoco";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Cart",
   robots: { index: false, follow: false },

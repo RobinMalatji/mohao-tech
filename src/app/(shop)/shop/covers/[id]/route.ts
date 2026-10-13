@@ -28,6 +28,12 @@ export async function GET(
       },
     });
   } catch {
-    return new Response("Not found", { status: 404 });
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#f4f3ef"/><text x="48" y="320" font-family="sans-serif" font-size="42" fill="#0b0b0b">${id}</text></svg>`;
+    return new Response(svg, {
+      headers: {
+        "Content-Type": "image/svg+xml",
+        "Cache-Control": "public, max-age=3600",
+      },
+    });
   }
 }

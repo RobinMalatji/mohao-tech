@@ -8,6 +8,8 @@ import { getProductPreview } from "@/lib/shop/preview";
 import { formatPrice, licenceLabel } from "@/lib/shop/money";
 import { getCurrency } from "@/lib/shop/session";
 
+export const dynamic = "force-dynamic";
+
 export async function generateStaticParams() {
   const products = await getProducts();
   return products.map((product) => ({ slug: product.slug }));

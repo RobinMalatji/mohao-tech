@@ -26,10 +26,10 @@
     "invitation"
   ],
   "prices": {
-    "ZAR": 27900,
-    "USD": 2200,
-    "GBP": 1700,
-    "EUR": 1900
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "Sample names and offers in these designs are fictional. Replace them before you publish. This package is not a native Canva file."
 }

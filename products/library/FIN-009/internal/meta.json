@@ -28,10 +28,10 @@
     "budget"
   ],
   "prices": {
-    "ZAR": 21900,
-    "USD": 1700,
-    "GBP": 1300,
-    "EUR": 1500
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "This workbook organises figures you type in. It is not financial, credit, insurance, or tax advice. Rates, fees, and laws change. A qualified adviser should review decisions that affect debt, tax, medical cover, or retirement."
 }

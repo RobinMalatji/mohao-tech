@@ -25,10 +25,10 @@
     "nonprofit"
   ],
   "prices": {
-    "ZAR": 29900,
-    "USD": 2400,
-    "GBP": 1900,
-    "EUR": 2200
+    "ZAR": 500,
+    "USD": 500,
+    "GBP": 500,
+    "EUR": 500
   },
   "disclaimer": "The workbook and CSV are sample data for learning the model. A PBIX file is not included. Paste the DAX into Power BI Desktop after you load the CSV. This is not a financial audit."
 }
