@@ -40,7 +40,7 @@ export default async function CategoryPage({
 
   return (
     <main className="mx-auto max-w-7xl px-5 py-12 sm:px-8">
-      <Link href="/" className="text-sm text-muted">
+      <Link href="/shop" className="text-sm text-muted">
         All products
       </Link>
       <h1 className="mt-4 text-5xl font-semibold tracking-[-0.06em] sm:text-6xl">

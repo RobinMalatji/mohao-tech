@@ -4,7 +4,7 @@ Updated 12 October 2026 after the product generator completed.
 
 ## Decisions
 
-- The product gallery is the site homepage at `/`. The Mohao Tech services pages stay at `/studio`, `/about`, `/services`, and `/contact`.
+- The homepage at `/` is the Mohao Tech digital studio. The shop is a button on that page and lives at `/shop`. About, services, and contact stay in the studio navigation.
 - Palette already in the site: warm grey `#f4f3ef`, ink `#0b0b0b`, orange `#ff6a1a`.
 - Prices are stored per currency. They are not converted with an invented rate.
 - Customer files live in `products/library/{id}/customer` and `{id}.zip`. `internal/` is not in the zip.
@@ -37,7 +37,7 @@ What the automated check does not do: it does not open every file in Microsoft E
 
 ## Phase 2
 
-The homepage at `/` is a product gallery: categories in a side list, search, and a preview row for each category. `/shop` redirects there. It reads `products/library/*/internal/meta.json` and shows covers from a route that does not serve the zip. Each product page shows the product itself: workbook sheets, every design layout, the lesson or prompt list with the first piece open, or the sample CV. The downloadable files are not served. Category pages, product pages, search, currency (ZAR default), and a cart exist. The cart can start a Yoco hosted checkout for the listed rand total when `YOCO_SECRET_KEY` and `YOCO_WEBHOOK_SECRET` are set. Those values are not in the repo, so checkout stays closed until they are added on the server. An order is marked paid only after the signed `payment.succeeded` webhook matches the amount. PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not connected. Products remain drafts. Customer accounts, file delivery, and the admin catalogue are still to build. The services studio is at `/studio`.
+The homepage at `/` is the Mohao Tech studio, with a Shop button to the product gallery. The gallery at `/shop` has categories in a side list, search, and a preview row for each category. `/studio` redirects to `/`. It reads `products/library/*/internal/meta.json` and shows covers from a route that does not serve the zip. Each product page shows the product itself: workbook sheets, every design layout, the lesson or prompt list with the first piece open, or the sample CV. The downloadable files are not served. Category pages, product pages, search, currency (ZAR default), and a cart exist. The cart can start a Yoco hosted checkout for the listed rand total when `YOCO_SECRET_KEY` and `YOCO_WEBHOOK_SECRET` are set. Those values are not in the repo, so checkout stays closed until they are added on the server. An order is marked paid only after the signed `payment.succeeded` webhook matches the amount. PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not connected. Products remain drafts. Customer accounts, file delivery, and the admin catalogue are still to build. The services studio is at `/studio`.
 
 ## Not claimed
 

@@ -9,12 +9,12 @@ export function CategoryNav({
   categories: { slug: string; label: string; count: number }[];
 }) {
   const pathname = usePathname();
-  const allActive = pathname === "/" || pathname === "/shop";
+  const allActive = pathname === "/shop";
 
   return (
     <nav aria-label="Product categories" className="flex flex-col gap-1 text-sm">
       <Link
-        href="/"
+        href="/shop"
         className={`rounded-lg px-3 py-2 ${allActive ? "bg-surface font-medium text-ink" : "text-muted hover:bg-surface hover:text-ink"}`}
         aria-current={allActive ? "page" : undefined}
       >

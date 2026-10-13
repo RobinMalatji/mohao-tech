@@ -52,7 +52,6 @@ export const site = {
 export const navigation = [
   { href: "/", label: "Home" },
   { href: "/shop", label: "Shop" },
-  { href: "/studio", label: "Studio" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/contact", label: "Contact" },

@@ -19,7 +19,7 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
     <div className="min-h-screen bg-canvas text-ink">
       <header className="border-b border-line bg-canvas">
         <div className="mx-auto flex max-w-[90rem] items-center justify-between gap-4 px-5 py-4 sm:px-8">
-          <Link href="/" className="flex flex-col leading-none">
+          <Link href="/shop" className="flex flex-col leading-none">
             <span className="text-[0.68rem] uppercase tracking-[0.22em] text-muted">Mohao</span>
             <span className="mt-1 text-lg font-semibold tracking-[-0.04em]">Products</span>
           </Link>
@@ -44,14 +44,14 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
             >
               Cart{count > 0 ? ` (${count})` : ""}
             </Link>
-            <Link href="/studio" className="hidden text-sm text-muted sm:inline">
+            <Link href="/" className="hidden text-sm text-muted sm:inline">
               Studio
             </Link>
           </div>
         </div>
         <div className="mx-auto max-w-[90rem] overflow-x-auto px-5 pb-3 lg:hidden">
           <div className="flex gap-2">
-            <Link href="/" className="shrink-0 rounded-full bg-surface px-3 py-1.5 text-sm">
+            <Link href="/shop" className="shrink-0 rounded-full bg-surface px-3 py-1.5 text-sm">
               All
             </Link>
             {categories.map((category) => (
@@ -83,7 +83,7 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
           <div className="flex gap-5">
             <Link href="/privacy">Privacy</Link>
             <Link href="/terms">Terms</Link>
-            <Link href="/studio">Mohao Tech studio</Link>
+            <Link href="/">Mohao Tech studio</Link>
           </div>
         </div>
       </footer>
