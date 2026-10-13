@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   outputFileTracingIncludes: {
+    "/": ["./products/library/**/internal/meta.json"],
     "/shop": ["./products/library/**/internal/meta.json"],
     "/shop/p/*": [
       "./products/library/**/internal/meta.json",

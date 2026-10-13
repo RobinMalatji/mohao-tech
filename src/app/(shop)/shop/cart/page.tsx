@@ -31,7 +31,7 @@ export default async function CartPage() {
       {items.length === 0 ? (
         <p className="mt-8 text-muted">
           Your cart is empty.{" "}
-          <Link href="/shop" className="text-ink underline underline-offset-4">
+          <Link href="/" className="text-ink underline underline-offset-4">
             Browse the shop
           </Link>
           .

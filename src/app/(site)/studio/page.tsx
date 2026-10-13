@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ...buildMetadata({
     title: homeTitle,
     description: homeDescription,
-    path: "/",
+    path: "/studio",
     keywords: [
       "Mohao Tech",
       "software development",
@@ -124,8 +124,8 @@ export default function HomePage() {
               <ButtonLink href="/contact" variant="inverse" size="lg">
                 Discuss a project
               </ButtonLink>
-              <ButtonLink href="/shop" variant="inverseSecondary" size="lg">
-                Digital products shop
+              <ButtonLink href="/" variant="inverseSecondary" size="lg">
+                Digital products
               </ButtonLink>
             </div>
           </div>

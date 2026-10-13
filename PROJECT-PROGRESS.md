@@ -4,7 +4,7 @@ Updated 12 October 2026 after the product generator completed.
 
 ## Decisions
 
-- The existing Mohao Tech services site stays at `/`. The store will be added under `/shop` so enquiries, services pages, and the current admin are not replaced.
+- The product gallery is the site homepage at `/`. The Mohao Tech services pages stay at `/studio`, `/about`, `/services`, and `/contact`.
 - Palette already in the site: warm grey `#f4f3ef`, ink `#0b0b0b`, orange `#ff6a1a`.
 - Prices are stored per currency. They are not converted with an invented rate.
 - Customer files live in `products/library/{id}/customer` and `{id}.zip`. `internal/` is not in the zip.
@@ -37,7 +37,7 @@ What the automated check does not do: it does not open every file in Microsoft E
 
 ## Phase 2
 
-The shop is a preview at `/shop`. It reads `products/library/*/internal/meta.json` and shows covers from a route that does not serve the zip. Each product page shows the product itself: workbook sheets, every design layout, the lesson or prompt list with the first piece open, or the sample CV. The downloadable files are not served. Category pages, product pages, search, currency (ZAR default), and a cart exist. The cart does not charge a card. Yoco, PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not connected. Products remain drafts. Order tables, customer accounts, and the admin catalogue are still to build. The services homepage stays at `/`.
+The homepage at `/` is a product gallery: categories in a side list, search, and a preview row for each category. `/shop` redirects there. It reads `products/library/*/internal/meta.json` and shows covers from a route that does not serve the zip. Each product page shows the product itself: workbook sheets, every design layout, the lesson or prompt list with the first piece open, or the sample CV. The downloadable files are not served. Category pages, product pages, search, currency (ZAR default), and a cart exist. The cart does not charge a card. Yoco, PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not connected. Products remain drafts. Order tables, customer accounts, and the admin catalogue are still to build. The services studio is at `/studio`.
 
 ## Not claimed
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Suspense } from "react";
+import { CategoryNav } from "@/components/shop/category-nav";
 import { CurrencySwitch } from "@/components/shop/currency-switch";
 import { getCategories } from "@/lib/shop/catalogue";
 import { getCurrency, readCart } from "@/lib/shop/session";
@@ -14,15 +15,11 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen bg-canvas text-ink">
-      <header className="border-b border-line">
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
-          <Link href="/shop" className="flex flex-col leading-none">
-            <span className="text-[0.68rem] uppercase tracking-[0.22em] text-muted">
-              Mohao
-            </span>
-            <span className="mt-1 text-lg font-semibold tracking-[-0.04em]">
-              Shop
-            </span>
+      <header className="border-b border-line bg-canvas">
+        <div className="mx-auto flex max-w-[90rem] items-center justify-between gap-4 px-5 py-4 sm:px-8">
+          <Link href="/" className="flex flex-col leading-none">
+            <span className="text-[0.68rem] uppercase tracking-[0.22em] text-muted">Mohao</span>
+            <span className="mt-1 text-lg font-semibold tracking-[-0.04em]">Products</span>
           </Link>
           <form action="/shop/search" className="hidden min-w-0 flex-1 md:block">
             <label className="sr-only" htmlFor="shop-search">
@@ -31,8 +28,8 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
             <input
               id="shop-search"
               name="q"
-              placeholder="Search the catalogue"
-              className="h-11 w-full rounded-full border border-line bg-surface px-5 text-sm outline-none placeholder:text-muted"
+              placeholder="Search products"
+              className="h-11 w-full rounded-xl border border-line bg-white px-4 text-sm outline-none placeholder:text-muted"
             />
           </form>
           <div className="flex items-center gap-3">
@@ -45,43 +42,44 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
             >
               Cart{count > 0 ? ` (${count})` : ""}
             </Link>
-            <Link href="/" className="hidden text-sm text-muted sm:inline">
+            <Link href="/studio" className="hidden text-sm text-muted sm:inline">
               Studio
             </Link>
           </div>
         </div>
-        <nav
-          aria-label="Product categories"
-          className="mx-auto flex max-w-7xl gap-5 overflow-x-auto px-5 pb-4 text-sm sm:px-8"
-        >
-          <Link href="/shop" className="shrink-0 text-ink">
-            All
-          </Link>
-          {categories.map((category) => (
-            <Link
-              key={category.slug}
-              href={`/shop/c/${category.slug}`}
-              className="shrink-0 text-muted hover:text-ink"
-            >
-              {category.label}
+        <div className="mx-auto max-w-[90rem] overflow-x-auto px-5 pb-3 lg:hidden">
+          <div className="flex gap-2">
+            <Link href="/" className="shrink-0 rounded-full bg-surface px-3 py-1.5 text-sm">
+              All
             </Link>
-          ))}
-        </nav>
+            {categories.map((category) => (
+              <Link
+                key={category.slug}
+                href={`/shop/c/${category.slug}`}
+                className="shrink-0 rounded-full px-3 py-1.5 text-sm text-muted"
+              >
+                {category.label}
+              </Link>
+            ))}
+          </div>
+        </div>
       </header>
-      <div className="border-b border-line bg-surface">
-        <p className="mx-auto max-w-7xl px-5 py-3 text-sm text-muted sm:px-8">
-          Catalogue preview of finished digital products. Checkout does not take
-          payment yet, and files are not released until a verified payment exists.
-        </p>
+      <div className="mx-auto flex max-w-[90rem]">
+        <aside className="sticky top-0 hidden h-screen w-64 shrink-0 overflow-y-auto border-r border-line px-4 py-6 lg:block">
+          <CategoryNav categories={categories} />
+          <p className="mt-8 px-3 text-xs leading-5 text-muted">
+            Checkout does not take payment yet. Files stay private until a verified payment exists.
+          </p>
+        </aside>
+        <div className="min-w-0 flex-1">{children}</div>
       </div>
-      {children}
       <footer className="border-t border-line">
-        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between sm:px-8">
+        <div className="mx-auto flex max-w-[90rem] flex-col gap-3 px-5 py-8 text-sm text-muted sm:flex-row sm:items-center sm:justify-between sm:px-8">
           <p>Mohao digital products. Prices are listed in ZAR, USD, GBP, and EUR.</p>
           <div className="flex gap-5">
             <Link href="/privacy">Privacy</Link>
             <Link href="/terms">Terms</Link>
-            <Link href="/">Mohao Tech studio</Link>
+            <Link href="/studio">Mohao Tech studio</Link>
           </div>
         </div>
       </footer>

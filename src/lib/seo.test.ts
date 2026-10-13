@@ -10,6 +10,7 @@ describe("public SEO URLs", () => {
     expect(absoluteUrl("/")).toBe("https://mohaotech.com");
     expect(urls).toContain("https://mohaotech.com");
     expect(urls).toContain("https://mohaotech.com/shop");
+    expect(urls).toContain("https://mohaotech.com/studio");
     expect(urls).toContain("https://mohaotech.com/about");
     expect(urls).toContain("https://mohaotech.com/services");
     expect(urls).toContain("https://mohaotech.com/contact");

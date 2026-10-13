@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { ShopShell } from "@/components/shop/shop-shell";
 
 export const metadata: Metadata = {
   title: "Shop",
@@ -8,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function ShopLayout({ children }: { children: React.ReactNode }) {
-  return <ShopShell>{children}</ShopShell>;
+  return children;
 }
