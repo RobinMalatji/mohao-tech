@@ -19,6 +19,8 @@ const nextConfig: NextConfig = {
     "/shop/search": ["./products/library/**/internal/meta.json"],
     "/shop/cart": ["./products/library/**/internal/meta.json"],
     "/shop/covers/*": ["./products/library/**/customer/preview/cover.png"],
+    "/admin/shop": ["./products/library/**/internal/meta.json"],
+    "/admin/shop/products": ["./products/library/**/internal/meta.json"],
   },
   async headers() {
     return [

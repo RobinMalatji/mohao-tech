@@ -42,7 +42,7 @@ export async function loginAdmin(
     };
   }
 
-  redirect("/admin");
+  redirect("/admin/shop");
 }
 
 export async function logoutAdmin() {

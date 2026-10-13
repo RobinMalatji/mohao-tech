@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default async function AdminLoginPage() {
   const session = await getSession();
-  if (session) redirect("/admin");
+  if (session) redirect("/admin/shop");
 
   return (
     <div className="flex min-h-full items-center justify-center px-5 py-16">

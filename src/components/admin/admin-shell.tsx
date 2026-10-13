@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 import { logoutAdmin } from "@/actions/auth";
+import { AdminNav } from "@/components/admin/admin-nav";
 import { Button } from "@/components/ui/button";
 import { Logo } from "@/components/logo";
 
@@ -14,10 +15,10 @@ export function AdminShell({
   return (
     <div className="flex min-h-full flex-col bg-canvas">
       <header className="border-b border-line">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 py-4 sm:px-8">
           <div className="flex items-center gap-6">
             <Logo />
-            <p className="hidden text-sm text-muted sm:block">Enquiries</p>
+            {email ? <AdminNav /> : null}
           </div>
           {email ? (
             <div className="flex items-center gap-3">
