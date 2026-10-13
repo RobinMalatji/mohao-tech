@@ -101,8 +101,8 @@ export default async function ProductPage({
             </button>
           </form>
           <p className="mt-4 max-w-md text-sm text-muted">
-            Adding an item saves it in your cart. Payment providers are not
-            connected, so this does not charge a card or send the files.
+            Adding an item saves it in your cart. Payment happens on Yoco from
+            the cart, in rand. The files stay private until that payment is confirmed.
           </p>
         </div>
       </div>

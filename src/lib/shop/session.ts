@@ -15,6 +15,17 @@ export async function getCurrency(): Promise<Currency> {
   return isCurrency(value) ? value : "ZAR";
 }
 
+export async function saveCart(lines: CartLine[]) {
+  const store = await cookies();
+  store.set(cartCookie, JSON.stringify(lines), {
+    httpOnly: true,
+    sameSite: "lax",
+    secure: process.env.NODE_ENV === "production",
+    path: "/",
+    maxAge: 60 * 60 * 24 * 30,
+  });
+}
+
 export async function readCart(): Promise<CartLine[]> {
   const store = await cookies();
   const raw = store.get(cartCookie)?.value;

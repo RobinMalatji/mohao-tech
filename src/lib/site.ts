@@ -35,6 +35,10 @@ export function getMetadataBaseUrl() {
   return canonicalSiteUrl;
 }
 
+export function getPublicOrigin() {
+  return resolveSiteUrl();
+}
+
 export const site = {
   name: "Mohao Tech",
   alternateName: "mohaotech",

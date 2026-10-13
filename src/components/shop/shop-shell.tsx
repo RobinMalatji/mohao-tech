@@ -4,6 +4,7 @@ import { CategoryNav } from "@/components/shop/category-nav";
 import { CurrencySwitch } from "@/components/shop/currency-switch";
 import { getCategories } from "@/lib/shop/catalogue";
 import { getCurrency, readCart } from "@/lib/shop/session";
+import { yocoReadiness } from "@/lib/shop/yoco";
 
 export async function ShopShell({ children }: { children: React.ReactNode }) {
   const [categories, currency, cart] = await Promise.all([
@@ -11,6 +12,7 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
     getCurrency(),
     readCart(),
   ]);
+  const yocoReady = yocoReadiness() === "ready";
   const count = cart.reduce((total, line) => total + line.qty, 0);
 
   return (
@@ -68,7 +70,9 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
         <aside className="sticky top-0 hidden h-screen w-64 shrink-0 overflow-y-auto border-r border-line px-4 py-6 lg:block">
           <CategoryNav categories={categories} />
           <p className="mt-8 px-3 text-xs leading-5 text-muted">
-            Checkout does not take payment yet. Files stay private until a verified payment exists.
+            {yocoReady
+              ? "Pay from the cart with Yoco, in rand. A payment counts only after Yoco confirms it, and the files stay private until then."
+              : "Yoco is not configured on this server, so checkout cannot charge a card. The files stay private."}
           </p>
         </aside>
         <div className="min-w-0 flex-1">{children}</div>

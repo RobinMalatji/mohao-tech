@@ -37,10 +37,11 @@ What the automated check does not do: it does not open every file in Microsoft E
 
 ## Phase 2
 
-The homepage at `/` is a product gallery: categories in a side list, search, and a preview row for each category. `/shop` redirects there. It reads `products/library/*/internal/meta.json` and shows covers from a route that does not serve the zip. Each product page shows the product itself: workbook sheets, every design layout, the lesson or prompt list with the first piece open, or the sample CV. The downloadable files are not served. Category pages, product pages, search, currency (ZAR default), and a cart exist. The cart does not charge a card. Yoco, PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not connected. Products remain drafts. Order tables, customer accounts, and the admin catalogue are still to build. The services studio is at `/studio`.
+The homepage at `/` is a product gallery: categories in a side list, search, and a preview row for each category. `/shop` redirects there. It reads `products/library/*/internal/meta.json` and shows covers from a route that does not serve the zip. Each product page shows the product itself: workbook sheets, every design layout, the lesson or prompt list with the first piece open, or the sample CV. The downloadable files are not served. Category pages, product pages, search, currency (ZAR default), and a cart exist. The cart can start a Yoco hosted checkout for the listed rand total when `YOCO_SECRET_KEY` and `YOCO_WEBHOOK_SECRET` are set. Those values are not in the repo, so checkout stays closed until they are added on the server. An order is marked paid only after the signed `payment.succeeded` webhook matches the amount. PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not connected. Products remain drafts. Customer accounts, file delivery, and the admin catalogue are still to build. The services studio is at `/studio`.
 
 ## Not claimed
 
-- No payment provider is connected.
+- Yoco checkout code exists. It does not charge a card until the secret key and webhook secret are set on the server.
+- Paid orders do not release the product files.
 - No product is published for sale.
 - No native Canva, Notion, or PBIX deliverable exists.
