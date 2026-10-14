@@ -55,8 +55,11 @@ model Order {
   amountCents    Int
   currency       String      @default("ZAR")
   mode           String?
+  provider       String?
   yocoCheckoutId String?     @unique
   yocoPaymentId  String?
+  ozowRequestId  String?     @unique
+  ozowTransactionId String?
   webhookEventId String?     @unique
   paidAt         DateTime?
   createdAt      DateTime    @default(now())

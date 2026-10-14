@@ -41,10 +41,10 @@ export default async function CheckoutReturnPage({
       ? "Payment not completed"
       : result === "failure"
         ? "Payment failed"
-        : "Waiting for Yoco";
+        : "Waiting for confirmation";
   const detail = paid
-    ? "Yoco confirmed this payment. Download each file below. This page keeps the links."
-    : "Returning from Yoco does not mark an order paid. The charge is confirmed only by a signed Yoco webhook, and the files stay private until then.";
+    ? "The payment is confirmed. Download each file below. This page keeps the links."
+    : "Returning from Yoco or Ozow does not mark an order paid. The charge is confirmed only by their notice, and the files stay private until then.";
 
   return (
     <main className="mx-auto max-w-3xl px-5 py-12 sm:px-8">

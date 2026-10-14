@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { startYocoCheckout } from "@/actions/checkout";
+import { startOzowCheckout, startYocoCheckout } from "@/actions/checkout";
 import { updateCart } from "@/actions/shop";
 import { getProductById } from "@/lib/shop/catalogue";
 import { formatPrice } from "@/lib/shop/money";
+import { ozowReadiness } from "@/lib/shop/ozow";
 import { quoteZar } from "@/lib/shop/quote";
 import { getCurrency, readCart } from "@/lib/shop/session";
 import { yocoReadiness } from "@/lib/shop/yoco";
@@ -21,6 +22,8 @@ const notices: Record<string, string> = {
     "The Yoco webhook secret is not set, so checkout stayed closed. Nothing was charged.",
   database: "The order could not be saved, so checkout did not start.",
   "yoco-error": "Yoco did not open a checkout. Nothing was charged.",
+  "missing-ozow": "Ozow is not configured on this server, so nothing was charged.",
+  "ozow-error": "Ozow did not open a payment page. Nothing was charged.",
   empty: "The cart has no chargeable products.",
 };
 
@@ -51,6 +54,7 @@ export default async function CartPage({
     items.map((item) => item.product),
   );
   const readiness = yocoReadiness();
+  const ozow = ozowReadiness();
   const noticeText = notice ? notices[notice] : undefined;
 
   return (
@@ -112,40 +116,60 @@ export default async function CartPage({
           </p>
           {currency !== "ZAR" && quote ? (
             <p className="mt-2 text-right text-sm text-muted">
-              Yoco charges {formatPrice(quote.amountCents, "ZAR")}, the listed rand price.
+              Checkout charges {formatPrice(quote.amountCents, "ZAR")}, the listed rand price.
             </p>
           ) : null}
-          <div className="mt-8 border border-line bg-surface p-6">
-            <h2 className="text-lg font-semibold tracking-[-0.03em]">Pay with Yoco</h2>
-            {noticeText ? <p className="mt-3 text-sm text-ink">{noticeText}</p> : null}
-            {readiness === "ready" && quote ? (
-              <>
+          {noticeText ? <p className="mt-6 text-sm text-ink">{noticeText}</p> : null}
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
+            <div className="border border-line bg-surface p-6">
+              <h2 className="text-lg font-semibold tracking-[-0.03em]">Pay with Yoco</h2>
+              {readiness === "ready" && quote ? (
+                <>
+                  <p className="mt-3 text-sm leading-7 text-muted">
+                    Card payment on Yoco for {formatPrice(quote.amountCents, "ZAR")}. The
+                    order is paid only after Yoco confirms it.
+                  </p>
+                  <form action={startYocoCheckout} className="mt-6">
+                    <button
+                      type="submit"
+                      className="btn btn-primary min-h-12 rounded-full px-6 text-sm font-medium"
+                    >
+                      Pay {formatPrice(quote.amountCents, "ZAR")} with Yoco
+                    </button>
+                  </form>
+                </>
+              ) : (
                 <p className="mt-3 text-sm leading-7 text-muted">
-                  This sends you to Yoco to pay {formatPrice(quote.amountCents, "ZAR")}.
-                  The order is marked paid only after a signed Yoco webhook. PayFast,
-                  Ozow, Apple Pay, Google Pay, and Samsung Pay are not part of this
-                  checkout. The files stay private.
+                  {readiness === "missing-webhook"
+                    ? "The Yoco webhook secret is not set, so card checkout stays closed."
+                    : "The Yoco secret key is not set, so this cart cannot charge a card."}
                 </p>
-                <form action={startYocoCheckout} className="mt-6">
-                  <button
-                    type="submit"
-                    className="btn btn-primary min-h-12 rounded-full px-6 text-sm font-medium"
-                  >
-                    Pay {formatPrice(quote.amountCents, "ZAR")} with Yoco
-                  </button>
-                </form>
-              </>
-            ) : (
-              <p className="mt-3 text-sm leading-7 text-muted">
-                {readiness === "missing-webhook"
-                  ? "The Yoco webhook secret is not set, so checkout stays closed until payments can be confirmed."
-                  : readiness === "ready"
-                    ? "This cart cannot be charged."
-                    : "The Yoco secret key is not set on this server, so this cart cannot charge a card."}{" "}
-                PayFast, Ozow, Apple Pay, Google Pay, and Samsung Pay are not
-                connected. Nothing is charged, and the product files stay private.
-              </p>
-            )}
+              )}
+            </div>
+            <div className="border border-line bg-surface p-6">
+              <h2 className="text-lg font-semibold tracking-[-0.03em]">Pay with Ozow</h2>
+              {ozow === "ready" && quote ? (
+                <>
+                  <p className="mt-3 text-sm leading-7 text-muted">
+                    Instant EFT on Ozow for {formatPrice(quote.amountCents, "ZAR")}. Coming
+                    back from Ozow does not mark the order paid. Ozow must confirm the amount.
+                  </p>
+                  <form action={startOzowCheckout} className="mt-6">
+                    <button
+                      type="submit"
+                      className="btn btn-primary min-h-12 rounded-full px-6 text-sm font-medium"
+                    >
+                      Pay {formatPrice(quote.amountCents, "ZAR")} with Ozow
+                    </button>
+                  </form>
+                </>
+              ) : (
+                <p className="mt-3 text-sm leading-7 text-muted">
+                  Ozow needs a site code, API key, and private key on this server before
+                  this cart can open a bank payment. Nothing is charged until then.
+                </p>
+              )}
+            </div>
           </div>
         </>
       )}

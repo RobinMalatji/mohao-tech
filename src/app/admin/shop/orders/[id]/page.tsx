@@ -51,7 +51,10 @@ export default async function ShopOrderPage({
         </div>
         <div>
           <dt className="text-xs uppercase tracking-[0.14em] text-muted">Mode</dt>
-          <dd className="mt-1">{order.mode === "test" ? "Test" : order.mode === "live" ? "Live" : "Not sent to Yoco yet"}</dd>
+          <dd className="mt-1">
+            {order.provider === "ozow" ? "Ozow" : order.provider === "yoco" || order.yocoCheckoutId ? "Yoco" : "Not sent yet"}
+            {order.mode === "test" ? " · test" : order.mode === "live" ? " · live" : ""}
+          </dd>
         </div>
         <div className="sm:col-span-2">
           <dt className="text-xs uppercase tracking-[0.14em] text-muted">Order</dt>
@@ -99,7 +102,7 @@ export default async function ShopOrderPage({
       <p className="text-sm text-muted">
         {order.status === "PAID"
           ? "This payment is confirmed, so the customer can download the pack from the confirmation page."
-          : "The customer cannot download these files until Yoco confirms the payment."}
+          : "The customer cannot download these files until Yoco or Ozow confirms the payment."}
       </p>
     </div>
   );

@@ -15,7 +15,7 @@ export async function GET(
   });
 
   if (!customerMayDownload(order, productId)) {
-    return new Response("This file is available after Yoco confirms the payment.", { status: 403 });
+    return new Response("This file is available after the payment is confirmed.", { status: 403 });
   }
 
   const zip = productZipPath(productId);

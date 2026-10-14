@@ -4,6 +4,7 @@ import { CategoryNav } from "@/components/shop/category-nav";
 import { CurrencySwitch } from "@/components/shop/currency-switch";
 import { getCategories } from "@/lib/shop/catalogue";
 import { getCurrency, readCart } from "@/lib/shop/session";
+import { ozowReadiness } from "@/lib/shop/ozow";
 import { yocoReadiness } from "@/lib/shop/yoco";
 
 export async function ShopShell({ children }: { children: React.ReactNode }) {
@@ -13,6 +14,7 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
     readCart(),
   ]);
   const yocoReady = yocoReadiness() === "ready";
+  const ozowReady = ozowReadiness() === "ready";
   const count = cart.reduce((total, line) => total + line.qty, 0);
 
   return (
@@ -70,9 +72,9 @@ export async function ShopShell({ children }: { children: React.ReactNode }) {
         <aside className="sticky top-0 hidden h-screen w-64 shrink-0 overflow-y-auto border-r border-line px-4 py-6 lg:block">
           <CategoryNav categories={categories} />
           <p className="mt-8 px-3 text-xs leading-5 text-muted">
-            {yocoReady
-              ? "Pay from the cart with Yoco, in rand. A payment counts only after Yoco confirms it, and the files stay private until then."
-              : "Yoco is not configured on this server, so checkout cannot charge a card. The files stay private."}
+            {yocoReady || ozowReady
+              ? `Pay from the cart with ${[yocoReady ? "Yoco" : null, ozowReady ? "Ozow" : null].filter(Boolean).join(" or ")}, in rand. A payment counts only after that provider confirms it, and the files stay private until then.`
+              : "Yoco and Ozow are not configured on this server, so checkout cannot take a payment. The files stay private."}
           </p>
         </aside>
         <div className="min-w-0 flex-1">{children}</div>

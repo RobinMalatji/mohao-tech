@@ -103,9 +103,9 @@ export default async function ProductPage({
             </button>
           </form>
           <p className="mt-4 max-w-md text-sm text-muted">
-            Adding an item saves it in your cart. Payment happens on Yoco from
-            the cart, in rand. After Yoco confirms the payment, the confirmation
-            page gives you the file.
+            Adding an item saves it in your cart. Payment happens from the cart,
+            in rand, with Yoco or Ozow. After that payment is confirmed, the
+            confirmation page gives you the file.
           </p>
         </div>
       </div>

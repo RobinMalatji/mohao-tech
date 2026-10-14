@@ -24,7 +24,7 @@ export default async function ShopOrdersPage() {
         </Link>
         <h1 className="mt-4 text-3xl font-semibold tracking-[-0.04em]">Orders</h1>
         <p className="mt-2 text-sm text-muted">
-          The latest 100 checkouts. Paid means Yoco confirmed the amount.
+          The latest 100 checkouts. Paid means Yoco or Ozow confirmed the amount.
         </p>
       </div>
       {!orders.available ? (
