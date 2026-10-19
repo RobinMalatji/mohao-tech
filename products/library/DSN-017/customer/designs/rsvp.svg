@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
-  <rect width="1080" height="1080" fill="#f7f4ef"/>
-  <rect x="0" y="0" width="16" height="1080" fill="#8c4a32"/>
-  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#6d645b">PLEASE REPLY</text>
-  <text x="72" y="302" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#221c16">By 4 March</text>
-  <text x="72" y="394" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#6d645b">One line for names. One line for</text><text x="72" y="428" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#6d645b">dinner.</text>
-  <text x="72" y="1016" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#221c16">Reply to the address on the envelope</text>
-</svg>

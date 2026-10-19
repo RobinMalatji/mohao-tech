@@ -1,8 +1,0 @@
-{
-  "id": "CV-016",
-  "status": "passed",
-  "publication": "draft",
-  "note": "Automated checks passed does not publish the product. An administrator still approves it for sale.",
-  "errors": [],
-  "checkedOn": "2026-10-12"
-}

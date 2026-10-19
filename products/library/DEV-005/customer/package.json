@@ -1,8 +1,0 @@
-{
-  "name": "retry-with-backoff",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "node --test"
-  }
-}

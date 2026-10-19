@@ -1,7 +1,0 @@
-Title,Use when,Prompt,Check
-Behaviour first,You have a diff.,"List behaviour changes in this diff. Quote the lines. Do not style-nit. If you are unsure, say so.",Each item quotes the diff.
-Missing test,Tests exist.,"Name a behaviour in the diff that the tests do not cover. Propose the assertion in words, not a whole new framework.",The gap is real.
-Secret scan,Before merge.,"Point at anything that looks like a key, password, or connection string. Do not repeat the secret in full if you find one. Say the line number.",You rotate anything real.
-Failure path,The happy path works.,"What happens when the input is empty, too large, or the downstream call throws? Answer only from the diff.",You do not invent a catch that is not there.
-Name the risk,You need a review comment.,"Write one comment: the risk, the line, and the change you want. No introduction.",The comment is specific.
-Leave it,You are tempted to redesign.,List ideas that are not required for this change. Label them 'not for this diff'.,The author can ignore that list.

@@ -1,5 +1,0 @@
-Total Covers = SUM(Facts[Covers])
-
-Covers rows = COUNTROWS(Facts)
-
-Average Covers = DIVIDE(SUM(Facts[Covers]), COUNTROWS(Facts))

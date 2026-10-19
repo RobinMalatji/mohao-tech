@@ -16,7 +16,7 @@ Updated 12 October 2026 after the product generator completed.
 
 ## Phase 1
 
-`pnpm products:generate` on 12 October 2026 built 200 products. `products/QA-REPORT.md` records 200 passed and 0 failed. Catalogue: `products/catalogue.csv`.
+`pnpm products:generate` on 12 October 2026 built 200 products. `products/QA-REPORT.md` records 200 passed and 0 failed. On 19 October 2026 the shop library was cut to 10 products, one in each category: FIN-001, DSN-001, NOT-001, ANL-001, EBK-001, AI-001, CV-001, ECM-001, CRS-001, and DEV-001. Catalogue: `products/catalogue.csv`.
 
 | Code | Category | Result |
 | --- | --- | --- |

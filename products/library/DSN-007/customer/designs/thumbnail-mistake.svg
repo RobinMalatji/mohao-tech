@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
-  <rect width="1280" height="720" fill="#0b0b0b"/>
-  <rect x="0" y="0" width="16" height="720" fill="#ff6a1a"/>
-  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#d9d6ce">SHEET CLUB</text>
-  <text x="72" y="202" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#f4f3ef">Stop merging the</text><text x="72" y="254" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" fill="#f4f3ef">cells</text>
-  <text x="72" y="334" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#d9d6ce">Your totals will break</text>
-  <text x="72" y="656" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#f4f3ef">Fix</text>
-</svg>

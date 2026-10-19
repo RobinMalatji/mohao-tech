@@ -1,8 +1,0 @@
-{
-  "name": "object-list-to-csv",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "node --test"
-  }
-}

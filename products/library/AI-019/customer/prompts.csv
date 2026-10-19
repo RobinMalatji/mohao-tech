@@ -1,7 +1,0 @@
-Title,Use when,Prompt,Check
-Dish line,You have a dish.,Write a one-line description using only the ingredients and the method I list. Do not call it authentic or award-winning.,No extra claim.
-Allergen caution,You are not sure.,"If I did not list allergens, write that guests must ask, rather than inventing 'allergen free'.",No allergen was invented.
-Booking confirmation,A table is booked.,"Write the confirmation with the name, date, time, and party size I provide. Ask them to reply if the party size changes.",Every detail matches.
-Full,You are fully booked.,Write a reply that says full and offers the next time I provide. Do not offer a discount.,No discount.
-Specials board,Three specials.,"Write the board. Include the price I set. If a special has no price, mark it missing rather than inventing one.",Prices are mine.
-Quiet description,The about text is loud.,Rewrite the about text so a neighbour would believe it. Remove claims I cannot point at.,You can defend every line.

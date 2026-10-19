@@ -1,5 +1,7 @@
 # MOHAO product QA report
 
+On 19 October 2026 the shop library was reduced to these 10 products: FIN-001, DSN-001, NOT-001, ANL-001, EBK-001, AI-001, CV-001, ECM-001, CRS-001, DEV-001. The counts below are the original generation run.
+
 Generated: 2026-10-12
 
 Products built: 200

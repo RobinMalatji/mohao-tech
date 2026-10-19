@@ -1,5 +1,0 @@
-Total People = SUM(Facts[People])
-
-People rows = COUNTROWS(Facts)
-
-Average People = DIVIDE(SUM(Facts[People]), COUNTROWS(Facts))

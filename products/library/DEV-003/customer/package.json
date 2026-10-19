@@ -1,8 +1,0 @@
-{
-  "name": "currency-formatter",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "node --test"
-  }
-}

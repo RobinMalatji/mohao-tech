@@ -1,8 +1,0 @@
-{
-  "name": "feature-flag-reader",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "node --test"
-  }
-}

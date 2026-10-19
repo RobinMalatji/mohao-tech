@@ -1,7 +1,0 @@
-Title,Use when,Prompt,Check
-What it returns,You have a SELECT.,"Explain what this query returns, in order. Do not suggest a rewrite yet. If a column is ambiguous, say so.",The explanation follows the query.
-Filters,You need the WHERE.,List every filter and the rows it removes. Note filters that use functions on columns.,Each filter is quoted.
-Join risk,There are joins.,Say whether each join can multiply rows. Point at the keys. Do not claim the data is clean.,You still check with a count.
-Change review,You want to edit it.,I will paste the new query. List behavioural differences. Do not assume indexes exist.,Differences are quoted.
-Safer select,You need fewer columns.,Rewrite the select list to the columns I name. Do not change the filters.,Filters are unchanged.
-Comment,Someone else will read it.,Write a short comment that says the grain of the result. Do not comment every line.,The comment matches the grain.

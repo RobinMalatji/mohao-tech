@@ -1,5 +1,0 @@
-Total Downloads = SUM(Facts[Downloads])
-
-Downloads rows = COUNTROWS(Facts)
-
-Average Downloads = DIVIDE(SUM(Facts[Downloads]), COUNTROWS(Facts))

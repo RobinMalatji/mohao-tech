@@ -1,7 +1,0 @@
-Title,Use when,Prompt,Check
-Explain,You have a formula.,Explain this formula cell by cell. Say what it returns when a cell is blank.,You test it with a blank.
-Draft a sum,You described the columns.,Write a SUMIF or SUMIFS using the columns I named. Do not reference columns I did not name.,The references match my letters.
-Divide safely,A total can be zero.,Write the division so a zero denominator returns 0. Explain it.,You test the zero.
-What it will not do,Before you trust it.,List three situations where this formula is wrong.,You recognise at least one.
-Label the result,The number needs a name.,Name the result in words a colleague understands. Do not call it a KPI unless I did.,The name matches the calculation.
-Check values,You have expected numbers.,Compare these expected values to the formula's logic and say which input would have to change to match. Do not change my expected values silently.,Mismatches are visible.

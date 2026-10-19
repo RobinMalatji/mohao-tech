@@ -1,6 +1,6 @@
 # MOHAO product library
 
-200 digital products, 20 in each category. Each product is a folder of real files plus a customer zip.
+10 digital products, one in each category. Each product is a folder of real files plus a customer zip. The other generated products were removed from this library on 19 October 2026.
 
 Regenerate everything with:
 
@@ -20,20 +20,20 @@ The command writes:
 
 | Code | Count | What the buyer gets |
 | --- | --- | --- |
-| FIN | 20 | Excel workbooks with formulas, plus a guide |
-| DSN | 20 | SVG layouts and an HTML preview. Not a Canva file |
-| NOT | 20 | Markdown pages and CSV databases. Not a Notion link |
-| ANL | 20 | Excel summary, CSV, data dictionary, and DAX text. Not a PBIX file |
-| EBK | 20 | A guide as PDF, DOCX, and Markdown |
-| AI | 20 | Prompt libraries as Markdown and CSV |
-| CV | 20 | A sample CV in DOCX and a finishing guide |
-| ECM | 20 | Shop kits: copy, drafts, or workbooks |
-| CRS | 20 | Lessons, slides, and a worksheet |
-| DEV | 20 | JavaScript modules with `node --test` |
+| FIN-001 | 1 | Excel workbook with formulas, plus a guide |
+| DSN-001 | 1 | SVG layouts and an HTML preview. Not a Canva file |
+| NOT-001 | 1 | Markdown pages and CSV databases. Not a Notion link |
+| ANL-001 | 1 | Excel summary, CSV, data dictionary, and DAX text. Not a PBIX file |
+| EBK-001 | 1 | A guide as PDF, DOCX, and Markdown |
+| AI-001 | 1 | Prompt library as Markdown and CSV |
+| CV-001 | 1 | A sample CV in DOCX and a finishing guide |
+| ECM-001 | 1 | Shop kit: copy, drafts, or a workbook |
+| CRS-001 | 1 | Lessons, slides, and a worksheet |
+| DEV-001 | 1 | JavaScript module with `node --test` |
 
 ## Status
 
-Automated QA on 12 October 2026 passed for all 200 products. Publication status in the catalogue is still `draft`. Passing the script does not put a product on sale. A person has to approve that.
+Automated QA on 12 October 2026 passed for the original 200 products. The shop library now keeps the first product in each category. Publication status is still `draft`. Passing the script does not put a product on sale. A person has to approve that.
 
 Prices are explicit in ZAR, USD, GBP, and EUR. They are not converted from one exchange rate.
 

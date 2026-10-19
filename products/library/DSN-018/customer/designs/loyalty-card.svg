@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-  <rect width="1600" height="900" fill="#f4f3ef"/>
-  <rect x="0" y="0" width="16" height="900" fill="#ff6a1a"/>
-  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#5f5e58">COMPASS COFFEE</text>
-  <text x="72" y="252" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#0b0b0b">The tenth coffee is ours</text>
-  <text x="72" y="344" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">One stamp per visit. Not one stamp</text><text x="72" y="378" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#5f5e58">per cup.</text>
-  <text x="72" y="836" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" fill="#0b0b0b">Sample card</text>
-</svg>

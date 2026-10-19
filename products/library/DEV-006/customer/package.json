@@ -1,8 +1,0 @@
-{
-  "name": "fixed-window-rate-limit",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "node --test"
-  }
-}

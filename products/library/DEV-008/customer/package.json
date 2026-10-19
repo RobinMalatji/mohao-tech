@@ -1,8 +1,0 @@
-{
-  "name": "safe-download-filename",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "node --test"
-  }
-}

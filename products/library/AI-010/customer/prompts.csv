@@ -1,7 +1,0 @@
-Title,Use when,Prompt,Check
-Scope,You have call notes.,Write the scope as included and excluded. Use only the notes. Put unknowns under questions.,Excluded is explicit.
-Price block,You have decided the price.,"Write the price section using the number, currency, and what it includes. Do not add a discount.",The number is the one I typed.
-Timeline,You have a start and an end.,Write the timeline with those dates and the dependency I named. Do not promise a date I did not give.,Dates match.
-Assumptions,Things could change the price.,"List assumptions from my notes. If an assumption is broken, say the price is revisited. Do not invent a penalty.",Assumptions come from the notes.
-Plain summary,The buyer is busy.,Write a 120-word summary a buyer can forward. No adjectives about our passion.,It can be forwarded as-is after you check it.
-Redline,They sent changes.,Compare their edits to my original scope and list what changed the work. Do not accept the change for me.,You decide.

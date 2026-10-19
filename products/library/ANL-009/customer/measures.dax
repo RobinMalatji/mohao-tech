@@ -1,5 +1,0 @@
-Total Sessions = SUM(Facts[Sessions])
-
-Sessions rows = COUNTROWS(Facts)
-
-Average Sessions = DIVIDE(SUM(Facts[Sessions]), COUNTROWS(Facts))

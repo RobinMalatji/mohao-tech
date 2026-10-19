@@ -1,5 +1,0 @@
-Total Cost = SUM(Facts[Cost])
-
-Cost rows = COUNTROWS(Facts)
-
-Average Cost = DIVIDE(SUM(Facts[Cost]), COUNTROWS(Facts))

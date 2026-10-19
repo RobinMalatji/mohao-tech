@@ -1,5 +1,0 @@
-Total Hours = SUM(Facts[Hours])
-
-Hours rows = COUNTROWS(Facts)
-
-Average Hours = DIVIDE(SUM(Facts[Hours]), COUNTROWS(Facts))

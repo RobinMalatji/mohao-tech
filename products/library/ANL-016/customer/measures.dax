@@ -1,5 +1,0 @@
-Total Value = SUM(Facts[Value])
-
-Value rows = COUNTROWS(Facts)
-
-Average Value = DIVIDE(SUM(Facts[Value]), COUNTROWS(Facts))

@@ -1,5 +1,0 @@
-Total Stops = SUM(Facts[Stops])
-
-Stops rows = COUNTROWS(Facts)
-
-Average Stops = DIVIDE(SUM(Facts[Stops]), COUNTROWS(Facts))

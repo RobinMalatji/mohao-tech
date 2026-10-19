@@ -1,8 +1,0 @@
-{
-  "name": "audit-event-builder",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "test": "node --test"
-  }
-}

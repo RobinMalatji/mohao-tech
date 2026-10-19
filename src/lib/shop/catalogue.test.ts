@@ -4,12 +4,12 @@ import { currencies, formatPrice } from "@/lib/shop/money";
 import { getProductPreview, readPreviewSvg } from "@/lib/shop/preview";
 
 describe("shop catalogue", () => {
-  it("loads 200 products with explicit prices", async () => {
+  it("loads 10 products with explicit prices", async () => {
     const products = await getProducts();
     const slugs = new Set(products.map((product) => product.slug));
 
-    expect(products).toHaveLength(200);
-    expect(slugs.size).toBe(200);
+    expect(products).toHaveLength(10);
+    expect(slugs.size).toBe(10);
     expect(formatPrice(24900, "ZAR")).toContain("249");
     expect(formatPrice(1900, "USD")).toContain("19");
 
@@ -28,7 +28,8 @@ describe("shop catalogue", () => {
     ]);
     const counted = categories.reduce((total, category) => total + category.count, 0);
 
-    expect(categories.length).toBeGreaterThan(0);
+    expect(categories).toHaveLength(10);
+    expect(categories.every((category) => category.count === 1)).toBe(true);
     expect(counted).toBe(products.length);
   });
 

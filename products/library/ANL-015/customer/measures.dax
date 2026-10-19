@@ -1,5 +1,0 @@
-Total Subscribers = SUM(Facts[Subscribers])
-
-Subscribers rows = COUNTROWS(Facts)
-
-Average Subscribers = DIVIDE(SUM(Facts[Subscribers]), COUNTROWS(Facts))

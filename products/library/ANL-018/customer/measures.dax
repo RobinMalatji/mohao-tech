@@ -1,5 +1,0 @@
-Total Defects = SUM(Facts[Defects])
-
-Defects rows = COUNTROWS(Facts)
-
-Average Defects = DIVIDE(SUM(Facts[Defects]), COUNTROWS(Facts))
